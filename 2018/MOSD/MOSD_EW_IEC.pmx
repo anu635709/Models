@@ -1,0 +1,1744 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- DOCTYPE workspace SYSTEM "modeler.dtd" -->
+<workspace version="59">
+  <product_model name="MOSD_EW_IEC" uuid="c3a3c69f-bdc8-4856-8516-c80af88b320b">
+    <compile_options>
+      <property_values>
+        <property_value name="cache_size">100</property_value>
+        <property_value name="dynamic_vt">false</property_value>
+        <property_value name="exp_static">true</property_value>
+        <property_value name="no_warnings">false</property_value>
+        <property_value name="preserve_memory">false</property_value>
+        <property_value name="sort_rules">3</property_value>
+        <property_value name="static_vt">true</property_value>
+        <property_value name="support_pct">60</property_value>
+        <property_value name="table_size">100</property_value>
+        <property_value name="timeout">-1</property_value>
+        <property_value name="tob_cache_size">100</property_value>
+        <property_value name="tob_daog_preprocessor">true</property_value>
+        <property_value name="tob_preserve_memory">false</property_value>
+        <property_value name="tob_split">true</property_value>
+        <property_value name="tob_table_size">100</property_value>
+        <property_value name="tob_varorder">-1</property_value>
+        <property_value name="varorder">-1</property_value>
+        <property_value name="verbose_level">false</property_value>
+      </property_values>
+    </compile_options>
+    <property_values/>
+    <product_model_structure>
+      <variable name="EffectivityDate" is_private="false" is_enabled="false" type="DateTime" uuid="ed405e17-7f33-4761-8951-4a1694503808" is_read_only="false">
+        <property_values/>
+        <language_translations/>
+      </variable>
+      <group name="Selector" is_private="false" is_enabled="true" uuid="98ddfc58-91a2-477e-ad8d-032ba5bfbd19" is_read_only="false">
+        <property_values/>
+        <rules/>
+        <relations>
+          <relation name="Variants" is_enabled="true" uuid="c5361fd5-53a8-4260-802b-dadf1120ca35" is_read_only="false">
+            <description>relSelector</description>
+            <relation_columns>
+              <relation_column variable_uuid="b6d2bf8f-7b60-421c-8a78-4a1554d9d63f" variable_name="Selector.Variant"/>
+              <relation_column variable_uuid="01bbe769-a92b-468f-bd7c-b5dff526df20" variable_name="Selector.varRatShoTimWitCurValue"/>
+              <relation_column variable_uuid="ea70f85d-8830-421e-9387-a1479e8459f3" variable_name="Selector.varRatShoCirMakCapValue"/>
+              <relation_column variable_uuid="e3832f65-81ec-44a7-807a-3f26fa31c48b" variable_name="Selector.varNumberOfPoles"/>
+              <relation_column variable_uuid="899eab20-4d30-4b21-b2af-27d1e7932531" variable_name="Selector.varDisBetPha"/>
+              <relation_column variable_uuid="683a6874-dd5f-483b-8b2a-8bfab304cc53" variable_name="Selector.varMountingType"/>
+              <relation_column variable_uuid="eaf9630c-2811-4de1-a672-e2bf79c0a7ac" variable_name="Selector.varFourthPoleTypeEnumValue"/>
+              <relation_column variable_uuid="5745e6dd-60da-44a9-93eb-2e7e885718af" variable_name="Selector.varFourthPolePositionEnumValue"/>
+              <relation_column variable_uuid="1e77877f-b729-4370-a8de-34453403ebb9" variable_name="Selector.varHandleType"/>
+              <relation_column variable_uuid="d04d827d-b615-44d8-b38a-a5ca0e9a63f7" variable_name="Selector.varProductMainType"/>
+            </relation_columns>
+            <relation_values>
+              <relation_row>
+                <relation_value>{V,&quot;ddea12c9-dbaf-47fa-b0c8-715b7a24f23b&quot;,&quot;1SCA115708R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;bc13012d-e3b1-43d5-af79-16d64e3ccf3b&quot;,&quot;50&quot;}</relation_value>
+                <relation_value>{V,&quot;4fe272c2-003f-4f3a-b30e-59cff1376963&quot;,&quot;110&quot;}</relation_value>
+                <relation_value>{V,&quot;344c2a2a-1463-4b4a-98da-6f7a4becd192&quot;,&quot;3&quot;}</relation_value>
+                <relation_value>{V,&quot;ae3a9aa9-fe25-4b7e-bbe0-89bdd4ee9351&quot;,&quot;Standard&quot;}</relation_value>
+                <relation_value>{V,&quot;e95d2249-e62f-455c-9409-53cbfe0ca094&quot;,&quot;Base mounting&quot;}</relation_value>
+                <relation_value>{V,&quot;42fdde71-2985-46ff-82b9-30523f67c2e8&quot;,&quot;Switched - Simultaneous Function&quot;}</relation_value>
+                <relation_value>{V,&quot;4d101b2e-a218-40f8-90c9-7f1d1f43ec3c&quot;,&quot;Right Side&quot;}</relation_value>
+                <relation_value>{V,&quot;93496398-2c26-4710-bf8b-a2fbff77db27&quot;,&quot;Handle and shaft included&quot;}</relation_value>
+                <relation_value>{V,&quot;74bfafdd-bc75-41f2-bb9a-9f8096b1f88d&quot;,&quot;OT1250&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;b2e46d2a-9212-48a6-a8f1-f06049bc4986&quot;,&quot;1SCA115805R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;bc13012d-e3b1-43d5-af79-16d64e3ccf3b&quot;,&quot;50&quot;}</relation_value>
+                <relation_value>{V,&quot;4fe272c2-003f-4f3a-b30e-59cff1376963&quot;,&quot;110&quot;}</relation_value>
+                <relation_value>{V,&quot;344c2a2a-1463-4b4a-98da-6f7a4becd192&quot;,&quot;3&quot;}</relation_value>
+                <relation_value>{V,&quot;e3426325-b3db-4460-b829-6bb0fd19210c&quot;,&quot;140&quot;}</relation_value>
+                <relation_value>{V,&quot;e95d2249-e62f-455c-9409-53cbfe0ca094&quot;,&quot;Base mounting&quot;}</relation_value>
+                <relation_value>{V,&quot;42fdde71-2985-46ff-82b9-30523f67c2e8&quot;,&quot;Switched - Simultaneous Function&quot;}</relation_value>
+                <relation_value>{V,&quot;4d101b2e-a218-40f8-90c9-7f1d1f43ec3c&quot;,&quot;Right Side&quot;}</relation_value>
+                <relation_value>{V,&quot;93496398-2c26-4710-bf8b-a2fbff77db27&quot;,&quot;Handle and shaft included&quot;}</relation_value>
+                <relation_value>{V,&quot;74bfafdd-bc75-41f2-bb9a-9f8096b1f88d&quot;,&quot;OT1250&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;9c3d75f0-e747-4503-8508-9031fd7986b3&quot;,&quot;1SCA115810R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;bc13012d-e3b1-43d5-af79-16d64e3ccf3b&quot;,&quot;50&quot;}</relation_value>
+                <relation_value>{V,&quot;4fe272c2-003f-4f3a-b30e-59cff1376963&quot;,&quot;110&quot;}</relation_value>
+                <relation_value>{V,&quot;344c2a2a-1463-4b4a-98da-6f7a4becd192&quot;,&quot;3&quot;}</relation_value>
+                <relation_value>{V,&quot;84990a82-32bd-41cf-8e1a-0e8f720bd313&quot;,&quot;185&quot;}</relation_value>
+                <relation_value>{V,&quot;e95d2249-e62f-455c-9409-53cbfe0ca094&quot;,&quot;Base mounting&quot;}</relation_value>
+                <relation_value>{V,&quot;42fdde71-2985-46ff-82b9-30523f67c2e8&quot;,&quot;Switched - Simultaneous Function&quot;}</relation_value>
+                <relation_value>{V,&quot;4d101b2e-a218-40f8-90c9-7f1d1f43ec3c&quot;,&quot;Right Side&quot;}</relation_value>
+                <relation_value>{V,&quot;93496398-2c26-4710-bf8b-a2fbff77db27&quot;,&quot;Handle and shaft included&quot;}</relation_value>
+                <relation_value>{V,&quot;74bfafdd-bc75-41f2-bb9a-9f8096b1f88d&quot;,&quot;OT1250&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;504a7f21-1d3f-4b63-bac5-0ee46823277d&quot;,&quot;1SCA115815R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;bc13012d-e3b1-43d5-af79-16d64e3ccf3b&quot;,&quot;50&quot;}</relation_value>
+                <relation_value>{V,&quot;4fe272c2-003f-4f3a-b30e-59cff1376963&quot;,&quot;110&quot;}</relation_value>
+                <relation_value>{V,&quot;344c2a2a-1463-4b4a-98da-6f7a4becd192&quot;,&quot;3&quot;}</relation_value>
+                <relation_value>{V,&quot;ae3a9aa9-fe25-4b7e-bbe0-89bdd4ee9351&quot;,&quot;Standard&quot;}</relation_value>
+                <relation_value>{V,&quot;e95d2249-e62f-455c-9409-53cbfe0ca094&quot;,&quot;Base mounting&quot;}</relation_value>
+                <relation_value>{V,&quot;42fdde71-2985-46ff-82b9-30523f67c2e8&quot;,&quot;Switched - Simultaneous Function&quot;}</relation_value>
+                <relation_value>{V,&quot;4d101b2e-a218-40f8-90c9-7f1d1f43ec3c&quot;,&quot;Right Side&quot;}</relation_value>
+                <relation_value>{V,&quot;93496398-2c26-4710-bf8b-a2fbff77db27&quot;,&quot;Handle and shaft included&quot;}</relation_value>
+                <relation_value>{V,&quot;c44c200a-b038-42b9-948a-54522fa913f3&quot;,&quot;OT1600&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;3b120d50-3039-4dd9-94b5-f16edbe63341&quot;,&quot;1SCA115822R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;bc13012d-e3b1-43d5-af79-16d64e3ccf3b&quot;,&quot;50&quot;}</relation_value>
+                <relation_value>{V,&quot;4fe272c2-003f-4f3a-b30e-59cff1376963&quot;,&quot;110&quot;}</relation_value>
+                <relation_value>{V,&quot;344c2a2a-1463-4b4a-98da-6f7a4becd192&quot;,&quot;3&quot;}</relation_value>
+                <relation_value>{V,&quot;e3426325-b3db-4460-b829-6bb0fd19210c&quot;,&quot;140&quot;}</relation_value>
+                <relation_value>{V,&quot;e95d2249-e62f-455c-9409-53cbfe0ca094&quot;,&quot;Base mounting&quot;}</relation_value>
+                <relation_value>{V,&quot;42fdde71-2985-46ff-82b9-30523f67c2e8&quot;,&quot;Switched - Simultaneous Function&quot;}</relation_value>
+                <relation_value>{V,&quot;4d101b2e-a218-40f8-90c9-7f1d1f43ec3c&quot;,&quot;Right Side&quot;}</relation_value>
+                <relation_value>{V,&quot;93496398-2c26-4710-bf8b-a2fbff77db27&quot;,&quot;Handle and shaft included&quot;}</relation_value>
+                <relation_value>{V,&quot;c44c200a-b038-42b9-948a-54522fa913f3&quot;,&quot;OT1600&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;9632e898-2f81-4547-ba1b-5861580e7d74&quot;,&quot;1SCA115827R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;bc13012d-e3b1-43d5-af79-16d64e3ccf3b&quot;,&quot;50&quot;}</relation_value>
+                <relation_value>{V,&quot;4fe272c2-003f-4f3a-b30e-59cff1376963&quot;,&quot;110&quot;}</relation_value>
+                <relation_value>{V,&quot;344c2a2a-1463-4b4a-98da-6f7a4becd192&quot;,&quot;3&quot;}</relation_value>
+                <relation_value>{V,&quot;84990a82-32bd-41cf-8e1a-0e8f720bd313&quot;,&quot;185&quot;}</relation_value>
+                <relation_value>{V,&quot;e95d2249-e62f-455c-9409-53cbfe0ca094&quot;,&quot;Base mounting&quot;}</relation_value>
+                <relation_value>{V,&quot;42fdde71-2985-46ff-82b9-30523f67c2e8&quot;,&quot;Switched - Simultaneous Function&quot;}</relation_value>
+                <relation_value>{V,&quot;4d101b2e-a218-40f8-90c9-7f1d1f43ec3c&quot;,&quot;Right Side&quot;}</relation_value>
+                <relation_value>{V,&quot;93496398-2c26-4710-bf8b-a2fbff77db27&quot;,&quot;Handle and shaft included&quot;}</relation_value>
+                <relation_value>{V,&quot;c44c200a-b038-42b9-948a-54522fa913f3&quot;,&quot;OT1600&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;e1d707cf-27ba-4b50-b105-11507e044b4c&quot;,&quot;1SCA115835R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;8e0b6265-2b54-4708-862a-c2682b65cf91&quot;,&quot;55&quot;}</relation_value>
+                <relation_value>{V,&quot;ab7a69fc-fdde-49d6-9427-5804ce102cbe&quot;,&quot;176&quot;}</relation_value>
+                <relation_value>{V,&quot;344c2a2a-1463-4b4a-98da-6f7a4becd192&quot;,&quot;3&quot;}</relation_value>
+                <relation_value>{V,&quot;ae3a9aa9-fe25-4b7e-bbe0-89bdd4ee9351&quot;,&quot;Standard&quot;}</relation_value>
+                <relation_value>{V,&quot;e95d2249-e62f-455c-9409-53cbfe0ca094&quot;,&quot;Base mounting&quot;}</relation_value>
+                <relation_value>{V,&quot;42fdde71-2985-46ff-82b9-30523f67c2e8&quot;,&quot;Switched - Simultaneous Function&quot;}</relation_value>
+                <relation_value>{V,&quot;4d101b2e-a218-40f8-90c9-7f1d1f43ec3c&quot;,&quot;Right Side&quot;}</relation_value>
+                <relation_value>{V,&quot;93496398-2c26-4710-bf8b-a2fbff77db27&quot;,&quot;Handle and shaft included&quot;}</relation_value>
+                <relation_value>{V,&quot;feabf799-5d90-473e-9107-a833ebd96fb4&quot;,&quot;OT2500&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;5572aba5-98d4-4fcf-9a41-d8db94a791c3&quot;,&quot;1SCA115840R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;8e0b6265-2b54-4708-862a-c2682b65cf91&quot;,&quot;55&quot;}</relation_value>
+                <relation_value>{V,&quot;ab7a69fc-fdde-49d6-9427-5804ce102cbe&quot;,&quot;176&quot;}</relation_value>
+                <relation_value>{V,&quot;344c2a2a-1463-4b4a-98da-6f7a4becd192&quot;,&quot;3&quot;}</relation_value>
+                <relation_value>{V,&quot;e3426325-b3db-4460-b829-6bb0fd19210c&quot;,&quot;140&quot;}</relation_value>
+                <relation_value>{V,&quot;e95d2249-e62f-455c-9409-53cbfe0ca094&quot;,&quot;Base mounting&quot;}</relation_value>
+                <relation_value>{V,&quot;42fdde71-2985-46ff-82b9-30523f67c2e8&quot;,&quot;Switched - Simultaneous Function&quot;}</relation_value>
+                <relation_value>{V,&quot;4d101b2e-a218-40f8-90c9-7f1d1f43ec3c&quot;,&quot;Right Side&quot;}</relation_value>
+                <relation_value>{V,&quot;93496398-2c26-4710-bf8b-a2fbff77db27&quot;,&quot;Handle and shaft included&quot;}</relation_value>
+                <relation_value>{V,&quot;feabf799-5d90-473e-9107-a833ebd96fb4&quot;,&quot;OT2500&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;de157236-8f20-44a3-8844-4e3ed12d9256&quot;,&quot;1SCA115843R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;8e0b6265-2b54-4708-862a-c2682b65cf91&quot;,&quot;55&quot;}</relation_value>
+                <relation_value>{V,&quot;ab7a69fc-fdde-49d6-9427-5804ce102cbe&quot;,&quot;176&quot;}</relation_value>
+                <relation_value>{V,&quot;344c2a2a-1463-4b4a-98da-6f7a4becd192&quot;,&quot;3&quot;}</relation_value>
+                <relation_value>{V,&quot;84990a82-32bd-41cf-8e1a-0e8f720bd313&quot;,&quot;185&quot;}</relation_value>
+                <relation_value>{V,&quot;e95d2249-e62f-455c-9409-53cbfe0ca094&quot;,&quot;Base mounting&quot;}</relation_value>
+                <relation_value>{V,&quot;42fdde71-2985-46ff-82b9-30523f67c2e8&quot;,&quot;Switched - Simultaneous Function&quot;}</relation_value>
+                <relation_value>{V,&quot;4d101b2e-a218-40f8-90c9-7f1d1f43ec3c&quot;,&quot;Right Side&quot;}</relation_value>
+                <relation_value>{V,&quot;93496398-2c26-4710-bf8b-a2fbff77db27&quot;,&quot;Handle and shaft included&quot;}</relation_value>
+                <relation_value>{V,&quot;feabf799-5d90-473e-9107-a833ebd96fb4&quot;,&quot;OT2500&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;9db5cff7-39ee-48b4-b5ff-84785fc7593e&quot;,&quot;1SCA118937R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;bc13012d-e3b1-43d5-af79-16d64e3ccf3b&quot;,&quot;50&quot;}</relation_value>
+                <relation_value>{V,&quot;4fe272c2-003f-4f3a-b30e-59cff1376963&quot;,&quot;110&quot;}</relation_value>
+                <relation_value>{V,&quot;344c2a2a-1463-4b4a-98da-6f7a4becd192&quot;,&quot;3&quot;}</relation_value>
+                <relation_value>{V,&quot;ae3a9aa9-fe25-4b7e-bbe0-89bdd4ee9351&quot;,&quot;Standard&quot;}</relation_value>
+                <relation_value>{V,&quot;e95d2249-e62f-455c-9409-53cbfe0ca094&quot;,&quot;Base mounting&quot;}</relation_value>
+                <relation_value>{V,&quot;42fdde71-2985-46ff-82b9-30523f67c2e8&quot;,&quot;Switched - Simultaneous Function&quot;}</relation_value>
+                <relation_value>{V,&quot;4d101b2e-a218-40f8-90c9-7f1d1f43ec3c&quot;,&quot;Right Side&quot;}</relation_value>
+                <relation_value>{V,&quot;93496398-2c26-4710-bf8b-a2fbff77db27&quot;,&quot;Handle and shaft included&quot;}</relation_value>
+                <relation_value>{V,&quot;1611485e-620a-4cda-9605-f3767a8a8672&quot;,&quot;OT1000&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;583601fe-2c8f-470b-a125-d8822ce3f44b&quot;,&quot;1SCA118950R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;bc13012d-e3b1-43d5-af79-16d64e3ccf3b&quot;,&quot;50&quot;}</relation_value>
+                <relation_value>{V,&quot;11f09c0e-6554-417d-aab1-4c3942437f77&quot;,&quot;92&quot;}</relation_value>
+                <relation_value>{V,&quot;4c6ff158-8e2d-4e8c-a2a3-c3be6d26bc85&quot;,&quot;4&quot;}</relation_value>
+                <relation_value>{V,&quot;ae3a9aa9-fe25-4b7e-bbe0-89bdd4ee9351&quot;,&quot;Standard&quot;}</relation_value>
+                <relation_value>{V,&quot;e95d2249-e62f-455c-9409-53cbfe0ca094&quot;,&quot;Base mounting&quot;}</relation_value>
+                <relation_value>{V,&quot;42fdde71-2985-46ff-82b9-30523f67c2e8&quot;,&quot;Switched - Simultaneous Function&quot;}</relation_value>
+                <relation_value>{V,&quot;4d101b2e-a218-40f8-90c9-7f1d1f43ec3c&quot;,&quot;Right Side&quot;}</relation_value>
+                <relation_value>{V,&quot;93496398-2c26-4710-bf8b-a2fbff77db27&quot;,&quot;Handle and shaft included&quot;}</relation_value>
+                <relation_value>{V,&quot;1611485e-620a-4cda-9605-f3767a8a8672&quot;,&quot;OT1000&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;fd937eda-7673-4f83-9c52-c1fe56086077&quot;,&quot;1SCA118451R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;bc13012d-e3b1-43d5-af79-16d64e3ccf3b&quot;,&quot;50&quot;}</relation_value>
+                <relation_value>{V,&quot;4fe272c2-003f-4f3a-b30e-59cff1376963&quot;,&quot;110&quot;}</relation_value>
+                <relation_value>{V,&quot;344c2a2a-1463-4b4a-98da-6f7a4becd192&quot;,&quot;3&quot;}</relation_value>
+                <relation_value>{V,&quot;ae3a9aa9-fe25-4b7e-bbe0-89bdd4ee9351&quot;,&quot;Standard&quot;}</relation_value>
+                <relation_value>{V,&quot;e95d2249-e62f-455c-9409-53cbfe0ca094&quot;,&quot;Base mounting&quot;}</relation_value>
+                <relation_value>{V,&quot;42fdde71-2985-46ff-82b9-30523f67c2e8&quot;,&quot;Switched - Simultaneous Function&quot;}</relation_value>
+                <relation_value>{V,&quot;4d101b2e-a218-40f8-90c9-7f1d1f43ec3c&quot;,&quot;Right Side&quot;}</relation_value>
+                <relation_value>{V,&quot;93496398-2c26-4710-bf8b-a2fbff77db27&quot;,&quot;Handle and shaft included&quot;}</relation_value>
+                <relation_value>{V,&quot;1611485e-620a-4cda-9605-f3767a8a8672&quot;,&quot;OT1000&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;10c6caca-e3f5-4c82-95c6-5ba972484771&quot;,&quot;1SCA118452R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;bc13012d-e3b1-43d5-af79-16d64e3ccf3b&quot;,&quot;50&quot;}</relation_value>
+                <relation_value>{V,&quot;11f09c0e-6554-417d-aab1-4c3942437f77&quot;,&quot;92&quot;}</relation_value>
+                <relation_value>{V,&quot;4c6ff158-8e2d-4e8c-a2a3-c3be6d26bc85&quot;,&quot;4&quot;}</relation_value>
+                <relation_value>{V,&quot;ae3a9aa9-fe25-4b7e-bbe0-89bdd4ee9351&quot;,&quot;Standard&quot;}</relation_value>
+                <relation_value>{V,&quot;e95d2249-e62f-455c-9409-53cbfe0ca094&quot;,&quot;Base mounting&quot;}</relation_value>
+                <relation_value>{V,&quot;42fdde71-2985-46ff-82b9-30523f67c2e8&quot;,&quot;Switched - Simultaneous Function&quot;}</relation_value>
+                <relation_value>{V,&quot;4d101b2e-a218-40f8-90c9-7f1d1f43ec3c&quot;,&quot;Right Side&quot;}</relation_value>
+                <relation_value>{V,&quot;93496398-2c26-4710-bf8b-a2fbff77db27&quot;,&quot;Handle and shaft included&quot;}</relation_value>
+                <relation_value>{V,&quot;1611485e-620a-4cda-9605-f3767a8a8672&quot;,&quot;OT1000&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;2c4d4b66-5d8e-4460-9dc4-3904ba251c34&quot;,&quot;1SCA118949R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;bc13012d-e3b1-43d5-af79-16d64e3ccf3b&quot;,&quot;50&quot;}</relation_value>
+                <relation_value>{V,&quot;11f09c0e-6554-417d-aab1-4c3942437f77&quot;,&quot;92&quot;}</relation_value>
+                <relation_value>{V,&quot;4c6ff158-8e2d-4e8c-a2a3-c3be6d26bc85&quot;,&quot;4&quot;}</relation_value>
+                <relation_value>{V,&quot;ae3a9aa9-fe25-4b7e-bbe0-89bdd4ee9351&quot;,&quot;Standard&quot;}</relation_value>
+                <relation_value>{V,&quot;e95d2249-e62f-455c-9409-53cbfe0ca094&quot;,&quot;Base mounting&quot;}</relation_value>
+                <relation_value>{V,&quot;42fdde71-2985-46ff-82b9-30523f67c2e8&quot;,&quot;Switched - Simultaneous Function&quot;}</relation_value>
+                <relation_value>{V,&quot;4d101b2e-a218-40f8-90c9-7f1d1f43ec3c&quot;,&quot;Right Side&quot;}</relation_value>
+                <relation_value>{V,&quot;93496398-2c26-4710-bf8b-a2fbff77db27&quot;,&quot;Handle and shaft included&quot;}</relation_value>
+                <relation_value>{V,&quot;74bfafdd-bc75-41f2-bb9a-9f8096b1f88d&quot;,&quot;OT1250&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;26c710b7-687e-417d-8f41-6ecc09b26fa0&quot;,&quot;1SCA118940R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;bc13012d-e3b1-43d5-af79-16d64e3ccf3b&quot;,&quot;50&quot;}</relation_value>
+                <relation_value>{V,&quot;11f09c0e-6554-417d-aab1-4c3942437f77&quot;,&quot;92&quot;}</relation_value>
+                <relation_value>{V,&quot;4c6ff158-8e2d-4e8c-a2a3-c3be6d26bc85&quot;,&quot;4&quot;}</relation_value>
+                <relation_value>{V,&quot;e3426325-b3db-4460-b829-6bb0fd19210c&quot;,&quot;140&quot;}</relation_value>
+                <relation_value>{V,&quot;e95d2249-e62f-455c-9409-53cbfe0ca094&quot;,&quot;Base mounting&quot;}</relation_value>
+                <relation_value>{V,&quot;42fdde71-2985-46ff-82b9-30523f67c2e8&quot;,&quot;Switched - Simultaneous Function&quot;}</relation_value>
+                <relation_value>{V,&quot;4d101b2e-a218-40f8-90c9-7f1d1f43ec3c&quot;,&quot;Right Side&quot;}</relation_value>
+                <relation_value>{V,&quot;93496398-2c26-4710-bf8b-a2fbff77db27&quot;,&quot;Handle and shaft included&quot;}</relation_value>
+                <relation_value>{V,&quot;74bfafdd-bc75-41f2-bb9a-9f8096b1f88d&quot;,&quot;OT1250&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;eddf9f84-438c-4a63-b21e-f4a14e3dd5c7&quot;,&quot;1SCA118941R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;bc13012d-e3b1-43d5-af79-16d64e3ccf3b&quot;,&quot;50&quot;}</relation_value>
+                <relation_value>{V,&quot;11f09c0e-6554-417d-aab1-4c3942437f77&quot;,&quot;92&quot;}</relation_value>
+                <relation_value>{V,&quot;4c6ff158-8e2d-4e8c-a2a3-c3be6d26bc85&quot;,&quot;4&quot;}</relation_value>
+                <relation_value>{V,&quot;84990a82-32bd-41cf-8e1a-0e8f720bd313&quot;,&quot;185&quot;}</relation_value>
+                <relation_value>{V,&quot;e95d2249-e62f-455c-9409-53cbfe0ca094&quot;,&quot;Base mounting&quot;}</relation_value>
+                <relation_value>{V,&quot;42fdde71-2985-46ff-82b9-30523f67c2e8&quot;,&quot;Switched - Simultaneous Function&quot;}</relation_value>
+                <relation_value>{V,&quot;4d101b2e-a218-40f8-90c9-7f1d1f43ec3c&quot;,&quot;Right Side&quot;}</relation_value>
+                <relation_value>{V,&quot;93496398-2c26-4710-bf8b-a2fbff77db27&quot;,&quot;Handle and shaft included&quot;}</relation_value>
+                <relation_value>{V,&quot;74bfafdd-bc75-41f2-bb9a-9f8096b1f88d&quot;,&quot;OT1250&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;b7dcd290-94da-49e8-b82e-8ee5b3defb11&quot;,&quot;1SCA118453R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;bc13012d-e3b1-43d5-af79-16d64e3ccf3b&quot;,&quot;50&quot;}</relation_value>
+                <relation_value>{V,&quot;4fe272c2-003f-4f3a-b30e-59cff1376963&quot;,&quot;110&quot;}</relation_value>
+                <relation_value>{V,&quot;344c2a2a-1463-4b4a-98da-6f7a4becd192&quot;,&quot;3&quot;}</relation_value>
+                <relation_value>{V,&quot;ae3a9aa9-fe25-4b7e-bbe0-89bdd4ee9351&quot;,&quot;Standard&quot;}</relation_value>
+                <relation_value>{V,&quot;e95d2249-e62f-455c-9409-53cbfe0ca094&quot;,&quot;Base mounting&quot;}</relation_value>
+                <relation_value>{V,&quot;42fdde71-2985-46ff-82b9-30523f67c2e8&quot;,&quot;Switched - Simultaneous Function&quot;}</relation_value>
+                <relation_value>{V,&quot;4d101b2e-a218-40f8-90c9-7f1d1f43ec3c&quot;,&quot;Right Side&quot;}</relation_value>
+                <relation_value>{V,&quot;93496398-2c26-4710-bf8b-a2fbff77db27&quot;,&quot;Handle and shaft included&quot;}</relation_value>
+                <relation_value>{V,&quot;74bfafdd-bc75-41f2-bb9a-9f8096b1f88d&quot;,&quot;OT1250&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;7cdd269a-6cae-4e0f-8b63-d6ad597244fd&quot;,&quot;1SCA118454R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;bc13012d-e3b1-43d5-af79-16d64e3ccf3b&quot;,&quot;50&quot;}</relation_value>
+                <relation_value>{V,&quot;11f09c0e-6554-417d-aab1-4c3942437f77&quot;,&quot;92&quot;}</relation_value>
+                <relation_value>{V,&quot;4c6ff158-8e2d-4e8c-a2a3-c3be6d26bc85&quot;,&quot;4&quot;}</relation_value>
+                <relation_value>{V,&quot;ae3a9aa9-fe25-4b7e-bbe0-89bdd4ee9351&quot;,&quot;Standard&quot;}</relation_value>
+                <relation_value>{V,&quot;e95d2249-e62f-455c-9409-53cbfe0ca094&quot;,&quot;Base mounting&quot;}</relation_value>
+                <relation_value>{V,&quot;42fdde71-2985-46ff-82b9-30523f67c2e8&quot;,&quot;Switched - Simultaneous Function&quot;}</relation_value>
+                <relation_value>{V,&quot;4d101b2e-a218-40f8-90c9-7f1d1f43ec3c&quot;,&quot;Right Side&quot;}</relation_value>
+                <relation_value>{V,&quot;93496398-2c26-4710-bf8b-a2fbff77db27&quot;,&quot;Handle and shaft included&quot;}</relation_value>
+                <relation_value>{V,&quot;74bfafdd-bc75-41f2-bb9a-9f8096b1f88d&quot;,&quot;OT1250&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;b8d522a4-e31b-479f-b3d4-388485a83120&quot;,&quot;1SCA118948R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;bc13012d-e3b1-43d5-af79-16d64e3ccf3b&quot;,&quot;50&quot;}</relation_value>
+                <relation_value>{V,&quot;11f09c0e-6554-417d-aab1-4c3942437f77&quot;,&quot;92&quot;}</relation_value>
+                <relation_value>{V,&quot;4c6ff158-8e2d-4e8c-a2a3-c3be6d26bc85&quot;,&quot;4&quot;}</relation_value>
+                <relation_value>{V,&quot;ae3a9aa9-fe25-4b7e-bbe0-89bdd4ee9351&quot;,&quot;Standard&quot;}</relation_value>
+                <relation_value>{V,&quot;e95d2249-e62f-455c-9409-53cbfe0ca094&quot;,&quot;Base mounting&quot;}</relation_value>
+                <relation_value>{V,&quot;42fdde71-2985-46ff-82b9-30523f67c2e8&quot;,&quot;Switched - Simultaneous Function&quot;}</relation_value>
+                <relation_value>{V,&quot;4d101b2e-a218-40f8-90c9-7f1d1f43ec3c&quot;,&quot;Right Side&quot;}</relation_value>
+                <relation_value>{V,&quot;93496398-2c26-4710-bf8b-a2fbff77db27&quot;,&quot;Handle and shaft included&quot;}</relation_value>
+                <relation_value>{V,&quot;c44c200a-b038-42b9-948a-54522fa913f3&quot;,&quot;OT1600&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;f0dc90af-6f83-4c01-ab23-40a3d5ffab31&quot;,&quot;1SCA118942R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;bc13012d-e3b1-43d5-af79-16d64e3ccf3b&quot;,&quot;50&quot;}</relation_value>
+                <relation_value>{V,&quot;11f09c0e-6554-417d-aab1-4c3942437f77&quot;,&quot;92&quot;}</relation_value>
+                <relation_value>{V,&quot;4c6ff158-8e2d-4e8c-a2a3-c3be6d26bc85&quot;,&quot;4&quot;}</relation_value>
+                <relation_value>{V,&quot;e3426325-b3db-4460-b829-6bb0fd19210c&quot;,&quot;140&quot;}</relation_value>
+                <relation_value>{V,&quot;e95d2249-e62f-455c-9409-53cbfe0ca094&quot;,&quot;Base mounting&quot;}</relation_value>
+                <relation_value>{V,&quot;42fdde71-2985-46ff-82b9-30523f67c2e8&quot;,&quot;Switched - Simultaneous Function&quot;}</relation_value>
+                <relation_value>{V,&quot;4d101b2e-a218-40f8-90c9-7f1d1f43ec3c&quot;,&quot;Right Side&quot;}</relation_value>
+                <relation_value>{V,&quot;93496398-2c26-4710-bf8b-a2fbff77db27&quot;,&quot;Handle and shaft included&quot;}</relation_value>
+                <relation_value>{V,&quot;c44c200a-b038-42b9-948a-54522fa913f3&quot;,&quot;OT1600&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;de4bf7c6-9888-41c8-9e7f-64a1bbb387ae&quot;,&quot;1SCA118944R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;bc13012d-e3b1-43d5-af79-16d64e3ccf3b&quot;,&quot;50&quot;}</relation_value>
+                <relation_value>{V,&quot;11f09c0e-6554-417d-aab1-4c3942437f77&quot;,&quot;92&quot;}</relation_value>
+                <relation_value>{V,&quot;4c6ff158-8e2d-4e8c-a2a3-c3be6d26bc85&quot;,&quot;4&quot;}</relation_value>
+                <relation_value>{V,&quot;84990a82-32bd-41cf-8e1a-0e8f720bd313&quot;,&quot;185&quot;}</relation_value>
+                <relation_value>{V,&quot;e95d2249-e62f-455c-9409-53cbfe0ca094&quot;,&quot;Base mounting&quot;}</relation_value>
+                <relation_value>{V,&quot;42fdde71-2985-46ff-82b9-30523f67c2e8&quot;,&quot;Switched - Simultaneous Function&quot;}</relation_value>
+                <relation_value>{V,&quot;4d101b2e-a218-40f8-90c9-7f1d1f43ec3c&quot;,&quot;Right Side&quot;}</relation_value>
+                <relation_value>{V,&quot;93496398-2c26-4710-bf8b-a2fbff77db27&quot;,&quot;Handle and shaft included&quot;}</relation_value>
+                <relation_value>{V,&quot;c44c200a-b038-42b9-948a-54522fa913f3&quot;,&quot;OT1600&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;a161bd9d-55fc-416d-94a4-deae8b741a4c&quot;,&quot;1SCA118455R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;bc13012d-e3b1-43d5-af79-16d64e3ccf3b&quot;,&quot;50&quot;}</relation_value>
+                <relation_value>{V,&quot;4fe272c2-003f-4f3a-b30e-59cff1376963&quot;,&quot;110&quot;}</relation_value>
+                <relation_value>{V,&quot;344c2a2a-1463-4b4a-98da-6f7a4becd192&quot;,&quot;3&quot;}</relation_value>
+                <relation_value>{V,&quot;ae3a9aa9-fe25-4b7e-bbe0-89bdd4ee9351&quot;,&quot;Standard&quot;}</relation_value>
+                <relation_value>{V,&quot;e95d2249-e62f-455c-9409-53cbfe0ca094&quot;,&quot;Base mounting&quot;}</relation_value>
+                <relation_value>{V,&quot;42fdde71-2985-46ff-82b9-30523f67c2e8&quot;,&quot;Switched - Simultaneous Function&quot;}</relation_value>
+                <relation_value>{V,&quot;4d101b2e-a218-40f8-90c9-7f1d1f43ec3c&quot;,&quot;Right Side&quot;}</relation_value>
+                <relation_value>{V,&quot;93496398-2c26-4710-bf8b-a2fbff77db27&quot;,&quot;Handle and shaft included&quot;}</relation_value>
+                <relation_value>{V,&quot;c44c200a-b038-42b9-948a-54522fa913f3&quot;,&quot;OT1600&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;6f53eb21-f95a-4503-b2b2-fb7c958f9172&quot;,&quot;1SCA118456R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;bc13012d-e3b1-43d5-af79-16d64e3ccf3b&quot;,&quot;50&quot;}</relation_value>
+                <relation_value>{V,&quot;11f09c0e-6554-417d-aab1-4c3942437f77&quot;,&quot;92&quot;}</relation_value>
+                <relation_value>{V,&quot;4c6ff158-8e2d-4e8c-a2a3-c3be6d26bc85&quot;,&quot;4&quot;}</relation_value>
+                <relation_value>{V,&quot;ae3a9aa9-fe25-4b7e-bbe0-89bdd4ee9351&quot;,&quot;Standard&quot;}</relation_value>
+                <relation_value>{V,&quot;e95d2249-e62f-455c-9409-53cbfe0ca094&quot;,&quot;Base mounting&quot;}</relation_value>
+                <relation_value>{V,&quot;42fdde71-2985-46ff-82b9-30523f67c2e8&quot;,&quot;Switched - Simultaneous Function&quot;}</relation_value>
+                <relation_value>{V,&quot;4d101b2e-a218-40f8-90c9-7f1d1f43ec3c&quot;,&quot;Right Side&quot;}</relation_value>
+                <relation_value>{V,&quot;93496398-2c26-4710-bf8b-a2fbff77db27&quot;,&quot;Handle and shaft included&quot;}</relation_value>
+                <relation_value>{V,&quot;c44c200a-b038-42b9-948a-54522fa913f3&quot;,&quot;OT1600&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;a7418953-99ee-449c-97ee-789563c63d83&quot;,&quot;1SCA118939R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;8e0b6265-2b54-4708-862a-c2682b65cf91&quot;,&quot;55&quot;}</relation_value>
+                <relation_value>{V,&quot;ab7a69fc-fdde-49d6-9427-5804ce102cbe&quot;,&quot;176&quot;}</relation_value>
+                <relation_value>{V,&quot;344c2a2a-1463-4b4a-98da-6f7a4becd192&quot;,&quot;3&quot;}</relation_value>
+                <relation_value>{V,&quot;ae3a9aa9-fe25-4b7e-bbe0-89bdd4ee9351&quot;,&quot;Standard&quot;}</relation_value>
+                <relation_value>{V,&quot;e95d2249-e62f-455c-9409-53cbfe0ca094&quot;,&quot;Base mounting&quot;}</relation_value>
+                <relation_value>{V,&quot;42fdde71-2985-46ff-82b9-30523f67c2e8&quot;,&quot;Switched - Simultaneous Function&quot;}</relation_value>
+                <relation_value>{V,&quot;4d101b2e-a218-40f8-90c9-7f1d1f43ec3c&quot;,&quot;Right Side&quot;}</relation_value>
+                <relation_value>{V,&quot;93496398-2c26-4710-bf8b-a2fbff77db27&quot;,&quot;Handle and shaft included&quot;}</relation_value>
+                <relation_value>{V,&quot;be1834e1-5430-4955-b3b1-facbb89db02f&quot;,&quot;OT2000&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;862697ec-4c60-474e-aa54-5bfc64e9758e&quot;,&quot;1SCA118947R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;8e0b6265-2b54-4708-862a-c2682b65cf91&quot;,&quot;55&quot;}</relation_value>
+                <relation_value>{V,&quot;ab7a69fc-fdde-49d6-9427-5804ce102cbe&quot;,&quot;176&quot;}</relation_value>
+                <relation_value>{V,&quot;4c6ff158-8e2d-4e8c-a2a3-c3be6d26bc85&quot;,&quot;4&quot;}</relation_value>
+                <relation_value>{V,&quot;ae3a9aa9-fe25-4b7e-bbe0-89bdd4ee9351&quot;,&quot;Standard&quot;}</relation_value>
+                <relation_value>{V,&quot;e95d2249-e62f-455c-9409-53cbfe0ca094&quot;,&quot;Base mounting&quot;}</relation_value>
+                <relation_value>{V,&quot;42fdde71-2985-46ff-82b9-30523f67c2e8&quot;,&quot;Switched - Simultaneous Function&quot;}</relation_value>
+                <relation_value>{V,&quot;4d101b2e-a218-40f8-90c9-7f1d1f43ec3c&quot;,&quot;Right Side&quot;}</relation_value>
+                <relation_value>{V,&quot;93496398-2c26-4710-bf8b-a2fbff77db27&quot;,&quot;Handle and shaft included&quot;}</relation_value>
+                <relation_value>{V,&quot;be1834e1-5430-4955-b3b1-facbb89db02f&quot;,&quot;OT2000&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;e8a01f90-68f0-4ee7-8c4b-74facecc6bb4&quot;,&quot;1SCA118457R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;8e0b6265-2b54-4708-862a-c2682b65cf91&quot;,&quot;55&quot;}</relation_value>
+                <relation_value>{V,&quot;ab7a69fc-fdde-49d6-9427-5804ce102cbe&quot;,&quot;176&quot;}</relation_value>
+                <relation_value>{V,&quot;344c2a2a-1463-4b4a-98da-6f7a4becd192&quot;,&quot;3&quot;}</relation_value>
+                <relation_value>{V,&quot;ae3a9aa9-fe25-4b7e-bbe0-89bdd4ee9351&quot;,&quot;Standard&quot;}</relation_value>
+                <relation_value>{V,&quot;e95d2249-e62f-455c-9409-53cbfe0ca094&quot;,&quot;Base mounting&quot;}</relation_value>
+                <relation_value>{V,&quot;42fdde71-2985-46ff-82b9-30523f67c2e8&quot;,&quot;Switched - Simultaneous Function&quot;}</relation_value>
+                <relation_value>{V,&quot;4d101b2e-a218-40f8-90c9-7f1d1f43ec3c&quot;,&quot;Right Side&quot;}</relation_value>
+                <relation_value>{V,&quot;93496398-2c26-4710-bf8b-a2fbff77db27&quot;,&quot;Handle and shaft included&quot;}</relation_value>
+                <relation_value>{V,&quot;be1834e1-5430-4955-b3b1-facbb89db02f&quot;,&quot;OT2000&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;6cea2117-9b99-4350-a60c-4e85a6e9b914&quot;,&quot;1SCA118458R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;8e0b6265-2b54-4708-862a-c2682b65cf91&quot;,&quot;55&quot;}</relation_value>
+                <relation_value>{V,&quot;ab7a69fc-fdde-49d6-9427-5804ce102cbe&quot;,&quot;176&quot;}</relation_value>
+                <relation_value>{V,&quot;4c6ff158-8e2d-4e8c-a2a3-c3be6d26bc85&quot;,&quot;4&quot;}</relation_value>
+                <relation_value>{V,&quot;ae3a9aa9-fe25-4b7e-bbe0-89bdd4ee9351&quot;,&quot;Standard&quot;}</relation_value>
+                <relation_value>{V,&quot;e95d2249-e62f-455c-9409-53cbfe0ca094&quot;,&quot;Base mounting&quot;}</relation_value>
+                <relation_value>{V,&quot;42fdde71-2985-46ff-82b9-30523f67c2e8&quot;,&quot;Switched - Simultaneous Function&quot;}</relation_value>
+                <relation_value>{V,&quot;4d101b2e-a218-40f8-90c9-7f1d1f43ec3c&quot;,&quot;Right Side&quot;}</relation_value>
+                <relation_value>{V,&quot;93496398-2c26-4710-bf8b-a2fbff77db27&quot;,&quot;Handle and shaft included&quot;}</relation_value>
+                <relation_value>{V,&quot;be1834e1-5430-4955-b3b1-facbb89db02f&quot;,&quot;OT2000&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;d167b39d-07f5-47be-8717-84f8f840e9ce&quot;,&quot;1SCA118946R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;8e0b6265-2b54-4708-862a-c2682b65cf91&quot;,&quot;55&quot;}</relation_value>
+                <relation_value>{V,&quot;ab7a69fc-fdde-49d6-9427-5804ce102cbe&quot;,&quot;176&quot;}</relation_value>
+                <relation_value>{V,&quot;4c6ff158-8e2d-4e8c-a2a3-c3be6d26bc85&quot;,&quot;4&quot;}</relation_value>
+                <relation_value>{V,&quot;ae3a9aa9-fe25-4b7e-bbe0-89bdd4ee9351&quot;,&quot;Standard&quot;}</relation_value>
+                <relation_value>{V,&quot;e95d2249-e62f-455c-9409-53cbfe0ca094&quot;,&quot;Base mounting&quot;}</relation_value>
+                <relation_value>{V,&quot;42fdde71-2985-46ff-82b9-30523f67c2e8&quot;,&quot;Switched - Simultaneous Function&quot;}</relation_value>
+                <relation_value>{V,&quot;4d101b2e-a218-40f8-90c9-7f1d1f43ec3c&quot;,&quot;Right Side&quot;}</relation_value>
+                <relation_value>{V,&quot;93496398-2c26-4710-bf8b-a2fbff77db27&quot;,&quot;Handle and shaft included&quot;}</relation_value>
+                <relation_value>{V,&quot;feabf799-5d90-473e-9107-a833ebd96fb4&quot;,&quot;OT2500&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;ce3157dd-7267-47f8-aa97-eff8e13030e2&quot;,&quot;1SCA118943R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;8e0b6265-2b54-4708-862a-c2682b65cf91&quot;,&quot;55&quot;}</relation_value>
+                <relation_value>{V,&quot;ab7a69fc-fdde-49d6-9427-5804ce102cbe&quot;,&quot;176&quot;}</relation_value>
+                <relation_value>{V,&quot;4c6ff158-8e2d-4e8c-a2a3-c3be6d26bc85&quot;,&quot;4&quot;}</relation_value>
+                <relation_value>{V,&quot;e3426325-b3db-4460-b829-6bb0fd19210c&quot;,&quot;140&quot;}</relation_value>
+                <relation_value>{V,&quot;e95d2249-e62f-455c-9409-53cbfe0ca094&quot;,&quot;Base mounting&quot;}</relation_value>
+                <relation_value>{V,&quot;42fdde71-2985-46ff-82b9-30523f67c2e8&quot;,&quot;Switched - Simultaneous Function&quot;}</relation_value>
+                <relation_value>{V,&quot;4d101b2e-a218-40f8-90c9-7f1d1f43ec3c&quot;,&quot;Right Side&quot;}</relation_value>
+                <relation_value>{V,&quot;93496398-2c26-4710-bf8b-a2fbff77db27&quot;,&quot;Handle and shaft included&quot;}</relation_value>
+                <relation_value>{V,&quot;feabf799-5d90-473e-9107-a833ebd96fb4&quot;,&quot;OT2500&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;ee3489a5-1340-48dd-9641-2587e33f5101&quot;,&quot;1SCA118945R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;8e0b6265-2b54-4708-862a-c2682b65cf91&quot;,&quot;55&quot;}</relation_value>
+                <relation_value>{V,&quot;ab7a69fc-fdde-49d6-9427-5804ce102cbe&quot;,&quot;176&quot;}</relation_value>
+                <relation_value>{V,&quot;4c6ff158-8e2d-4e8c-a2a3-c3be6d26bc85&quot;,&quot;4&quot;}</relation_value>
+                <relation_value>{V,&quot;84990a82-32bd-41cf-8e1a-0e8f720bd313&quot;,&quot;185&quot;}</relation_value>
+                <relation_value>{V,&quot;e95d2249-e62f-455c-9409-53cbfe0ca094&quot;,&quot;Base mounting&quot;}</relation_value>
+                <relation_value>{V,&quot;42fdde71-2985-46ff-82b9-30523f67c2e8&quot;,&quot;Switched - Simultaneous Function&quot;}</relation_value>
+                <relation_value>{V,&quot;4d101b2e-a218-40f8-90c9-7f1d1f43ec3c&quot;,&quot;Right Side&quot;}</relation_value>
+                <relation_value>{V,&quot;93496398-2c26-4710-bf8b-a2fbff77db27&quot;,&quot;Handle and shaft included&quot;}</relation_value>
+                <relation_value>{V,&quot;feabf799-5d90-473e-9107-a833ebd96fb4&quot;,&quot;OT2500&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;bb86157d-9386-4645-b5d3-478254efd7cd&quot;,&quot;1SCA118459R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;8e0b6265-2b54-4708-862a-c2682b65cf91&quot;,&quot;55&quot;}</relation_value>
+                <relation_value>{V,&quot;ab7a69fc-fdde-49d6-9427-5804ce102cbe&quot;,&quot;176&quot;}</relation_value>
+                <relation_value>{V,&quot;344c2a2a-1463-4b4a-98da-6f7a4becd192&quot;,&quot;3&quot;}</relation_value>
+                <relation_value>{V,&quot;ae3a9aa9-fe25-4b7e-bbe0-89bdd4ee9351&quot;,&quot;Standard&quot;}</relation_value>
+                <relation_value>{V,&quot;e95d2249-e62f-455c-9409-53cbfe0ca094&quot;,&quot;Base mounting&quot;}</relation_value>
+                <relation_value>{V,&quot;42fdde71-2985-46ff-82b9-30523f67c2e8&quot;,&quot;Switched - Simultaneous Function&quot;}</relation_value>
+                <relation_value>{V,&quot;4d101b2e-a218-40f8-90c9-7f1d1f43ec3c&quot;,&quot;Right Side&quot;}</relation_value>
+                <relation_value>{V,&quot;93496398-2c26-4710-bf8b-a2fbff77db27&quot;,&quot;Handle and shaft included&quot;}</relation_value>
+                <relation_value>{V,&quot;feabf799-5d90-473e-9107-a833ebd96fb4&quot;,&quot;OT2500&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;7c574ba0-1175-4e55-bc24-b18094d4031c&quot;,&quot;1SCA118460R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;8e0b6265-2b54-4708-862a-c2682b65cf91&quot;,&quot;55&quot;}</relation_value>
+                <relation_value>{V,&quot;ab7a69fc-fdde-49d6-9427-5804ce102cbe&quot;,&quot;176&quot;}</relation_value>
+                <relation_value>{V,&quot;4c6ff158-8e2d-4e8c-a2a3-c3be6d26bc85&quot;,&quot;4&quot;}</relation_value>
+                <relation_value>{V,&quot;ae3a9aa9-fe25-4b7e-bbe0-89bdd4ee9351&quot;,&quot;Standard&quot;}</relation_value>
+                <relation_value>{V,&quot;e95d2249-e62f-455c-9409-53cbfe0ca094&quot;,&quot;Base mounting&quot;}</relation_value>
+                <relation_value>{V,&quot;42fdde71-2985-46ff-82b9-30523f67c2e8&quot;,&quot;Switched - Simultaneous Function&quot;}</relation_value>
+                <relation_value>{V,&quot;4d101b2e-a218-40f8-90c9-7f1d1f43ec3c&quot;,&quot;Right Side&quot;}</relation_value>
+                <relation_value>{V,&quot;93496398-2c26-4710-bf8b-a2fbff77db27&quot;,&quot;Handle and shaft included&quot;}</relation_value>
+                <relation_value>{V,&quot;feabf799-5d90-473e-9107-a833ebd96fb4&quot;,&quot;OT2500&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;28897f3a-b92b-4100-9cf4-b25cd523e80e&quot;,&quot;1SCA119004R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;bc13012d-e3b1-43d5-af79-16d64e3ccf3b&quot;,&quot;50&quot;}</relation_value>
+                <relation_value>{V,&quot;4fe272c2-003f-4f3a-b30e-59cff1376963&quot;,&quot;110&quot;}</relation_value>
+                <relation_value>{V,&quot;344c2a2a-1463-4b4a-98da-6f7a4becd192&quot;,&quot;3&quot;}</relation_value>
+                <relation_value>{V,&quot;ae3a9aa9-fe25-4b7e-bbe0-89bdd4ee9351&quot;,&quot;Standard&quot;}</relation_value>
+                <relation_value>{V,&quot;e95d2249-e62f-455c-9409-53cbfe0ca094&quot;,&quot;Base mounting&quot;}</relation_value>
+                <relation_value>{V,&quot;42fdde71-2985-46ff-82b9-30523f67c2e8&quot;,&quot;Switched - Simultaneous Function&quot;}</relation_value>
+                <relation_value>{V,&quot;4d101b2e-a218-40f8-90c9-7f1d1f43ec3c&quot;,&quot;Right Side&quot;}</relation_value>
+                <relation_value>{V,&quot;f285d390-8f62-4cba-9b7b-dae89134142a&quot;,&quot;Handle and shaft not included&quot;}</relation_value>
+                <relation_value>{V,&quot;1611485e-620a-4cda-9605-f3767a8a8672&quot;,&quot;OT1000&quot;}</relation_value>
+              </relation_row>
+            </relation_values>
+          </relation>
+          <relation name="relSelectorMultiValues" is_enabled="true" uuid="cef84a6e-e85b-479d-a8b3-59aa275fe38c" is_read_only="false">
+            <description>relSelectorMultiValues</description>
+            <relation_columns>
+              <relation_column variable_uuid="b6d2bf8f-7b60-421c-8a78-4a1554d9d63f" variable_name="Selector.Variant"/>
+              <relation_column variable_uuid="370f145d-c55c-45cd-bc5c-060c90e38c14" variable_name="Selector.varOperatingMechanismEnumValue"/>
+            </relation_columns>
+            <relation_values>
+              <relation_row>
+                <relation_value>{V,&quot;ddea12c9-dbaf-47fa-b0c8-715b7a24f23b&quot;,&quot;1SCA115708R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;9a2bede4-1406-4cfa-9117-4f0ce5c89f4f&quot;,&quot;03 (Left Side) Mechanism turned 90 degrees&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;ddea12c9-dbaf-47fa-b0c8-715b7a24f23b&quot;,&quot;1SCA115708R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;2ee2226a-641b-4a03-8fde-62c92d782939&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;ddea12c9-dbaf-47fa-b0c8-715b7a24f23b&quot;,&quot;1SCA115708R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;2ee2226a-641b-4a03-8fde-62c92d782939&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;ddea12c9-dbaf-47fa-b0c8-715b7a24f23b&quot;,&quot;1SCA115708R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;2ee2226a-641b-4a03-8fde-62c92d782939&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;b2e46d2a-9212-48a6-a8f1-f06049bc4986&quot;,&quot;1SCA115805R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;9a2bede4-1406-4cfa-9117-4f0ce5c89f4f&quot;,&quot;03 (Left Side) Mechanism turned 90 degrees&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;b2e46d2a-9212-48a6-a8f1-f06049bc4986&quot;,&quot;1SCA115805R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;2ee2226a-641b-4a03-8fde-62c92d782939&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;b2e46d2a-9212-48a6-a8f1-f06049bc4986&quot;,&quot;1SCA115805R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;2ee2226a-641b-4a03-8fde-62c92d782939&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;b2e46d2a-9212-48a6-a8f1-f06049bc4986&quot;,&quot;1SCA115805R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;2ee2226a-641b-4a03-8fde-62c92d782939&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;9c3d75f0-e747-4503-8508-9031fd7986b3&quot;,&quot;1SCA115810R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;9a2bede4-1406-4cfa-9117-4f0ce5c89f4f&quot;,&quot;03 (Left Side) Mechanism turned 90 degrees&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;9c3d75f0-e747-4503-8508-9031fd7986b3&quot;,&quot;1SCA115810R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;2ee2226a-641b-4a03-8fde-62c92d782939&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;9c3d75f0-e747-4503-8508-9031fd7986b3&quot;,&quot;1SCA115810R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;2ee2226a-641b-4a03-8fde-62c92d782939&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;9c3d75f0-e747-4503-8508-9031fd7986b3&quot;,&quot;1SCA115810R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;2ee2226a-641b-4a03-8fde-62c92d782939&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;504a7f21-1d3f-4b63-bac5-0ee46823277d&quot;,&quot;1SCA115815R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;9a2bede4-1406-4cfa-9117-4f0ce5c89f4f&quot;,&quot;03 (Left Side) Mechanism turned 90 degrees&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;504a7f21-1d3f-4b63-bac5-0ee46823277d&quot;,&quot;1SCA115815R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;2ee2226a-641b-4a03-8fde-62c92d782939&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;504a7f21-1d3f-4b63-bac5-0ee46823277d&quot;,&quot;1SCA115815R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;2ee2226a-641b-4a03-8fde-62c92d782939&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;504a7f21-1d3f-4b63-bac5-0ee46823277d&quot;,&quot;1SCA115815R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;2ee2226a-641b-4a03-8fde-62c92d782939&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;3b120d50-3039-4dd9-94b5-f16edbe63341&quot;,&quot;1SCA115822R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;9a2bede4-1406-4cfa-9117-4f0ce5c89f4f&quot;,&quot;03 (Left Side) Mechanism turned 90 degrees&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;3b120d50-3039-4dd9-94b5-f16edbe63341&quot;,&quot;1SCA115822R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;2ee2226a-641b-4a03-8fde-62c92d782939&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;3b120d50-3039-4dd9-94b5-f16edbe63341&quot;,&quot;1SCA115822R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;2ee2226a-641b-4a03-8fde-62c92d782939&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;3b120d50-3039-4dd9-94b5-f16edbe63341&quot;,&quot;1SCA115822R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;2ee2226a-641b-4a03-8fde-62c92d782939&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;9632e898-2f81-4547-ba1b-5861580e7d74&quot;,&quot;1SCA115827R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;9a2bede4-1406-4cfa-9117-4f0ce5c89f4f&quot;,&quot;03 (Left Side) Mechanism turned 90 degrees&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;9632e898-2f81-4547-ba1b-5861580e7d74&quot;,&quot;1SCA115827R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;2ee2226a-641b-4a03-8fde-62c92d782939&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;9632e898-2f81-4547-ba1b-5861580e7d74&quot;,&quot;1SCA115827R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;2ee2226a-641b-4a03-8fde-62c92d782939&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;9632e898-2f81-4547-ba1b-5861580e7d74&quot;,&quot;1SCA115827R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;2ee2226a-641b-4a03-8fde-62c92d782939&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;e1d707cf-27ba-4b50-b105-11507e044b4c&quot;,&quot;1SCA115835R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;9a2bede4-1406-4cfa-9117-4f0ce5c89f4f&quot;,&quot;03 (Left Side) Mechanism turned 90 degrees&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;e1d707cf-27ba-4b50-b105-11507e044b4c&quot;,&quot;1SCA115835R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;2ee2226a-641b-4a03-8fde-62c92d782939&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;e1d707cf-27ba-4b50-b105-11507e044b4c&quot;,&quot;1SCA115835R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;2ee2226a-641b-4a03-8fde-62c92d782939&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;e1d707cf-27ba-4b50-b105-11507e044b4c&quot;,&quot;1SCA115835R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;2ee2226a-641b-4a03-8fde-62c92d782939&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;5572aba5-98d4-4fcf-9a41-d8db94a791c3&quot;,&quot;1SCA115840R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;9a2bede4-1406-4cfa-9117-4f0ce5c89f4f&quot;,&quot;03 (Left Side) Mechanism turned 90 degrees&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;5572aba5-98d4-4fcf-9a41-d8db94a791c3&quot;,&quot;1SCA115840R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;2ee2226a-641b-4a03-8fde-62c92d782939&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;5572aba5-98d4-4fcf-9a41-d8db94a791c3&quot;,&quot;1SCA115840R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;2ee2226a-641b-4a03-8fde-62c92d782939&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;5572aba5-98d4-4fcf-9a41-d8db94a791c3&quot;,&quot;1SCA115840R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;2ee2226a-641b-4a03-8fde-62c92d782939&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;de157236-8f20-44a3-8844-4e3ed12d9256&quot;,&quot;1SCA115843R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;9a2bede4-1406-4cfa-9117-4f0ce5c89f4f&quot;,&quot;03 (Left Side) Mechanism turned 90 degrees&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;de157236-8f20-44a3-8844-4e3ed12d9256&quot;,&quot;1SCA115843R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;2ee2226a-641b-4a03-8fde-62c92d782939&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;de157236-8f20-44a3-8844-4e3ed12d9256&quot;,&quot;1SCA115843R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;2ee2226a-641b-4a03-8fde-62c92d782939&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;de157236-8f20-44a3-8844-4e3ed12d9256&quot;,&quot;1SCA115843R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;2ee2226a-641b-4a03-8fde-62c92d782939&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;9db5cff7-39ee-48b4-b5ff-84785fc7593e&quot;,&quot;1SCA118937R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;9a2bede4-1406-4cfa-9117-4f0ce5c89f4f&quot;,&quot;03 (Left Side) Mechanism turned 90 degrees&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;9db5cff7-39ee-48b4-b5ff-84785fc7593e&quot;,&quot;1SCA118937R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;2ee2226a-641b-4a03-8fde-62c92d782939&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;9db5cff7-39ee-48b4-b5ff-84785fc7593e&quot;,&quot;1SCA118937R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;2ee2226a-641b-4a03-8fde-62c92d782939&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;9db5cff7-39ee-48b4-b5ff-84785fc7593e&quot;,&quot;1SCA118937R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;2ee2226a-641b-4a03-8fde-62c92d782939&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;583601fe-2c8f-470b-a125-d8822ce3f44b&quot;,&quot;1SCA118950R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;104df5d5-85b0-419c-9dc2-6f6916a3535e&quot;,&quot;04 (Left Side) Mechanism turned 90 degrees&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;583601fe-2c8f-470b-a125-d8822ce3f44b&quot;,&quot;1SCA118950R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;2ee2226a-641b-4a03-8fde-62c92d782939&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;583601fe-2c8f-470b-a125-d8822ce3f44b&quot;,&quot;1SCA118950R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;2ee2226a-641b-4a03-8fde-62c92d782939&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;583601fe-2c8f-470b-a125-d8822ce3f44b&quot;,&quot;1SCA118950R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;2ee2226a-641b-4a03-8fde-62c92d782939&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;fd937eda-7673-4f83-9c52-c1fe56086077&quot;,&quot;1SCA118451R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;0607eeb5-cb31-4f0c-b2b6-76989ee2d23f&quot;,&quot;03 (Left Side)&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;fd937eda-7673-4f83-9c52-c1fe56086077&quot;,&quot;1SCA118451R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;2ee2226a-641b-4a03-8fde-62c92d782939&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;fd937eda-7673-4f83-9c52-c1fe56086077&quot;,&quot;1SCA118451R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;2ee2226a-641b-4a03-8fde-62c92d782939&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;10c6caca-e3f5-4c82-95c6-5ba972484771&quot;,&quot;1SCA118452R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;b25f3372-7975-450e-adad-c6503d4d15f0&quot;,&quot;04 (Left Side)&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;10c6caca-e3f5-4c82-95c6-5ba972484771&quot;,&quot;1SCA118452R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;2ee2226a-641b-4a03-8fde-62c92d782939&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;10c6caca-e3f5-4c82-95c6-5ba972484771&quot;,&quot;1SCA118452R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;2ee2226a-641b-4a03-8fde-62c92d782939&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;2c4d4b66-5d8e-4460-9dc4-3904ba251c34&quot;,&quot;1SCA118949R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;104df5d5-85b0-419c-9dc2-6f6916a3535e&quot;,&quot;04 (Left Side) Mechanism turned 90 degrees&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;2c4d4b66-5d8e-4460-9dc4-3904ba251c34&quot;,&quot;1SCA118949R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;2ee2226a-641b-4a03-8fde-62c92d782939&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;2c4d4b66-5d8e-4460-9dc4-3904ba251c34&quot;,&quot;1SCA118949R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;2ee2226a-641b-4a03-8fde-62c92d782939&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;2c4d4b66-5d8e-4460-9dc4-3904ba251c34&quot;,&quot;1SCA118949R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;2ee2226a-641b-4a03-8fde-62c92d782939&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;26c710b7-687e-417d-8f41-6ecc09b26fa0&quot;,&quot;1SCA118940R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;104df5d5-85b0-419c-9dc2-6f6916a3535e&quot;,&quot;04 (Left Side) Mechanism turned 90 degrees&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;26c710b7-687e-417d-8f41-6ecc09b26fa0&quot;,&quot;1SCA118940R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;2ee2226a-641b-4a03-8fde-62c92d782939&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;26c710b7-687e-417d-8f41-6ecc09b26fa0&quot;,&quot;1SCA118940R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;2ee2226a-641b-4a03-8fde-62c92d782939&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;26c710b7-687e-417d-8f41-6ecc09b26fa0&quot;,&quot;1SCA118940R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;2ee2226a-641b-4a03-8fde-62c92d782939&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;eddf9f84-438c-4a63-b21e-f4a14e3dd5c7&quot;,&quot;1SCA118941R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;104df5d5-85b0-419c-9dc2-6f6916a3535e&quot;,&quot;04 (Left Side) Mechanism turned 90 degrees&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;eddf9f84-438c-4a63-b21e-f4a14e3dd5c7&quot;,&quot;1SCA118941R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;2ee2226a-641b-4a03-8fde-62c92d782939&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;eddf9f84-438c-4a63-b21e-f4a14e3dd5c7&quot;,&quot;1SCA118941R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;2ee2226a-641b-4a03-8fde-62c92d782939&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;eddf9f84-438c-4a63-b21e-f4a14e3dd5c7&quot;,&quot;1SCA118941R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;2ee2226a-641b-4a03-8fde-62c92d782939&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;b7dcd290-94da-49e8-b82e-8ee5b3defb11&quot;,&quot;1SCA118453R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;0607eeb5-cb31-4f0c-b2b6-76989ee2d23f&quot;,&quot;03 (Left Side)&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;b7dcd290-94da-49e8-b82e-8ee5b3defb11&quot;,&quot;1SCA118453R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;2ee2226a-641b-4a03-8fde-62c92d782939&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;b7dcd290-94da-49e8-b82e-8ee5b3defb11&quot;,&quot;1SCA118453R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;2ee2226a-641b-4a03-8fde-62c92d782939&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;7cdd269a-6cae-4e0f-8b63-d6ad597244fd&quot;,&quot;1SCA118454R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;b25f3372-7975-450e-adad-c6503d4d15f0&quot;,&quot;04 (Left Side)&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;7cdd269a-6cae-4e0f-8b63-d6ad597244fd&quot;,&quot;1SCA118454R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;2ee2226a-641b-4a03-8fde-62c92d782939&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;7cdd269a-6cae-4e0f-8b63-d6ad597244fd&quot;,&quot;1SCA118454R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;2ee2226a-641b-4a03-8fde-62c92d782939&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;b8d522a4-e31b-479f-b3d4-388485a83120&quot;,&quot;1SCA118948R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;104df5d5-85b0-419c-9dc2-6f6916a3535e&quot;,&quot;04 (Left Side) Mechanism turned 90 degrees&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;b8d522a4-e31b-479f-b3d4-388485a83120&quot;,&quot;1SCA118948R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;2ee2226a-641b-4a03-8fde-62c92d782939&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;b8d522a4-e31b-479f-b3d4-388485a83120&quot;,&quot;1SCA118948R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;2ee2226a-641b-4a03-8fde-62c92d782939&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;b8d522a4-e31b-479f-b3d4-388485a83120&quot;,&quot;1SCA118948R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;2ee2226a-641b-4a03-8fde-62c92d782939&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;f0dc90af-6f83-4c01-ab23-40a3d5ffab31&quot;,&quot;1SCA118942R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;104df5d5-85b0-419c-9dc2-6f6916a3535e&quot;,&quot;04 (Left Side) Mechanism turned 90 degrees&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;f0dc90af-6f83-4c01-ab23-40a3d5ffab31&quot;,&quot;1SCA118942R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;2ee2226a-641b-4a03-8fde-62c92d782939&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;f0dc90af-6f83-4c01-ab23-40a3d5ffab31&quot;,&quot;1SCA118942R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;2ee2226a-641b-4a03-8fde-62c92d782939&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;f0dc90af-6f83-4c01-ab23-40a3d5ffab31&quot;,&quot;1SCA118942R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;2ee2226a-641b-4a03-8fde-62c92d782939&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;de4bf7c6-9888-41c8-9e7f-64a1bbb387ae&quot;,&quot;1SCA118944R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;104df5d5-85b0-419c-9dc2-6f6916a3535e&quot;,&quot;04 (Left Side) Mechanism turned 90 degrees&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;de4bf7c6-9888-41c8-9e7f-64a1bbb387ae&quot;,&quot;1SCA118944R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;2ee2226a-641b-4a03-8fde-62c92d782939&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;de4bf7c6-9888-41c8-9e7f-64a1bbb387ae&quot;,&quot;1SCA118944R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;2ee2226a-641b-4a03-8fde-62c92d782939&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;de4bf7c6-9888-41c8-9e7f-64a1bbb387ae&quot;,&quot;1SCA118944R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;2ee2226a-641b-4a03-8fde-62c92d782939&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;a161bd9d-55fc-416d-94a4-deae8b741a4c&quot;,&quot;1SCA118455R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;0607eeb5-cb31-4f0c-b2b6-76989ee2d23f&quot;,&quot;03 (Left Side)&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;a161bd9d-55fc-416d-94a4-deae8b741a4c&quot;,&quot;1SCA118455R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;2ee2226a-641b-4a03-8fde-62c92d782939&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;a161bd9d-55fc-416d-94a4-deae8b741a4c&quot;,&quot;1SCA118455R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;2ee2226a-641b-4a03-8fde-62c92d782939&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;6f53eb21-f95a-4503-b2b2-fb7c958f9172&quot;,&quot;1SCA118456R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;b25f3372-7975-450e-adad-c6503d4d15f0&quot;,&quot;04 (Left Side)&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;6f53eb21-f95a-4503-b2b2-fb7c958f9172&quot;,&quot;1SCA118456R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;2ee2226a-641b-4a03-8fde-62c92d782939&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;6f53eb21-f95a-4503-b2b2-fb7c958f9172&quot;,&quot;1SCA118456R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;2ee2226a-641b-4a03-8fde-62c92d782939&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;a7418953-99ee-449c-97ee-789563c63d83&quot;,&quot;1SCA118939R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;9a2bede4-1406-4cfa-9117-4f0ce5c89f4f&quot;,&quot;03 (Left Side) Mechanism turned 90 degrees&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;a7418953-99ee-449c-97ee-789563c63d83&quot;,&quot;1SCA118939R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;2ee2226a-641b-4a03-8fde-62c92d782939&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;a7418953-99ee-449c-97ee-789563c63d83&quot;,&quot;1SCA118939R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;2ee2226a-641b-4a03-8fde-62c92d782939&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;a7418953-99ee-449c-97ee-789563c63d83&quot;,&quot;1SCA118939R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;2ee2226a-641b-4a03-8fde-62c92d782939&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;862697ec-4c60-474e-aa54-5bfc64e9758e&quot;,&quot;1SCA118947R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;104df5d5-85b0-419c-9dc2-6f6916a3535e&quot;,&quot;04 (Left Side) Mechanism turned 90 degrees&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;862697ec-4c60-474e-aa54-5bfc64e9758e&quot;,&quot;1SCA118947R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;2ee2226a-641b-4a03-8fde-62c92d782939&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;862697ec-4c60-474e-aa54-5bfc64e9758e&quot;,&quot;1SCA118947R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;2ee2226a-641b-4a03-8fde-62c92d782939&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;862697ec-4c60-474e-aa54-5bfc64e9758e&quot;,&quot;1SCA118947R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;2ee2226a-641b-4a03-8fde-62c92d782939&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;e8a01f90-68f0-4ee7-8c4b-74facecc6bb4&quot;,&quot;1SCA118457R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;0607eeb5-cb31-4f0c-b2b6-76989ee2d23f&quot;,&quot;03 (Left Side)&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;e8a01f90-68f0-4ee7-8c4b-74facecc6bb4&quot;,&quot;1SCA118457R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;2ee2226a-641b-4a03-8fde-62c92d782939&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;e8a01f90-68f0-4ee7-8c4b-74facecc6bb4&quot;,&quot;1SCA118457R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;2ee2226a-641b-4a03-8fde-62c92d782939&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;6cea2117-9b99-4350-a60c-4e85a6e9b914&quot;,&quot;1SCA118458R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;b25f3372-7975-450e-adad-c6503d4d15f0&quot;,&quot;04 (Left Side)&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;6cea2117-9b99-4350-a60c-4e85a6e9b914&quot;,&quot;1SCA118458R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;2ee2226a-641b-4a03-8fde-62c92d782939&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;6cea2117-9b99-4350-a60c-4e85a6e9b914&quot;,&quot;1SCA118458R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;2ee2226a-641b-4a03-8fde-62c92d782939&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;d167b39d-07f5-47be-8717-84f8f840e9ce&quot;,&quot;1SCA118946R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;104df5d5-85b0-419c-9dc2-6f6916a3535e&quot;,&quot;04 (Left Side) Mechanism turned 90 degrees&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;d167b39d-07f5-47be-8717-84f8f840e9ce&quot;,&quot;1SCA118946R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;2ee2226a-641b-4a03-8fde-62c92d782939&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;d167b39d-07f5-47be-8717-84f8f840e9ce&quot;,&quot;1SCA118946R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;2ee2226a-641b-4a03-8fde-62c92d782939&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;d167b39d-07f5-47be-8717-84f8f840e9ce&quot;,&quot;1SCA118946R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;2ee2226a-641b-4a03-8fde-62c92d782939&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;ce3157dd-7267-47f8-aa97-eff8e13030e2&quot;,&quot;1SCA118943R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;104df5d5-85b0-419c-9dc2-6f6916a3535e&quot;,&quot;04 (Left Side) Mechanism turned 90 degrees&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;ce3157dd-7267-47f8-aa97-eff8e13030e2&quot;,&quot;1SCA118943R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;2ee2226a-641b-4a03-8fde-62c92d782939&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;ce3157dd-7267-47f8-aa97-eff8e13030e2&quot;,&quot;1SCA118943R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;2ee2226a-641b-4a03-8fde-62c92d782939&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;ce3157dd-7267-47f8-aa97-eff8e13030e2&quot;,&quot;1SCA118943R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;2ee2226a-641b-4a03-8fde-62c92d782939&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;ee3489a5-1340-48dd-9641-2587e33f5101&quot;,&quot;1SCA118945R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;104df5d5-85b0-419c-9dc2-6f6916a3535e&quot;,&quot;04 (Left Side) Mechanism turned 90 degrees&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;ee3489a5-1340-48dd-9641-2587e33f5101&quot;,&quot;1SCA118945R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;2ee2226a-641b-4a03-8fde-62c92d782939&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;ee3489a5-1340-48dd-9641-2587e33f5101&quot;,&quot;1SCA118945R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;2ee2226a-641b-4a03-8fde-62c92d782939&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;ee3489a5-1340-48dd-9641-2587e33f5101&quot;,&quot;1SCA118945R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;2ee2226a-641b-4a03-8fde-62c92d782939&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;bb86157d-9386-4645-b5d3-478254efd7cd&quot;,&quot;1SCA118459R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;0607eeb5-cb31-4f0c-b2b6-76989ee2d23f&quot;,&quot;03 (Left Side)&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;bb86157d-9386-4645-b5d3-478254efd7cd&quot;,&quot;1SCA118459R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;2ee2226a-641b-4a03-8fde-62c92d782939&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;bb86157d-9386-4645-b5d3-478254efd7cd&quot;,&quot;1SCA118459R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;2ee2226a-641b-4a03-8fde-62c92d782939&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;7c574ba0-1175-4e55-bc24-b18094d4031c&quot;,&quot;1SCA118460R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;b25f3372-7975-450e-adad-c6503d4d15f0&quot;,&quot;04 (Left Side)&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;7c574ba0-1175-4e55-bc24-b18094d4031c&quot;,&quot;1SCA118460R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;2ee2226a-641b-4a03-8fde-62c92d782939&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;7c574ba0-1175-4e55-bc24-b18094d4031c&quot;,&quot;1SCA118460R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;2ee2226a-641b-4a03-8fde-62c92d782939&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;28897f3a-b92b-4100-9cf4-b25cd523e80e&quot;,&quot;1SCA119004R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;9a2bede4-1406-4cfa-9117-4f0ce5c89f4f&quot;,&quot;03 (Left Side) Mechanism turned 90 degrees&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;28897f3a-b92b-4100-9cf4-b25cd523e80e&quot;,&quot;1SCA119004R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;2ee2226a-641b-4a03-8fde-62c92d782939&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;28897f3a-b92b-4100-9cf4-b25cd523e80e&quot;,&quot;1SCA119004R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;2ee2226a-641b-4a03-8fde-62c92d782939&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;28897f3a-b92b-4100-9cf4-b25cd523e80e&quot;,&quot;1SCA119004R1001&quot;}</relation_value>
+                <relation_value>{V,&quot;2ee2226a-641b-4a03-8fde-62c92d782939&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+            </relation_values>
+          </relation>
+        </relations>
+        <functions/>
+        <language_translations>
+          <language_translation language="EN">Selector</language_translation>
+        </language_translations>
+        <variable name="Variant" is_private="false" is_enabled="true" type="Variant_Type" uuid="b6d2bf8f-7b60-421c-8a78-4a1554d9d63f" is_read_only="false">
+          <property_values>
+            <property_value name="Show" property_uuid="a1541b83-9d64-4b11-865e-e18bebfbae90">false</property_value>
+          </property_values>
+          <language_translations>
+            <language_translation language="EN">Product ID</language_translation>
+          </language_translations>
+        </variable>
+        <variable name="varRatShoTimWitCurValue" is_private="false" is_enabled="true" type="custTypevarRatShoTimWitCurValue" uuid="01bbe769-a92b-468f-bd7c-b5dff526df20" is_read_only="false">
+          <property_values>
+            <property_value name="Show" property_uuid="a1541b83-9d64-4b11-865e-e18bebfbae90">true</property_value>
+          </property_values>
+          <language_translations>
+            <language_translation language="EN">Rated short-time withstand current, Icw 1 s</language_translation>
+          </language_translations>
+        </variable>
+        <variable name="varRatShoCirMakCapValue" is_private="false" is_enabled="true" type="custTypevarRatShoCirMakCapValue" uuid="ea70f85d-8830-421e-9387-a1479e8459f3" is_read_only="false">
+          <property_values>
+            <property_value name="Show" property_uuid="a1541b83-9d64-4b11-865e-e18bebfbae90">true</property_value>
+          </property_values>
+          <language_translations>
+            <language_translation language="EN">Rated short-circuit making capacity, Icm peak</language_translation>
+          </language_translations>
+        </variable>
+        <variable name="varNumberOfPoles" is_private="false" is_enabled="true" type="custTypevarNumberOfPoles" uuid="e3832f65-81ec-44a7-807a-3f26fa31c48b" is_read_only="false">
+          <property_values>
+            <property_value name="Show" property_uuid="a1541b83-9d64-4b11-865e-e18bebfbae90">true</property_value>
+          </property_values>
+          <language_translations>
+            <language_translation language="EN">Number of poles</language_translation>
+          </language_translations>
+        </variable>
+        <variable name="varDisBetPha" is_private="false" is_enabled="true" type="custTypevarDisBetPha" uuid="899eab20-4d30-4b21-b2af-27d1e7932531" is_read_only="false">
+          <property_values>
+            <property_value name="Show" property_uuid="a1541b83-9d64-4b11-865e-e18bebfbae90">true</property_value>
+          </property_values>
+          <language_translations>
+            <language_translation language="EN">Distance between phases</language_translation>
+          </language_translations>
+        </variable>
+        <variable name="varMountingType" is_private="false" is_enabled="true" type="custTypevarMountingType" uuid="683a6874-dd5f-483b-8b2a-8bfab304cc53" is_read_only="false">
+          <property_values>
+            <property_value name="Show" property_uuid="a1541b83-9d64-4b11-865e-e18bebfbae90">true</property_value>
+          </property_values>
+          <language_translations>
+            <language_translation language="EN">Mounting</language_translation>
+          </language_translations>
+        </variable>
+        <variable name="varFourthPoleTypeEnumValue" is_private="false" is_enabled="true" type="custTypevarFourthPoleTypeEnumValue" uuid="eaf9630c-2811-4de1-a672-e2bf79c0a7ac" is_read_only="false">
+          <property_values>
+            <property_value name="Show" property_uuid="a1541b83-9d64-4b11-865e-e18bebfbae90">true</property_value>
+          </property_values>
+          <language_translations>
+            <language_translation language="EN">Fourth pole type</language_translation>
+          </language_translations>
+        </variable>
+        <variable name="varFourthPolePositionEnumValue" is_private="false" is_enabled="true" type="custTypevarFourthPolePositionEnumValue" uuid="5745e6dd-60da-44a9-93eb-2e7e885718af" is_read_only="false">
+          <property_values>
+            <property_value name="Show" property_uuid="a1541b83-9d64-4b11-865e-e18bebfbae90">true</property_value>
+          </property_values>
+          <language_translations>
+            <language_translation language="EN">Fourth pole location</language_translation>
+          </language_translations>
+        </variable>
+        <variable name="varOperatingMechanismEnumValue" is_private="false" is_enabled="true" type="custTypevarOperatingMechanismEnumValue" uuid="370f145d-c55c-45cd-bc5c-060c90e38c14" is_read_only="false">
+          <property_values>
+            <property_value name="Show" property_uuid="a1541b83-9d64-4b11-865e-e18bebfbae90">true</property_value>
+          </property_values>
+          <language_translations>
+            <language_translation language="EN">Placing of the mechanism</language_translation>
+          </language_translations>
+        </variable>
+        <variable name="varHandleType" is_private="false" is_enabled="true" type="custTypevarHandleType" uuid="1e77877f-b729-4370-a8de-34453403ebb9" is_read_only="false">
+          <property_values>
+            <property_value name="Show" property_uuid="a1541b83-9d64-4b11-865e-e18bebfbae90">true</property_value>
+          </property_values>
+          <language_translations>
+            <language_translation language="EN">Handle and shaft</language_translation>
+          </language_translations>
+        </variable>
+        <variable name="varProductMainType" is_private="false" is_enabled="true" type="custTypevarProductMainType" uuid="d04d827d-b615-44d8-b38a-a5ca0e9a63f7" is_read_only="false">
+          <property_values>
+            <property_value name="Show" property_uuid="a1541b83-9d64-4b11-865e-e18bebfbae90">true</property_value>
+          </property_values>
+          <language_translations>
+            <language_translation language="EN">Product range</language_translation>
+          </language_translations>
+        </variable>
+      </group>
+      <rules/>
+      <relations/>
+      <functions/>
+    </product_model_structure>
+    <variable_types>
+      <type name="DisplayForceablesAsType" uuid="3bd32656-48bc-4b7c-a18c-f47822af2d12" is_read_only="false">
+        <description> Type used by DisplayForceablesAs property. </description>
+        <type_values>
+          <type_value name="Hide" uuid="c95a2a68-44e6-483c-82ff-f1e7ec9794a6">
+            <property_values>
+              <property_value name="ImportTimestamp" property_uuid="45adc8c8-2253-4d8e-b501-1debd692c526">Thu Apr 14 17:39:36 2016</property_value>
+              <property_value name="IsImported" property_uuid="517175d4-a131-48d8-9476-1b48ea6849af">true</property_value>
+            </property_values>
+            <language_translations/>
+          </type_value>
+          <type_value name="Interleaved" uuid="98dd1140-70d6-40c6-a67d-b77b185c1ba6">
+            <property_values>
+              <property_value name="ImportTimestamp" property_uuid="45adc8c8-2253-4d8e-b501-1debd692c526">Thu Apr 14 17:39:36 2016</property_value>
+              <property_value name="IsImported" property_uuid="517175d4-a131-48d8-9476-1b48ea6849af">true</property_value>
+            </property_values>
+            <language_translations/>
+          </type_value>
+          <type_value name="Last" uuid="96d4de5f-b2e9-4e29-b682-8397685eb4bb">
+            <property_values>
+              <property_value name="ImportTimestamp" property_uuid="45adc8c8-2253-4d8e-b501-1debd692c526">Thu Apr 14 17:39:36 2016</property_value>
+              <property_value name="IsImported" property_uuid="517175d4-a131-48d8-9476-1b48ea6849af">true</property_value>
+            </property_values>
+            <language_translations/>
+          </type_value>
+        </type_values>
+      </type>
+      <type name="ShowAsType" uuid="6756d9bd-35ec-4cac-bc0d-3a66e9a40a0f" is_read_only="false">
+        <description> Type used by ShowAs property. </description>
+        <type_values>
+          <type_value name="Boolean" uuid="eac74589-331d-4276-bdc7-aec8662a2050">
+            <property_values>
+              <property_value name="ImportTimestamp" property_uuid="45adc8c8-2253-4d8e-b501-1debd692c526">Thu Apr 14 17:39:36 2016</property_value>
+              <property_value name="IsImported" property_uuid="517175d4-a131-48d8-9476-1b48ea6849af">true</property_value>
+            </property_values>
+            <language_translations/>
+          </type_value>
+          <type_value name="Calculated" uuid="de0cd2f2-0bce-4741-864c-cfd3c6b792de">
+            <property_values>
+              <property_value name="ImportTimestamp" property_uuid="45adc8c8-2253-4d8e-b501-1debd692c526">Thu Apr 14 17:39:36 2016</property_value>
+              <property_value name="IsImported" property_uuid="517175d4-a131-48d8-9476-1b48ea6849af">true</property_value>
+            </property_values>
+            <language_translations/>
+          </type_value>
+          <type_value name="Date" uuid="9d45d3fc-fd9f-4642-b2be-d6988764a68b">
+            <property_values>
+              <property_value name="ImportTimestamp" property_uuid="45adc8c8-2253-4d8e-b501-1debd692c526">Thu Apr 14 17:39:36 2016</property_value>
+              <property_value name="IsImported" property_uuid="517175d4-a131-48d8-9476-1b48ea6849af">true</property_value>
+            </property_values>
+            <language_translations/>
+          </type_value>
+          <type_value name="DropDown" uuid="2da51e70-d48d-4240-812a-9257248dbc83">
+            <property_values>
+              <property_value name="ImportTimestamp" property_uuid="45adc8c8-2253-4d8e-b501-1debd692c526">Thu Apr 14 17:39:36 2016</property_value>
+              <property_value name="IsImported" property_uuid="517175d4-a131-48d8-9476-1b48ea6849af">true</property_value>
+            </property_values>
+            <language_translations/>
+          </type_value>
+          <type_value name="InputField" uuid="c1579664-ed39-4d50-85b9-7defebf48239">
+            <property_values>
+              <property_value name="ImportTimestamp" property_uuid="45adc8c8-2253-4d8e-b501-1debd692c526">Thu Apr 14 17:39:36 2016</property_value>
+              <property_value name="IsImported" property_uuid="517175d4-a131-48d8-9476-1b48ea6849af">true</property_value>
+            </property_values>
+            <language_translations/>
+          </type_value>
+          <type_value name="RadioButton" uuid="d40b46a6-45e6-48fa-adcd-9ff8722901fb">
+            <property_values>
+              <property_value name="ImportTimestamp" property_uuid="45adc8c8-2253-4d8e-b501-1debd692c526">Thu Apr 14 17:39:36 2016</property_value>
+              <property_value name="IsImported" property_uuid="517175d4-a131-48d8-9476-1b48ea6849af">true</property_value>
+            </property_values>
+            <language_translations/>
+          </type_value>
+          <type_value name="TextArea" uuid="65c23e22-e4ec-4c64-a5b4-c46ed6dfc729">
+            <property_values>
+              <property_value name="ImportTimestamp" property_uuid="45adc8c8-2253-4d8e-b501-1debd692c526">Thu Apr 14 17:39:36 2016</property_value>
+              <property_value name="IsImported" property_uuid="517175d4-a131-48d8-9476-1b48ea6849af">true</property_value>
+            </property_values>
+            <language_translations/>
+          </type_value>
+        </type_values>
+      </type>
+      <type name="Variant_Type" uuid="e5f7132d-f4f3-4738-bb55-80d022f9c79f" is_read_only="false">
+        <type_values>
+          <type_value name="1SCA115708R1001" uuid="ddea12c9-dbaf-47fa-b0c8-715b7a24f23b">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">1SCA115708R1001</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="1SCA115805R1001" uuid="b2e46d2a-9212-48a6-a8f1-f06049bc4986">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">1SCA115805R1001</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="1SCA115810R1001" uuid="9c3d75f0-e747-4503-8508-9031fd7986b3">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">1SCA115810R1001</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="1SCA115815R1001" uuid="504a7f21-1d3f-4b63-bac5-0ee46823277d">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">1SCA115815R1001</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="1SCA115822R1001" uuid="3b120d50-3039-4dd9-94b5-f16edbe63341">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">1SCA115822R1001</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="1SCA115827R1001" uuid="9632e898-2f81-4547-ba1b-5861580e7d74">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">1SCA115827R1001</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="1SCA115835R1001" uuid="e1d707cf-27ba-4b50-b105-11507e044b4c">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">1SCA115835R1001</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="1SCA115840R1001" uuid="5572aba5-98d4-4fcf-9a41-d8db94a791c3">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">1SCA115840R1001</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="1SCA115843R1001" uuid="de157236-8f20-44a3-8844-4e3ed12d9256">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">1SCA115843R1001</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="1SCA118451R1001" uuid="fd937eda-7673-4f83-9c52-c1fe56086077">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">1SCA118451R1001</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="1SCA118452R1001" uuid="10c6caca-e3f5-4c82-95c6-5ba972484771">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">1SCA118452R1001</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="1SCA118453R1001" uuid="b7dcd290-94da-49e8-b82e-8ee5b3defb11">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">1SCA118453R1001</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="1SCA118454R1001" uuid="7cdd269a-6cae-4e0f-8b63-d6ad597244fd">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">1SCA118454R1001</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="1SCA118455R1001" uuid="a161bd9d-55fc-416d-94a4-deae8b741a4c">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">1SCA118455R1001</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="1SCA118456R1001" uuid="6f53eb21-f95a-4503-b2b2-fb7c958f9172">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">1SCA118456R1001</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="1SCA118457R1001" uuid="e8a01f90-68f0-4ee7-8c4b-74facecc6bb4">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">1SCA118457R1001</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="1SCA118458R1001" uuid="6cea2117-9b99-4350-a60c-4e85a6e9b914">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">1SCA118458R1001</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="1SCA118459R1001" uuid="bb86157d-9386-4645-b5d3-478254efd7cd">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">1SCA118459R1001</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="1SCA118460R1001" uuid="7c574ba0-1175-4e55-bc24-b18094d4031c">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">1SCA118460R1001</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="1SCA118937R1001" uuid="9db5cff7-39ee-48b4-b5ff-84785fc7593e">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">1SCA118937R1001</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="1SCA118939R1001" uuid="a7418953-99ee-449c-97ee-789563c63d83">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">1SCA118939R1001</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="1SCA118940R1001" uuid="26c710b7-687e-417d-8f41-6ecc09b26fa0">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">1SCA118940R1001</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="1SCA118941R1001" uuid="eddf9f84-438c-4a63-b21e-f4a14e3dd5c7">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">1SCA118941R1001</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="1SCA118942R1001" uuid="f0dc90af-6f83-4c01-ab23-40a3d5ffab31">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">1SCA118942R1001</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="1SCA118943R1001" uuid="ce3157dd-7267-47f8-aa97-eff8e13030e2">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">1SCA118943R1001</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="1SCA118944R1001" uuid="de4bf7c6-9888-41c8-9e7f-64a1bbb387ae">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">1SCA118944R1001</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="1SCA118945R1001" uuid="ee3489a5-1340-48dd-9641-2587e33f5101">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">1SCA118945R1001</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="1SCA118946R1001" uuid="d167b39d-07f5-47be-8717-84f8f840e9ce">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">1SCA118946R1001</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="1SCA118947R1001" uuid="862697ec-4c60-474e-aa54-5bfc64e9758e">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">1SCA118947R1001</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="1SCA118948R1001" uuid="b8d522a4-e31b-479f-b3d4-388485a83120">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">1SCA118948R1001</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="1SCA118949R1001" uuid="2c4d4b66-5d8e-4460-9dc4-3904ba251c34">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">1SCA118949R1001</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="1SCA118950R1001" uuid="583601fe-2c8f-470b-a125-d8822ce3f44b">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">1SCA118950R1001</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="1SCA119004R1001" uuid="28897f3a-b92b-4100-9cf4-b25cd523e80e">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">1SCA119004R1001</language_translation>
+            </language_translations>
+          </type_value>
+        </type_values>
+      </type>
+      <type name="custTypevarRatShoTimWitCurValue" uuid="ec7015f3-74b2-4777-9932-6229835fa788" is_read_only="false">
+        <type_values>
+          <type_value name="50" uuid="bc13012d-e3b1-43d5-af79-16d64e3ccf3b">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">50 kA</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="55" uuid="8e0b6265-2b54-4708-862a-c2682b65cf91">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">55 kA</language_translation>
+            </language_translations>
+          </type_value>
+        </type_values>
+      </type>
+      <type name="custTypevarRatShoCirMakCapValue" uuid="e9d6b842-5e96-4cdf-b289-72b2fa5c8027" is_read_only="false">
+        <type_values>
+          <type_value name="92" uuid="11f09c0e-6554-417d-aab1-4c3942437f77">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">92 kA</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="110" uuid="4fe272c2-003f-4f3a-b30e-59cff1376963">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">110 kA</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="176" uuid="ab7a69fc-fdde-49d6-9427-5804ce102cbe">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">176 kA</language_translation>
+            </language_translations>
+          </type_value>
+        </type_values>
+      </type>
+      <type name="custTypevarNumberOfPoles" uuid="ca4e00b5-e23c-4107-9de9-7d7b716a4ab6" is_read_only="false">
+        <type_values>
+          <type_value name="3" uuid="344c2a2a-1463-4b4a-98da-6f7a4becd192">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">3</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="4" uuid="4c6ff158-8e2d-4e8c-a2a3-c3be6d26bc85">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">4</language_translation>
+            </language_translations>
+          </type_value>
+        </type_values>
+      </type>
+      <type name="custTypevarDisBetPha" uuid="4d872b66-890d-419a-852c-fdc6fe935282" is_read_only="false">
+        <type_values>
+          <type_value name="140" uuid="e3426325-b3db-4460-b829-6bb0fd19210c">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">140 mm</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="185" uuid="84990a82-32bd-41cf-8e1a-0e8f720bd313">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">185 mm</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="Standard" uuid="ae3a9aa9-fe25-4b7e-bbe0-89bdd4ee9351">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">Standard</language_translation>
+            </language_translations>
+          </type_value>
+        </type_values>
+      </type>
+      <type name="custTypevarMountingType" uuid="fd620c23-edee-4f45-8b4a-01792ec2b9fb" is_read_only="false">
+        <type_values>
+          <type_value name="Base mounting" uuid="e95d2249-e62f-455c-9409-53cbfe0ca094">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">Base mounting</language_translation>
+            </language_translations>
+          </type_value>
+        </type_values>
+      </type>
+      <type name="custTypevarFourthPoleTypeEnumValue" uuid="abd05c0d-f517-4f89-9e82-c84d42de5b5e" is_read_only="false">
+        <type_values>
+          <type_value name="Switched - Simultaneous Function" uuid="42fdde71-2985-46ff-82b9-30523f67c2e8">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">Switched - Simultaneous Function</language_translation>
+            </language_translations>
+          </type_value>
+        </type_values>
+      </type>
+      <type name="custTypevarFourthPolePositionEnumValue" uuid="d15b52f2-f1b8-4dfe-8f79-9626fb9fe218" is_read_only="false">
+        <type_values>
+          <type_value name="Right Side" uuid="4d101b2e-a218-40f8-90c9-7f1d1f43ec3c">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">Right Side</language_translation>
+            </language_translations>
+          </type_value>
+        </type_values>
+      </type>
+      <type name="custTypevarOperatingMechanismEnumValue" uuid="9b39718b-2668-4cf6-a0b8-787e3ff92174" is_read_only="false">
+        <type_values>
+          <type_value name="03 (Left Side)" uuid="0607eeb5-cb31-4f0c-b2b6-76989ee2d23f">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">03 (Left Side)</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="03 (Left Side) Mechanism turned 90 degrees" uuid="9a2bede4-1406-4cfa-9117-4f0ce5c89f4f">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">03 (Left Side) Mechanism turned 90 degrees</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="04 (Left Side)" uuid="b25f3372-7975-450e-adad-c6503d4d15f0">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">04 (Left Side)</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="04 (Left Side) Mechanism turned 90 degrees" uuid="104df5d5-85b0-419c-9dc2-6f6916a3535e">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">04 (Left Side) Mechanism turned 90 degrees</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="Not applicable" uuid="2ee2226a-641b-4a03-8fde-62c92d782939">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">Not applicable</language_translation>
+            </language_translations>
+          </type_value>
+        </type_values>
+      </type>
+      <type name="custTypevarHandleType" uuid="ecda71ef-dc89-405a-b331-f7cb55602473" is_read_only="false">
+        <type_values>
+          <type_value name="Handle and shaft included" uuid="93496398-2c26-4710-bf8b-a2fbff77db27">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">Handle and shaft included</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="Handle and shaft not included" uuid="f285d390-8f62-4cba-9b7b-dae89134142a">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">Handle and shaft not included</language_translation>
+            </language_translations>
+          </type_value>
+        </type_values>
+      </type>
+      <type name="custTypevarProductMainType" uuid="e5293bd0-c916-48a7-9a4d-c3cec6034c7a" is_read_only="false">
+        <type_values>
+          <type_value name="OT1000" uuid="1611485e-620a-4cda-9605-f3767a8a8672">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">OT1000</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="OT1250" uuid="74bfafdd-bc75-41f2-bb9a-9f8096b1f88d">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">OT1250</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="OT1600" uuid="c44c200a-b038-42b9-948a-54522fa913f3">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">OT1600</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="OT2000" uuid="be1834e1-5430-4955-b3b1-facbb89db02f">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">OT2000</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="OT2500" uuid="feabf799-5d90-473e-9107-a833ebd96fb4">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">OT2500</language_translation>
+            </language_translations>
+          </type_value>
+        </type_values>
+      </type>
+    </variable_types>
+    <property_groups>
+      <property_group group="product_model">
+        <properties>
+          <property name="MultiLanguageProperties" type="String" export_property="true" uuid="2d3a75c5-dee9-43b1-8b3f-bff0c6190a5e" is_read_only="false">
+            <description>Define a comma-seperated list of properties that are translatable. The properties are translatable on Groups, Variables and values. The format of the property on each element should be Propertyname_Languagename (E.g. Info_UK).</description>
+          </property>
+          <property name="BOMGroupName" type="String" export_property="true" uuid="dfb2a5e2-0663-4228-94b0-f7428fe68821" is_read_only="false">
+            <description>Define which group in the product model, that contains the Sales BOM</description>
+          </property>
+          <property name="AutoApplyDefaults" type="Boolean" export_property="true" uuid="37e698ad-54dc-491d-8752-77d0e53e7616" is_read_only="false">
+            <description>If set to false, the runtime will not apply default values automatically. If set to true or not specified, the runtime will apply all default values that are fully specified (i.e., are either constant or depend on variables which have an assigned value - either user, system or default).</description>
+          </property>
+        </properties>
+      </property_group>
+      <property_group group="groups">
+        <properties>
+          <property name="Name" type="String" export_property="true" uuid="76016d94-012f-4e15-ab6e-b0e853a2709d" is_read_only="false" builtin="true">
+            <description>The name of the group. Group names must start with a letter or an underscore (_), followed by letters, digits or underscores.</description>
+          </property>
+          <property name="Description" type="String" export_property="true" uuid="e01a3cfe-7abe-484d-894d-5c6d3cdc7ba5" is_read_only="false" builtin="true">
+            <description>Description of group. Used for internal documentation of the model.</description>
+          </property>
+          <property name="FullyQualifiedName" type="String" export_property="true" uuid="1cbc8927-41af-47c8-9404-8aeaf74fb928" is_read_only="false" builtin="true">
+            <description>The Fully Qualified Name of the group.</description>
+          </property>
+          <property name="Private" type="Boolean" export_property="true" uuid="ff9277d7-0dbe-4913-96e2-18a759617440" is_read_only="false" builtin="true">
+            <description>When a group is private, all variables in the group and all sub-groups are private. Thus, the content of a private group is not included in the VT file, but any rules that bind variables inside and outside the group remain in effect.</description>
+          </property>
+          <property name="Show" type="Boolean" export_property="true" uuid="b4fcc9f3-eb11-4265-83c2-dabb09daed4b" is_read_only="false">
+            <description>When the Show property is false, the group and all sub-groups and variables in these groups are hidden in the configurator.</description>
+          </property>
+          <property name="Info" type="String" export_property="true" uuid="33a15105-e4cc-4eba-9472-acb354e9996a" is_read_only="false">
+            <description>This property is used to provide additional textural information about the group.</description>
+          </property>
+          <property name="Image" type="String" export_property="true" uuid="c07a145b-4283-4823-8dc6-3644a99b9ea0" is_read_only="false">
+            <description>This property is used to specify a picture that should be associated with the group.</description>
+          </property>
+        </properties>
+      </property_group>
+      <property_group group="variables">
+        <properties>
+          <property name="Name" type="String" export_property="true" uuid="8aec5e8c-415a-4d66-bea6-bbb05a8cd49f" is_read_only="false" builtin="true">
+            <description>The name of the variable. Variable names must start with a letter or an underscore (_), followed by letters, digits or underscores.</description>
+          </property>
+          <property name="Description" type="String" export_property="true" uuid="c1753651-f6d5-4045-a0ec-b41d6e776e46" is_read_only="false" builtin="true">
+            <description>Description of variable. Used for internal documentation of the model.</description>
+          </property>
+          <property name="FullyQualifiedName" type="String" export_property="true" uuid="fc300f70-6cbf-45ae-9865-098c357e5617" is_read_only="false" builtin="true">
+            <description>The Fully Qualified Name of the variable.</description>
+          </property>
+          <property name="Private" type="Boolean" export_property="true" uuid="026374a8-08a0-4d60-932e-fdd18698c160" is_read_only="false" builtin="true">
+            <description>A private variable is not included in the VT file, but it can still be used in rules. Making the variable private will make the VT file smaller.</description>
+          </property>
+          <property name="Bound" type="Integer" export_property="true" uuid="c09b51e2-c3e1-4b5e-84c6-3809181848af" is_read_only="false" builtin="true">
+            <description>The upper bound for variables of type Range. The value of range variables must be in the interval from 0 to the number given by this property.</description>
+          </property>
+          <property name="Show" type="Boolean" export_property="true" uuid="a1541b83-9d64-4b11-865e-e18bebfbae90" is_read_only="false">
+            <description>When the Show property is false, the variable is hidden in the configurator.</description>
+          </property>
+          <property name="DisplayForceablesAs" type="DisplayForceablesAsType" export_property="true" uuid="4e0164b8-6508-4576-80a7-d23364910f76" is_read_only="false">
+            <description>Controls how Forceable values are shown in the web UI. Interleaved indicates that forceable values are shown between assignable values, where Hide indicates that forceable values are hidden.</description>
+          </property>
+          <property name="ReadOnly" type="Boolean" export_property="true" uuid="c7d9981c-faa9-4521-b714-6f201ee52520" is_read_only="false">
+            <description>Used to make controls for variables readonly runtime web control.</description>
+          </property>
+          <property name="ShowAs" type="ShowAsType" export_property="true" uuid="b25962a2-2b56-4382-87ac-4ce90c316287" is_read_only="false">
+            <description>The property controls how the variable is shown in the configurator. Not all values are applicable for all types of variables. For example, a Boolean value for the property only applies to Boolean variables (which may also be shown as ReadOnly or DropDown).</description>
+          </property>
+          <property name="CalculatedValue" type="Implied" export_property="true" uuid="c106613d-4be1-4086-88d6-ecf49cf3b7b5" is_read_only="false">
+            <description>When the ShowAs property is &apos;Calculated&apos;, this property is used to determine the value that should shown for the variable. This mechanism is used to make it possible to have variables in the model that are calculated/derived, rather than being controlled by rules and relations.</description>
+          </property>
+          <property name="Format" type="String" export_property="true" uuid="7c7068da-50ae-4ffa-8efa-863c26b487ca" is_read_only="false">
+            <description>The property controls how to format the values of the variable. Only useful for float and integer variables.</description>
+          </property>
+          <property name="Unit" type="String" export_property="true" uuid="ea98ba80-14a9-496b-b484-a0b84d2fae3a" is_read_only="false">
+            <description>The unit property can be used to specify a unit for the variable. e.g. cm for a Height variable</description>
+          </property>
+          <property name="DefaultValue" type="Implied" export_property="true" uuid="7c7a3536-ea87-4b9d-bb89-5e23f63531b0" is_read_only="false">
+            <description>The DefaultValue property is used to set a default value for a variable.</description>
+          </property>
+          <property name="Info" type="String" export_property="true" uuid="4971d14d-3bbd-4b89-9c5b-883e1fc68b99" is_read_only="false">
+            <description>This property is used to provide additional textural information about the variable.</description>
+          </property>
+          <property name="Image" type="String" export_property="true" uuid="166dc63f-170b-4aa9-b0d1-f52107210c8c" is_read_only="false">
+            <description>This property is used to specify a picture that should be associated with the variable.</description>
+          </property>
+          <property name="Required" type="Boolean" export_property="true" uuid="8eac0866-03d2-445e-939e-f85d3874b53c" is_read_only="false">
+            <description>If the variable has the Required property set to true, the variable must have a value before the configuration is considered complete and for example a quote can be generated.</description>
+          </property>
+          <property name="ConstValue" type="Implied" export_property="true" uuid="c40c489b-4ab5-4ad3-b4ee-dab741a0c8e5" is_read_only="false">
+            <description>The Product Modeler automatically generates a rule &apos;var = value&apos; if this property is set to value on a given variable.</description>
+          </property>
+          <property name="MinValue" type="Implied" export_property="true" uuid="e2f2c8a7-9751-4ce2-a6e2-d339166ac79a" is_read_only="false">
+            <description>The Product Modeler automatically generates a rule &apos;value &lt;= var&apos; if this property is set to value on a given variable.</description>
+          </property>
+          <property name="MaxValue" type="Implied" export_property="true" uuid="761e6efb-ba47-456e-8ab4-2a7bfad0b60a" is_read_only="false">
+            <description>The Product Modeler automatically generates a rule &apos;var &lt;= value if this property is set to value on a given variable.</description>
+          </property>
+          <property name="Valid" type="Boolean" export_property="true" uuid="3bc3a738-ec77-40c7-8941-42ae53fc6c9f" is_read_only="false">
+            <description>If the Valid property is false, the configuration is invalid. Used to express rules using functions.</description>
+          </property>
+          <property name="ValidMessage" type="String" export_property="true" uuid="86c58350-b003-40d6-9241-ad48b20694f4" is_read_only="false">
+            <description>If the Valid property is false, this property should contain explanain the reason.</description>
+          </property>
+          <property name="Hint" type="String" export_property="true" uuid="6ed87189-44ae-4e10-a1fa-68960ad9f208" is_read_only="false">
+            <description>Gives the possibility to change and overwrite the Hint text, shown in a small box next to textboxes in the Product Configurator</description>
+          </property>
+        </properties>
+      </property_group>
+      <property_group group="values">
+        <properties>
+          <property name="Name" type="String" export_property="true" uuid="74984ab8-e68d-4ef5-b1fe-0dac06c0b75b" is_read_only="false" builtin="true">
+            <description>The enum value. Enumeration values can be any string. The only restrictions is that they have to be unique within the type.</description>
+          </property>
+          <property name="Description" type="String" export_property="true" uuid="ef0bf041-3085-4ea2-b7c8-6f35c0a8ae89" is_read_only="false" builtin="true">
+            <description>Description of value. Used for internal documentation of the model.</description>
+          </property>
+          <property name="FullyQualifiedName" type="String" export_property="true" uuid="07da4297-c755-48f8-a824-f59845d591be" is_read_only="false" builtin="true">
+            <description>The Fully Qualified Name of the Value.</description>
+          </property>
+          <property name="IsImported" type="Boolean" export_property="false" uuid="517175d4-a131-48d8-9476-1b48ea6849af" is_read_only="false">
+            <description>Used by the tool &apos;dbimport&apos; to determine whether a value, variable or group is defined by dbimport itself or by a person. If imported by a person (that is, IsImported is false), the dbimport tool will not touch the element</description>
+          </property>
+          <property name="ImportTimestamp" type="String" export_property="false" uuid="45adc8c8-2253-4d8e-b501-1debd692c526" is_read_only="false">
+            <description>Used by the tool &apos;dbimport&apos; to indicate when the value, variable or group was defined by the import process</description>
+          </property>
+          <property name="Info" type="String" export_property="true" uuid="c4b2e8b1-a9e6-48b9-823c-4acee491b788" is_read_only="false">
+            <description>This property is used to provide additional textural information about the value.</description>
+          </property>
+          <property name="Image" type="String" export_property="true" uuid="869189a4-ff0a-48b1-9ca6-80001809cf76" is_read_only="false">
+            <description>This property is used to specify a picture that should be associated with the value.</description>
+          </property>
+          <property name="EffectiveFrom" type="DateTime" export_property="true" uuid="a2570e56-fab3-4ac4-94d7-d74db525757d" is_read_only="false">
+            <description>Specify the time from which the value is in effect</description>
+          </property>
+          <property name="EffectiveTo" type="DateTime" export_property="true" uuid="78a61b39-885e-4c8f-9393-f9ff65891c41" is_read_only="false">
+            <description>Specify the time until which the value is in effect</description>
+          </property>
+        </properties>
+      </property_group>
+      <property_group group="rules">
+        <properties>
+          <property name="EffectiveFrom" type="DateTime" export_property="true" uuid="0f5fbfe5-9599-4436-8a85-e012d2e9f151" is_read_only="false">
+            <description>Specify the time from which the rule is in effect</description>
+          </property>
+          <property name="EffectiveTo" type="DateTime" export_property="true" uuid="478d8b02-229e-492e-8d4e-3294ca5d110b" is_read_only="false">
+            <description>Specify the time until which the rule is in effect</description>
+          </property>
+        </properties>
+      </property_group>
+      <property_group group="relations">
+        <properties>
+          <property name="EffectiveFrom" type="DateTime" export_property="true" uuid="822731ff-d7d0-4908-8d03-bb2741c84901" is_read_only="false">
+            <description>Specify the time from which the relation is in effect</description>
+          </property>
+          <property name="EffectiveTo" type="DateTime" export_property="true" uuid="9b068df7-4bb8-47da-8ebc-d85b9fe5ba97" is_read_only="false">
+            <description>Specify the time until which the relation is in effect</description>
+          </property>
+        </properties>
+      </property_group>
+      <property_group group="functions">
+        <properties/>
+      </property_group>
+    </property_groups>
+    <variable_orders/>
+    <languages>
+      <language name="EN" is_default_language="false">
+        <system_translations>
+          <translation key="New">New..</translation>
+          <translation key="AltNew">Open new vt file</translation>
+          <translation key="Save">Save</translation>
+          <translation key="AltSave">Save Configuration</translation>
+          <translation key="Load">Load..</translation>
+          <translation key="AltLoad">Load a configuration</translation>
+          <translation key="Reset">Reset</translation>
+          <translation key="AltReset">Reset configuration</translation>
+          <translation key="Print">Print</translation>
+          <translation key="AltPrint">Print configuration</translation>
+          <translation key="Complete">Complete</translation>
+          <translation key="Solutions">Solutions</translation>
+          <translation key="Language">Language</translation>
+          <translation key="ChangeLanguage">Change Language</translation>
+          <translation key="SalesBom">Price</translation>
+          <translation key="TotalPrice">Total price</translation>
+          <translation key="SelectHint">Click to select</translation>
+          <translation key="DeselectHint">Click to deselect</translation>
+          <translation key="ForceHint">Click to force select</translation>
+          <translation key="ForceDeselectHint">Click to force deselect</translation>
+          <translation key="CannotSelectHint">Cannot be selected</translation>
+          <translation key="CannotDeselectHint">Cannot be deselected</translation>
+          <translation key="IntStartInterval">[</translation>
+          <translation key="IntEndInterval">]</translation>
+          <translation key="IntIntervalSeparator">;</translation>
+          <translation key="FloatStartInterval">]</translation>
+          <translation key="FloatEndInterval">[</translation>
+          <translation key="FloatIntervalSeparator">;</translation>
+          <translation key="PosInf">Infinity[</translation>
+          <translation key="NegInf">]-Infinity</translation>
+          <translation key="NAN">NaN</translation>
+          <translation key="True">True</translation>
+          <translation key="False">False</translation>
+          <translation key="ConflictForceMsg">If you choose $0 the following choices are invalid&#xA;&#xA;$1&#xA;&#xA;Remove invalid choices?</translation>
+          <translation key="ConflictBlockedMsg">$0 is not a valid choice</translation>
+          <translation key="ConflictOK">Yes</translation>
+          <translation key="ConflictCancel">No</translation>
+          <translation key="ConflictHeader">Conflict</translation>
+          <translation key="InvalidOK">OK</translation>
+          <translation key="InvalidHeader">Configuration status</translation>
+          <translation key="InvalidMsg">The configuration is invalid&#xA;&#xA; $0&#xA;      </translation>
+          <translation key="ValidMsg">The configuration is valid</translation>
+          <translation key="InputFieldError">&apos;$0&apos; is not a valid choice, legal values are $1</translation>
+          <translation key="IntAllValues">any integer value</translation>
+          <translation key="FloatAllValues">any floating point value</translation>
+          <translation key="StringOtherValues">all values</translation>
+          <translation key="StringOtherValuesExcept">all values except</translation>
+          <translation key="LegalValueHint">Legal values are $0</translation>
+          <translation key="ApplyDefaultValues">Apply default values</translation>
+          <translation key="AltApplyDefaultValues">Apply default values</translation>
+          <translation key="ApplyDefaultValue">Apply default value $0 to $1</translation>
+          <translation key="LoadVTFile">Load new VT file</translation>
+        </system_translations>
+        <custom_translations/>
+      </language>
+    </languages>
+  </product_model>
+</workspace>
