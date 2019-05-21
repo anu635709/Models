@@ -1,0 +1,1512 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- DOCTYPE workspace SYSTEM "modeler.dtd" -->
+<workspace version="59">
+  <product_model name="DRAF" uuid="c3a3c69f-bdc8-4856-8516-c80af88b320b">
+    <compile_options>
+      <property_values>
+        <property_value name="cache_size">100</property_value>
+        <property_value name="dynamic_vt">false</property_value>
+        <property_value name="exp_static">true</property_value>
+        <property_value name="no_warnings">false</property_value>
+        <property_value name="preserve_memory">false</property_value>
+        <property_value name="sort_rules">3</property_value>
+        <property_value name="static_vt">true</property_value>
+        <property_value name="support_pct">60</property_value>
+        <property_value name="table_size">100</property_value>
+        <property_value name="timeout">-1</property_value>
+        <property_value name="tob_cache_size">100</property_value>
+        <property_value name="tob_daog_preprocessor">true</property_value>
+        <property_value name="tob_preserve_memory">false</property_value>
+        <property_value name="tob_split">true</property_value>
+        <property_value name="tob_table_size">100</property_value>
+        <property_value name="tob_varorder">-1</property_value>
+        <property_value name="varorder">-1</property_value>
+        <property_value name="verbose_level">false</property_value>
+      </property_values>
+    </compile_options>
+    <property_values/>
+    <product_model_structure>
+      <variable name="EffectivityDate" is_private="false" is_enabled="false" type="DateTime" uuid="ed405e17-7f33-4761-8951-4a1694503808" is_read_only="false">
+        <property_values>
+          <property_value name="IsBomItem" property_uuid="88750f50-298c-43b8-82e2-37ff4ecaf9a8">false</property_value>
+        </property_values>
+        <language_translations/>
+      </variable>
+      <group name="Selector" is_private="false" is_enabled="true" uuid="a3fe6ad5-39b9-45bc-bc4b-535dc7e2d0a6" is_read_only="false">
+        <property_values/>
+        <rules/>
+        <relations>
+          <relation name="Variants" is_enabled="true" uuid="417557d2-9d46-451e-96d6-bcfea443ee4d" is_read_only="false">
+            <description>relSelector</description>
+            <relation_columns>
+              <relation_column variable_uuid="f1bed4b6-9fe2-4cec-86b3-3de82f4550ca" variable_name="Selector.Variant"/>
+              <relation_column variable_uuid="0ca27eab-1f77-470f-9a33-24bd27f6bcc3" variable_name="Selector.varProductMainType_DRAF"/>
+              <relation_column variable_uuid="974b4499-37e1-42db-8959-33108f3dbf10" variable_name="Selector.varRatConCirVol_AC_DRAF"/>
+              <relation_column variable_uuid="d12496e8-f7cb-4c86-a522-6ca8059ba838" variable_name="Selector.varRatConCirVol_DC_DRAF"/>
+              <relation_column variable_uuid="0c1315d4-c0e9-422c-a44c-6dbf471ca5d0" variable_name="Selector.varControlSupplyWiring_DRAF"/>
+              <relation_column variable_uuid="e1f7bc23-c0b8-4b63-89f3-4b59e9711ee4" variable_name="Selector.varTerminalType_DRAF"/>
+            </relation_columns>
+            <relation_values>
+              <relation_row>
+                <relation_value>{V,&quot;d565e106-2058-4603-af8a-ec24070e8572&quot;,&quot;1SBK134237R1100&quot;}</relation_value>
+                <relation_value>{V,&quot;e756c5e3-9d88-48af-b5ad-eae02525d864&quot;,&quot;AF09&quot;}</relation_value>
+                <relation_value>{V,&quot;041cef37-9761-4a7c-b706-685b4d61b40b&quot;,&quot;24...60V&quot;}</relation_value>
+                <relation_value>{V,&quot;1a8ff6a2-1027-46f6-ab5e-4e39844cd4fa&quot;,&quot;24...60V&quot;}</relation_value>
+                <relation_value>{V,&quot;1f6e5960-438a-4329-940b-517e13ccaffd&quot;,&quot;Separatesupply&quot;}</relation_value>
+                <relation_value>{V,&quot;ccfa6c80-b17d-48ba-b251-203dc28a2b5c&quot;,&quot;Screwterminals&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;d27313d9-f9fc-4070-ad98-9ae6ca3561ed&quot;,&quot;1SBK134137R1300&quot;}</relation_value>
+                <relation_value>{V,&quot;e756c5e3-9d88-48af-b5ad-eae02525d864&quot;,&quot;AF09&quot;}</relation_value>
+                <relation_value>{V,&quot;6c087dd9-689c-4379-b36f-0f980a2dfb0d&quot;,&quot;100...250V&quot;}</relation_value>
+                <relation_value>{V,&quot;617f9c05-4194-4bcd-ae89-dd69fdaedd50&quot;,&quot;Not applicable&quot;}</relation_value>
+                <relation_value>{V,&quot;f45b9b31-c3d7-4fc2-ab48-01b7ae2445a7&quot;,&quot;Phasetoneutral&quot;}</relation_value>
+                <relation_value>{V,&quot;ccfa6c80-b17d-48ba-b251-203dc28a2b5c&quot;,&quot;Screwterminals&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;8f40e49f-0b34-456f-8b8b-48751b6232b5&quot;,&quot;1SBK134037R1400&quot;}</relation_value>
+                <relation_value>{V,&quot;e756c5e3-9d88-48af-b5ad-eae02525d864&quot;,&quot;AF09&quot;}</relation_value>
+                <relation_value>{V,&quot;4b24dd1f-bc57-407b-9c5b-09b255a1da75&quot;,&quot;250...500V&quot;}</relation_value>
+                <relation_value>{V,&quot;617f9c05-4194-4bcd-ae89-dd69fdaedd50&quot;,&quot;Not applicable&quot;}</relation_value>
+                <relation_value>{V,&quot;9ff31139-d519-4eea-8cb1-bce58f4076f6&quot;,&quot;Phasetophase&quot;}</relation_value>
+                <relation_value>{V,&quot;ccfa6c80-b17d-48ba-b251-203dc28a2b5c&quot;,&quot;Screwterminals&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;65cbd873-030f-46c7-a4ae-e6c5bddb14c0&quot;,&quot;1SBK154237R1100&quot;}</relation_value>
+                <relation_value>{V,&quot;0d1ebe60-7e6d-4434-838e-0c813f7d104b&quot;,&quot;AF12&quot;}</relation_value>
+                <relation_value>{V,&quot;041cef37-9761-4a7c-b706-685b4d61b40b&quot;,&quot;24...60V&quot;}</relation_value>
+                <relation_value>{V,&quot;1a8ff6a2-1027-46f6-ab5e-4e39844cd4fa&quot;,&quot;24...60V&quot;}</relation_value>
+                <relation_value>{V,&quot;1f6e5960-438a-4329-940b-517e13ccaffd&quot;,&quot;Separatesupply&quot;}</relation_value>
+                <relation_value>{V,&quot;ccfa6c80-b17d-48ba-b251-203dc28a2b5c&quot;,&quot;Screwterminals&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;13ebc006-473b-4de4-ba5c-2f65eeb06829&quot;,&quot;1SBK154137R1300&quot;}</relation_value>
+                <relation_value>{V,&quot;0d1ebe60-7e6d-4434-838e-0c813f7d104b&quot;,&quot;AF12&quot;}</relation_value>
+                <relation_value>{V,&quot;6c087dd9-689c-4379-b36f-0f980a2dfb0d&quot;,&quot;100...250V&quot;}</relation_value>
+                <relation_value>{V,&quot;617f9c05-4194-4bcd-ae89-dd69fdaedd50&quot;,&quot;Not applicable&quot;}</relation_value>
+                <relation_value>{V,&quot;f45b9b31-c3d7-4fc2-ab48-01b7ae2445a7&quot;,&quot;Phasetoneutral&quot;}</relation_value>
+                <relation_value>{V,&quot;ccfa6c80-b17d-48ba-b251-203dc28a2b5c&quot;,&quot;Screwterminals&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;27a4ffaf-7fc9-4b59-8f9d-a8fd590c7dfe&quot;,&quot;1SBK154037R1400&quot;}</relation_value>
+                <relation_value>{V,&quot;0d1ebe60-7e6d-4434-838e-0c813f7d104b&quot;,&quot;AF12&quot;}</relation_value>
+                <relation_value>{V,&quot;4b24dd1f-bc57-407b-9c5b-09b255a1da75&quot;,&quot;250...500V&quot;}</relation_value>
+                <relation_value>{V,&quot;617f9c05-4194-4bcd-ae89-dd69fdaedd50&quot;,&quot;Not applicable&quot;}</relation_value>
+                <relation_value>{V,&quot;9ff31139-d519-4eea-8cb1-bce58f4076f6&quot;,&quot;Phasetophase&quot;}</relation_value>
+                <relation_value>{V,&quot;ccfa6c80-b17d-48ba-b251-203dc28a2b5c&quot;,&quot;Screwterminals&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;18194a83-41b6-4030-86d7-1dd94c01f858&quot;,&quot;1SBK174237R1100&quot;}</relation_value>
+                <relation_value>{V,&quot;6f5f00b0-5f10-4012-986a-268b91269d94&quot;,&quot;AF16&quot;}</relation_value>
+                <relation_value>{V,&quot;041cef37-9761-4a7c-b706-685b4d61b40b&quot;,&quot;24...60V&quot;}</relation_value>
+                <relation_value>{V,&quot;1a8ff6a2-1027-46f6-ab5e-4e39844cd4fa&quot;,&quot;24...60V&quot;}</relation_value>
+                <relation_value>{V,&quot;1f6e5960-438a-4329-940b-517e13ccaffd&quot;,&quot;Separatesupply&quot;}</relation_value>
+                <relation_value>{V,&quot;ccfa6c80-b17d-48ba-b251-203dc28a2b5c&quot;,&quot;Screwterminals&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;f69c41ff-2d93-49b5-a868-b57b85d6e682&quot;,&quot;1SBK174137R1300&quot;}</relation_value>
+                <relation_value>{V,&quot;6f5f00b0-5f10-4012-986a-268b91269d94&quot;,&quot;AF16&quot;}</relation_value>
+                <relation_value>{V,&quot;6c087dd9-689c-4379-b36f-0f980a2dfb0d&quot;,&quot;100...250V&quot;}</relation_value>
+                <relation_value>{V,&quot;617f9c05-4194-4bcd-ae89-dd69fdaedd50&quot;,&quot;Not applicable&quot;}</relation_value>
+                <relation_value>{V,&quot;f45b9b31-c3d7-4fc2-ab48-01b7ae2445a7&quot;,&quot;Phasetoneutral&quot;}</relation_value>
+                <relation_value>{V,&quot;ccfa6c80-b17d-48ba-b251-203dc28a2b5c&quot;,&quot;Screwterminals&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;ba5eef55-b167-4936-af87-fe774c45b053&quot;,&quot;1SBK174037R1400&quot;}</relation_value>
+                <relation_value>{V,&quot;6f5f00b0-5f10-4012-986a-268b91269d94&quot;,&quot;AF16&quot;}</relation_value>
+                <relation_value>{V,&quot;4b24dd1f-bc57-407b-9c5b-09b255a1da75&quot;,&quot;250...500V&quot;}</relation_value>
+                <relation_value>{V,&quot;617f9c05-4194-4bcd-ae89-dd69fdaedd50&quot;,&quot;Not applicable&quot;}</relation_value>
+                <relation_value>{V,&quot;9ff31139-d519-4eea-8cb1-bce58f4076f6&quot;,&quot;Phasetophase&quot;}</relation_value>
+                <relation_value>{V,&quot;ccfa6c80-b17d-48ba-b251-203dc28a2b5c&quot;,&quot;Screwterminals&quot;}</relation_value>
+              </relation_row>
+            </relation_values>
+          </relation>
+          <relation name="multiRel_vol_pow_DRAF" is_enabled="true" uuid="a932aa3f-52f1-47d0-92dd-d53b0cc3c1b4" is_read_only="false">
+            <description>multiRel_vol_pow_DRAF</description>
+            <relation_columns>
+              <relation_column variable_uuid="f1bed4b6-9fe2-4cec-86b3-3de82f4550ca" variable_name="Selector.Variant"/>
+              <relation_column variable_uuid="ed59268a-df0e-4786-9950-7dd603688558" variable_name="Selector.varRatOpePowAC3_Header_DRAF"/>
+              <relation_column variable_uuid="fa0fc3b4-a1db-4de7-baa9-9b3052416fb7" variable_name="Selector.varRateOpePowAc3_DRAF"/>
+            </relation_columns>
+            <relation_values>
+              <relation_row>
+                <relation_value>{V,&quot;d565e106-2058-4603-af8a-ec24070e8572&quot;,&quot;1SBK134237R1100&quot;}</relation_value>
+                <relation_value>{V,&quot;3a8df14c-0117-44e1-bc80-a4c36c93603c&quot;,&quot;220230240V&quot;}</relation_value>
+                <relation_value>{V,&quot;c58c7dee-42fc-4a74-8d80-f2b036b96677&quot;,&quot;2.2&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;d565e106-2058-4603-af8a-ec24070e8572&quot;,&quot;1SBK134237R1100&quot;}</relation_value>
+                <relation_value>{V,&quot;bc62ca4d-4132-4cec-b49e-c04e2fc9d8f8&quot;,&quot;380400V&quot;}</relation_value>
+                <relation_value>{V,&quot;93a2507d-3c34-45a6-901d-860d4a0baebf&quot;,&quot;4&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;d565e106-2058-4603-af8a-ec24070e8572&quot;,&quot;1SBK134237R1100&quot;}</relation_value>
+                <relation_value>{V,&quot;56537401-9bf9-4c62-b6b8-05c0753c2a04&quot;,&quot;400V&quot;}</relation_value>
+                <relation_value>{V,&quot;93a2507d-3c34-45a6-901d-860d4a0baebf&quot;,&quot;4&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;d565e106-2058-4603-af8a-ec24070e8572&quot;,&quot;1SBK134237R1100&quot;}</relation_value>
+                <relation_value>{V,&quot;37cc010f-0f6d-4a18-bc1d-f3c0f9e37966&quot;,&quot;415V&quot;}</relation_value>
+                <relation_value>{V,&quot;93a2507d-3c34-45a6-901d-860d4a0baebf&quot;,&quot;4&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;d565e106-2058-4603-af8a-ec24070e8572&quot;,&quot;1SBK134237R1100&quot;}</relation_value>
+                <relation_value>{V,&quot;57394c34-ba27-4631-a3f0-2cfa778e5bbd&quot;,&quot;440V&quot;}</relation_value>
+                <relation_value>{V,&quot;93a2507d-3c34-45a6-901d-860d4a0baebf&quot;,&quot;4&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;d565e106-2058-4603-af8a-ec24070e8572&quot;,&quot;1SBK134237R1100&quot;}</relation_value>
+                <relation_value>{V,&quot;5ce71b82-6952-4e58-8aae-aa1ccf9b57b2&quot;,&quot;500V&quot;}</relation_value>
+                <relation_value>{V,&quot;4411444d-fa67-458c-b806-b199172a0f70&quot;,&quot;5.5&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;d565e106-2058-4603-af8a-ec24070e8572&quot;,&quot;1SBK134237R1100&quot;}</relation_value>
+                <relation_value>{V,&quot;9fe863ea-b3c0-4a46-8915-d369105542d1&quot;,&quot;690V&quot;}</relation_value>
+                <relation_value>{V,&quot;4411444d-fa67-458c-b806-b199172a0f70&quot;,&quot;5.5&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;d27313d9-f9fc-4070-ad98-9ae6ca3561ed&quot;,&quot;1SBK134137R1300&quot;}</relation_value>
+                <relation_value>{V,&quot;3a8df14c-0117-44e1-bc80-a4c36c93603c&quot;,&quot;220230240V&quot;}</relation_value>
+                <relation_value>{V,&quot;c58c7dee-42fc-4a74-8d80-f2b036b96677&quot;,&quot;2.2&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;d27313d9-f9fc-4070-ad98-9ae6ca3561ed&quot;,&quot;1SBK134137R1300&quot;}</relation_value>
+                <relation_value>{V,&quot;bc62ca4d-4132-4cec-b49e-c04e2fc9d8f8&quot;,&quot;380400V&quot;}</relation_value>
+                <relation_value>{V,&quot;93a2507d-3c34-45a6-901d-860d4a0baebf&quot;,&quot;4&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;d27313d9-f9fc-4070-ad98-9ae6ca3561ed&quot;,&quot;1SBK134137R1300&quot;}</relation_value>
+                <relation_value>{V,&quot;56537401-9bf9-4c62-b6b8-05c0753c2a04&quot;,&quot;400V&quot;}</relation_value>
+                <relation_value>{V,&quot;93a2507d-3c34-45a6-901d-860d4a0baebf&quot;,&quot;4&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;d27313d9-f9fc-4070-ad98-9ae6ca3561ed&quot;,&quot;1SBK134137R1300&quot;}</relation_value>
+                <relation_value>{V,&quot;37cc010f-0f6d-4a18-bc1d-f3c0f9e37966&quot;,&quot;415V&quot;}</relation_value>
+                <relation_value>{V,&quot;93a2507d-3c34-45a6-901d-860d4a0baebf&quot;,&quot;4&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;d27313d9-f9fc-4070-ad98-9ae6ca3561ed&quot;,&quot;1SBK134137R1300&quot;}</relation_value>
+                <relation_value>{V,&quot;57394c34-ba27-4631-a3f0-2cfa778e5bbd&quot;,&quot;440V&quot;}</relation_value>
+                <relation_value>{V,&quot;93a2507d-3c34-45a6-901d-860d4a0baebf&quot;,&quot;4&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;d27313d9-f9fc-4070-ad98-9ae6ca3561ed&quot;,&quot;1SBK134137R1300&quot;}</relation_value>
+                <relation_value>{V,&quot;5ce71b82-6952-4e58-8aae-aa1ccf9b57b2&quot;,&quot;500V&quot;}</relation_value>
+                <relation_value>{V,&quot;4411444d-fa67-458c-b806-b199172a0f70&quot;,&quot;5.5&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;d27313d9-f9fc-4070-ad98-9ae6ca3561ed&quot;,&quot;1SBK134137R1300&quot;}</relation_value>
+                <relation_value>{V,&quot;9fe863ea-b3c0-4a46-8915-d369105542d1&quot;,&quot;690V&quot;}</relation_value>
+                <relation_value>{V,&quot;4411444d-fa67-458c-b806-b199172a0f70&quot;,&quot;5.5&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;8f40e49f-0b34-456f-8b8b-48751b6232b5&quot;,&quot;1SBK134037R1400&quot;}</relation_value>
+                <relation_value>{V,&quot;3a8df14c-0117-44e1-bc80-a4c36c93603c&quot;,&quot;220230240V&quot;}</relation_value>
+                <relation_value>{V,&quot;c58c7dee-42fc-4a74-8d80-f2b036b96677&quot;,&quot;2.2&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;8f40e49f-0b34-456f-8b8b-48751b6232b5&quot;,&quot;1SBK134037R1400&quot;}</relation_value>
+                <relation_value>{V,&quot;bc62ca4d-4132-4cec-b49e-c04e2fc9d8f8&quot;,&quot;380400V&quot;}</relation_value>
+                <relation_value>{V,&quot;93a2507d-3c34-45a6-901d-860d4a0baebf&quot;,&quot;4&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;8f40e49f-0b34-456f-8b8b-48751b6232b5&quot;,&quot;1SBK134037R1400&quot;}</relation_value>
+                <relation_value>{V,&quot;56537401-9bf9-4c62-b6b8-05c0753c2a04&quot;,&quot;400V&quot;}</relation_value>
+                <relation_value>{V,&quot;93a2507d-3c34-45a6-901d-860d4a0baebf&quot;,&quot;4&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;8f40e49f-0b34-456f-8b8b-48751b6232b5&quot;,&quot;1SBK134037R1400&quot;}</relation_value>
+                <relation_value>{V,&quot;37cc010f-0f6d-4a18-bc1d-f3c0f9e37966&quot;,&quot;415V&quot;}</relation_value>
+                <relation_value>{V,&quot;93a2507d-3c34-45a6-901d-860d4a0baebf&quot;,&quot;4&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;8f40e49f-0b34-456f-8b8b-48751b6232b5&quot;,&quot;1SBK134037R1400&quot;}</relation_value>
+                <relation_value>{V,&quot;57394c34-ba27-4631-a3f0-2cfa778e5bbd&quot;,&quot;440V&quot;}</relation_value>
+                <relation_value>{V,&quot;93a2507d-3c34-45a6-901d-860d4a0baebf&quot;,&quot;4&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;8f40e49f-0b34-456f-8b8b-48751b6232b5&quot;,&quot;1SBK134037R1400&quot;}</relation_value>
+                <relation_value>{V,&quot;5ce71b82-6952-4e58-8aae-aa1ccf9b57b2&quot;,&quot;500V&quot;}</relation_value>
+                <relation_value>{V,&quot;4411444d-fa67-458c-b806-b199172a0f70&quot;,&quot;5.5&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;8f40e49f-0b34-456f-8b8b-48751b6232b5&quot;,&quot;1SBK134037R1400&quot;}</relation_value>
+                <relation_value>{V,&quot;9fe863ea-b3c0-4a46-8915-d369105542d1&quot;,&quot;690V&quot;}</relation_value>
+                <relation_value>{V,&quot;4411444d-fa67-458c-b806-b199172a0f70&quot;,&quot;5.5&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;65cbd873-030f-46c7-a4ae-e6c5bddb14c0&quot;,&quot;1SBK154237R1100&quot;}</relation_value>
+                <relation_value>{V,&quot;3a8df14c-0117-44e1-bc80-a4c36c93603c&quot;,&quot;220230240V&quot;}</relation_value>
+                <relation_value>{V,&quot;aaa73756-d3ea-4d9d-acce-d1dd758f785e&quot;,&quot;3&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;65cbd873-030f-46c7-a4ae-e6c5bddb14c0&quot;,&quot;1SBK154237R1100&quot;}</relation_value>
+                <relation_value>{V,&quot;bc62ca4d-4132-4cec-b49e-c04e2fc9d8f8&quot;,&quot;380400V&quot;}</relation_value>
+                <relation_value>{V,&quot;4411444d-fa67-458c-b806-b199172a0f70&quot;,&quot;5.5&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;65cbd873-030f-46c7-a4ae-e6c5bddb14c0&quot;,&quot;1SBK154237R1100&quot;}</relation_value>
+                <relation_value>{V,&quot;56537401-9bf9-4c62-b6b8-05c0753c2a04&quot;,&quot;400V&quot;}</relation_value>
+                <relation_value>{V,&quot;4411444d-fa67-458c-b806-b199172a0f70&quot;,&quot;5.5&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;65cbd873-030f-46c7-a4ae-e6c5bddb14c0&quot;,&quot;1SBK154237R1100&quot;}</relation_value>
+                <relation_value>{V,&quot;37cc010f-0f6d-4a18-bc1d-f3c0f9e37966&quot;,&quot;415V&quot;}</relation_value>
+                <relation_value>{V,&quot;4411444d-fa67-458c-b806-b199172a0f70&quot;,&quot;5.5&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;65cbd873-030f-46c7-a4ae-e6c5bddb14c0&quot;,&quot;1SBK154237R1100&quot;}</relation_value>
+                <relation_value>{V,&quot;57394c34-ba27-4631-a3f0-2cfa778e5bbd&quot;,&quot;440V&quot;}</relation_value>
+                <relation_value>{V,&quot;4411444d-fa67-458c-b806-b199172a0f70&quot;,&quot;5.5&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;65cbd873-030f-46c7-a4ae-e6c5bddb14c0&quot;,&quot;1SBK154237R1100&quot;}</relation_value>
+                <relation_value>{V,&quot;5ce71b82-6952-4e58-8aae-aa1ccf9b57b2&quot;,&quot;500V&quot;}</relation_value>
+                <relation_value>{V,&quot;872adbe4-1943-462b-b227-c9770738f7df&quot;,&quot;7.5&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;65cbd873-030f-46c7-a4ae-e6c5bddb14c0&quot;,&quot;1SBK154237R1100&quot;}</relation_value>
+                <relation_value>{V,&quot;9fe863ea-b3c0-4a46-8915-d369105542d1&quot;,&quot;690V&quot;}</relation_value>
+                <relation_value>{V,&quot;872adbe4-1943-462b-b227-c9770738f7df&quot;,&quot;7.5&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;13ebc006-473b-4de4-ba5c-2f65eeb06829&quot;,&quot;1SBK154137R1300&quot;}</relation_value>
+                <relation_value>{V,&quot;3a8df14c-0117-44e1-bc80-a4c36c93603c&quot;,&quot;220230240V&quot;}</relation_value>
+                <relation_value>{V,&quot;aaa73756-d3ea-4d9d-acce-d1dd758f785e&quot;,&quot;3&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;13ebc006-473b-4de4-ba5c-2f65eeb06829&quot;,&quot;1SBK154137R1300&quot;}</relation_value>
+                <relation_value>{V,&quot;bc62ca4d-4132-4cec-b49e-c04e2fc9d8f8&quot;,&quot;380400V&quot;}</relation_value>
+                <relation_value>{V,&quot;4411444d-fa67-458c-b806-b199172a0f70&quot;,&quot;5.5&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;13ebc006-473b-4de4-ba5c-2f65eeb06829&quot;,&quot;1SBK154137R1300&quot;}</relation_value>
+                <relation_value>{V,&quot;56537401-9bf9-4c62-b6b8-05c0753c2a04&quot;,&quot;400V&quot;}</relation_value>
+                <relation_value>{V,&quot;4411444d-fa67-458c-b806-b199172a0f70&quot;,&quot;5.5&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;13ebc006-473b-4de4-ba5c-2f65eeb06829&quot;,&quot;1SBK154137R1300&quot;}</relation_value>
+                <relation_value>{V,&quot;37cc010f-0f6d-4a18-bc1d-f3c0f9e37966&quot;,&quot;415V&quot;}</relation_value>
+                <relation_value>{V,&quot;4411444d-fa67-458c-b806-b199172a0f70&quot;,&quot;5.5&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;13ebc006-473b-4de4-ba5c-2f65eeb06829&quot;,&quot;1SBK154137R1300&quot;}</relation_value>
+                <relation_value>{V,&quot;57394c34-ba27-4631-a3f0-2cfa778e5bbd&quot;,&quot;440V&quot;}</relation_value>
+                <relation_value>{V,&quot;4411444d-fa67-458c-b806-b199172a0f70&quot;,&quot;5.5&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;13ebc006-473b-4de4-ba5c-2f65eeb06829&quot;,&quot;1SBK154137R1300&quot;}</relation_value>
+                <relation_value>{V,&quot;5ce71b82-6952-4e58-8aae-aa1ccf9b57b2&quot;,&quot;500V&quot;}</relation_value>
+                <relation_value>{V,&quot;872adbe4-1943-462b-b227-c9770738f7df&quot;,&quot;7.5&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;13ebc006-473b-4de4-ba5c-2f65eeb06829&quot;,&quot;1SBK154137R1300&quot;}</relation_value>
+                <relation_value>{V,&quot;9fe863ea-b3c0-4a46-8915-d369105542d1&quot;,&quot;690V&quot;}</relation_value>
+                <relation_value>{V,&quot;872adbe4-1943-462b-b227-c9770738f7df&quot;,&quot;7.5&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;27a4ffaf-7fc9-4b59-8f9d-a8fd590c7dfe&quot;,&quot;1SBK154037R1400&quot;}</relation_value>
+                <relation_value>{V,&quot;3a8df14c-0117-44e1-bc80-a4c36c93603c&quot;,&quot;220230240V&quot;}</relation_value>
+                <relation_value>{V,&quot;aaa73756-d3ea-4d9d-acce-d1dd758f785e&quot;,&quot;3&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;27a4ffaf-7fc9-4b59-8f9d-a8fd590c7dfe&quot;,&quot;1SBK154037R1400&quot;}</relation_value>
+                <relation_value>{V,&quot;bc62ca4d-4132-4cec-b49e-c04e2fc9d8f8&quot;,&quot;380400V&quot;}</relation_value>
+                <relation_value>{V,&quot;4411444d-fa67-458c-b806-b199172a0f70&quot;,&quot;5.5&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;27a4ffaf-7fc9-4b59-8f9d-a8fd590c7dfe&quot;,&quot;1SBK154037R1400&quot;}</relation_value>
+                <relation_value>{V,&quot;56537401-9bf9-4c62-b6b8-05c0753c2a04&quot;,&quot;400V&quot;}</relation_value>
+                <relation_value>{V,&quot;4411444d-fa67-458c-b806-b199172a0f70&quot;,&quot;5.5&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;27a4ffaf-7fc9-4b59-8f9d-a8fd590c7dfe&quot;,&quot;1SBK154037R1400&quot;}</relation_value>
+                <relation_value>{V,&quot;37cc010f-0f6d-4a18-bc1d-f3c0f9e37966&quot;,&quot;415V&quot;}</relation_value>
+                <relation_value>{V,&quot;4411444d-fa67-458c-b806-b199172a0f70&quot;,&quot;5.5&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;27a4ffaf-7fc9-4b59-8f9d-a8fd590c7dfe&quot;,&quot;1SBK154037R1400&quot;}</relation_value>
+                <relation_value>{V,&quot;57394c34-ba27-4631-a3f0-2cfa778e5bbd&quot;,&quot;440V&quot;}</relation_value>
+                <relation_value>{V,&quot;4411444d-fa67-458c-b806-b199172a0f70&quot;,&quot;5.5&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;27a4ffaf-7fc9-4b59-8f9d-a8fd590c7dfe&quot;,&quot;1SBK154037R1400&quot;}</relation_value>
+                <relation_value>{V,&quot;5ce71b82-6952-4e58-8aae-aa1ccf9b57b2&quot;,&quot;500V&quot;}</relation_value>
+                <relation_value>{V,&quot;872adbe4-1943-462b-b227-c9770738f7df&quot;,&quot;7.5&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;27a4ffaf-7fc9-4b59-8f9d-a8fd590c7dfe&quot;,&quot;1SBK154037R1400&quot;}</relation_value>
+                <relation_value>{V,&quot;9fe863ea-b3c0-4a46-8915-d369105542d1&quot;,&quot;690V&quot;}</relation_value>
+                <relation_value>{V,&quot;872adbe4-1943-462b-b227-c9770738f7df&quot;,&quot;7.5&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;18194a83-41b6-4030-86d7-1dd94c01f858&quot;,&quot;1SBK174237R1100&quot;}</relation_value>
+                <relation_value>{V,&quot;3a8df14c-0117-44e1-bc80-a4c36c93603c&quot;,&quot;220230240V&quot;}</relation_value>
+                <relation_value>{V,&quot;93a2507d-3c34-45a6-901d-860d4a0baebf&quot;,&quot;4&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;18194a83-41b6-4030-86d7-1dd94c01f858&quot;,&quot;1SBK174237R1100&quot;}</relation_value>
+                <relation_value>{V,&quot;bc62ca4d-4132-4cec-b49e-c04e2fc9d8f8&quot;,&quot;380400V&quot;}</relation_value>
+                <relation_value>{V,&quot;872adbe4-1943-462b-b227-c9770738f7df&quot;,&quot;7.5&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;18194a83-41b6-4030-86d7-1dd94c01f858&quot;,&quot;1SBK174237R1100&quot;}</relation_value>
+                <relation_value>{V,&quot;56537401-9bf9-4c62-b6b8-05c0753c2a04&quot;,&quot;400V&quot;}</relation_value>
+                <relation_value>{V,&quot;872adbe4-1943-462b-b227-c9770738f7df&quot;,&quot;7.5&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;18194a83-41b6-4030-86d7-1dd94c01f858&quot;,&quot;1SBK174237R1100&quot;}</relation_value>
+                <relation_value>{V,&quot;37cc010f-0f6d-4a18-bc1d-f3c0f9e37966&quot;,&quot;415V&quot;}</relation_value>
+                <relation_value>{V,&quot;4e0e65c9-971d-4919-b099-9cf6c3ab2e0b&quot;,&quot;9&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;18194a83-41b6-4030-86d7-1dd94c01f858&quot;,&quot;1SBK174237R1100&quot;}</relation_value>
+                <relation_value>{V,&quot;57394c34-ba27-4631-a3f0-2cfa778e5bbd&quot;,&quot;440V&quot;}</relation_value>
+                <relation_value>{V,&quot;4e0e65c9-971d-4919-b099-9cf6c3ab2e0b&quot;,&quot;9&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;18194a83-41b6-4030-86d7-1dd94c01f858&quot;,&quot;1SBK174237R1100&quot;}</relation_value>
+                <relation_value>{V,&quot;5ce71b82-6952-4e58-8aae-aa1ccf9b57b2&quot;,&quot;500V&quot;}</relation_value>
+                <relation_value>{V,&quot;4e0e65c9-971d-4919-b099-9cf6c3ab2e0b&quot;,&quot;9&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;18194a83-41b6-4030-86d7-1dd94c01f858&quot;,&quot;1SBK174237R1100&quot;}</relation_value>
+                <relation_value>{V,&quot;9fe863ea-b3c0-4a46-8915-d369105542d1&quot;,&quot;690V&quot;}</relation_value>
+                <relation_value>{V,&quot;4e0e65c9-971d-4919-b099-9cf6c3ab2e0b&quot;,&quot;9&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;f69c41ff-2d93-49b5-a868-b57b85d6e682&quot;,&quot;1SBK174137R1300&quot;}</relation_value>
+                <relation_value>{V,&quot;3a8df14c-0117-44e1-bc80-a4c36c93603c&quot;,&quot;220230240V&quot;}</relation_value>
+                <relation_value>{V,&quot;93a2507d-3c34-45a6-901d-860d4a0baebf&quot;,&quot;4&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;f69c41ff-2d93-49b5-a868-b57b85d6e682&quot;,&quot;1SBK174137R1300&quot;}</relation_value>
+                <relation_value>{V,&quot;bc62ca4d-4132-4cec-b49e-c04e2fc9d8f8&quot;,&quot;380400V&quot;}</relation_value>
+                <relation_value>{V,&quot;872adbe4-1943-462b-b227-c9770738f7df&quot;,&quot;7.5&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;f69c41ff-2d93-49b5-a868-b57b85d6e682&quot;,&quot;1SBK174137R1300&quot;}</relation_value>
+                <relation_value>{V,&quot;56537401-9bf9-4c62-b6b8-05c0753c2a04&quot;,&quot;400V&quot;}</relation_value>
+                <relation_value>{V,&quot;872adbe4-1943-462b-b227-c9770738f7df&quot;,&quot;7.5&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;f69c41ff-2d93-49b5-a868-b57b85d6e682&quot;,&quot;1SBK174137R1300&quot;}</relation_value>
+                <relation_value>{V,&quot;37cc010f-0f6d-4a18-bc1d-f3c0f9e37966&quot;,&quot;415V&quot;}</relation_value>
+                <relation_value>{V,&quot;4e0e65c9-971d-4919-b099-9cf6c3ab2e0b&quot;,&quot;9&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;f69c41ff-2d93-49b5-a868-b57b85d6e682&quot;,&quot;1SBK174137R1300&quot;}</relation_value>
+                <relation_value>{V,&quot;57394c34-ba27-4631-a3f0-2cfa778e5bbd&quot;,&quot;440V&quot;}</relation_value>
+                <relation_value>{V,&quot;4e0e65c9-971d-4919-b099-9cf6c3ab2e0b&quot;,&quot;9&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;f69c41ff-2d93-49b5-a868-b57b85d6e682&quot;,&quot;1SBK174137R1300&quot;}</relation_value>
+                <relation_value>{V,&quot;5ce71b82-6952-4e58-8aae-aa1ccf9b57b2&quot;,&quot;500V&quot;}</relation_value>
+                <relation_value>{V,&quot;4e0e65c9-971d-4919-b099-9cf6c3ab2e0b&quot;,&quot;9&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;f69c41ff-2d93-49b5-a868-b57b85d6e682&quot;,&quot;1SBK174137R1300&quot;}</relation_value>
+                <relation_value>{V,&quot;9fe863ea-b3c0-4a46-8915-d369105542d1&quot;,&quot;690V&quot;}</relation_value>
+                <relation_value>{V,&quot;4e0e65c9-971d-4919-b099-9cf6c3ab2e0b&quot;,&quot;9&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;ba5eef55-b167-4936-af87-fe774c45b053&quot;,&quot;1SBK174037R1400&quot;}</relation_value>
+                <relation_value>{V,&quot;3a8df14c-0117-44e1-bc80-a4c36c93603c&quot;,&quot;220230240V&quot;}</relation_value>
+                <relation_value>{V,&quot;93a2507d-3c34-45a6-901d-860d4a0baebf&quot;,&quot;4&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;ba5eef55-b167-4936-af87-fe774c45b053&quot;,&quot;1SBK174037R1400&quot;}</relation_value>
+                <relation_value>{V,&quot;bc62ca4d-4132-4cec-b49e-c04e2fc9d8f8&quot;,&quot;380400V&quot;}</relation_value>
+                <relation_value>{V,&quot;872adbe4-1943-462b-b227-c9770738f7df&quot;,&quot;7.5&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;ba5eef55-b167-4936-af87-fe774c45b053&quot;,&quot;1SBK174037R1400&quot;}</relation_value>
+                <relation_value>{V,&quot;56537401-9bf9-4c62-b6b8-05c0753c2a04&quot;,&quot;400V&quot;}</relation_value>
+                <relation_value>{V,&quot;872adbe4-1943-462b-b227-c9770738f7df&quot;,&quot;7.5&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;ba5eef55-b167-4936-af87-fe774c45b053&quot;,&quot;1SBK174037R1400&quot;}</relation_value>
+                <relation_value>{V,&quot;37cc010f-0f6d-4a18-bc1d-f3c0f9e37966&quot;,&quot;415V&quot;}</relation_value>
+                <relation_value>{V,&quot;4e0e65c9-971d-4919-b099-9cf6c3ab2e0b&quot;,&quot;9&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;ba5eef55-b167-4936-af87-fe774c45b053&quot;,&quot;1SBK174037R1400&quot;}</relation_value>
+                <relation_value>{V,&quot;57394c34-ba27-4631-a3f0-2cfa778e5bbd&quot;,&quot;440V&quot;}</relation_value>
+                <relation_value>{V,&quot;4e0e65c9-971d-4919-b099-9cf6c3ab2e0b&quot;,&quot;9&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;ba5eef55-b167-4936-af87-fe774c45b053&quot;,&quot;1SBK174037R1400&quot;}</relation_value>
+                <relation_value>{V,&quot;5ce71b82-6952-4e58-8aae-aa1ccf9b57b2&quot;,&quot;500V&quot;}</relation_value>
+                <relation_value>{V,&quot;4e0e65c9-971d-4919-b099-9cf6c3ab2e0b&quot;,&quot;9&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;ba5eef55-b167-4936-af87-fe774c45b053&quot;,&quot;1SBK174037R1400&quot;}</relation_value>
+                <relation_value>{V,&quot;9fe863ea-b3c0-4a46-8915-d369105542d1&quot;,&quot;690V&quot;}</relation_value>
+                <relation_value>{V,&quot;4e0e65c9-971d-4919-b099-9cf6c3ab2e0b&quot;,&quot;9&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>=!</relation_value>
+                <relation_value>{V,&quot;dc68b80b-c774-44f2-bad6-75e73a94786f&quot;,&quot;Not applicable&quot;}</relation_value>
+                <relation_value>{V,&quot;91125446-b2b2-494b-bc61-4b7fd652675c&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+            </relation_values>
+          </relation>
+          <relation name="multiRel_cur_DRAF" is_enabled="true" uuid="c5392985-94a2-4f1e-91d0-9d67b18ae7ee" is_read_only="false">
+            <description>multiRel_cur_DRAF</description>
+            <relation_columns>
+              <relation_column variable_uuid="f1bed4b6-9fe2-4cec-86b3-3de82f4550ca" variable_name="Selector.Variant"/>
+              <relation_column variable_uuid="8b9aa0ef-11ab-4644-a32e-4cb156cc55be" variable_name="Selector.varRatOpeCurAc3_DRAF"/>
+            </relation_columns>
+            <relation_values>
+              <relation_row>
+                <relation_value>{V,&quot;d565e106-2058-4603-af8a-ec24070e8572&quot;,&quot;1SBK134237R1100&quot;}</relation_value>
+                <relation_value>{V,&quot;d28f60d7-b4c2-4b03-84fa-795e031cc5b7&quot;,&quot;9&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;d565e106-2058-4603-af8a-ec24070e8572&quot;,&quot;1SBK134237R1100&quot;}</relation_value>
+                <relation_value>{V,&quot;fcdf4f87-ed99-4787-aa85-a99eadfdcb27&quot;,&quot;9.5&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;d565e106-2058-4603-af8a-ec24070e8572&quot;,&quot;1SBK134237R1100&quot;}</relation_value>
+                <relation_value>{V,&quot;b92a6bde-e811-4af9-8a2e-7c67bd38eca6&quot;,&quot;7&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;d27313d9-f9fc-4070-ad98-9ae6ca3561ed&quot;,&quot;1SBK134137R1300&quot;}</relation_value>
+                <relation_value>{V,&quot;d28f60d7-b4c2-4b03-84fa-795e031cc5b7&quot;,&quot;9&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;d27313d9-f9fc-4070-ad98-9ae6ca3561ed&quot;,&quot;1SBK134137R1300&quot;}</relation_value>
+                <relation_value>{V,&quot;fcdf4f87-ed99-4787-aa85-a99eadfdcb27&quot;,&quot;9.5&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;d27313d9-f9fc-4070-ad98-9ae6ca3561ed&quot;,&quot;1SBK134137R1300&quot;}</relation_value>
+                <relation_value>{V,&quot;b92a6bde-e811-4af9-8a2e-7c67bd38eca6&quot;,&quot;7&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;8f40e49f-0b34-456f-8b8b-48751b6232b5&quot;,&quot;1SBK134037R1400&quot;}</relation_value>
+                <relation_value>{V,&quot;d28f60d7-b4c2-4b03-84fa-795e031cc5b7&quot;,&quot;9&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;8f40e49f-0b34-456f-8b8b-48751b6232b5&quot;,&quot;1SBK134037R1400&quot;}</relation_value>
+                <relation_value>{V,&quot;fcdf4f87-ed99-4787-aa85-a99eadfdcb27&quot;,&quot;9.5&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;8f40e49f-0b34-456f-8b8b-48751b6232b5&quot;,&quot;1SBK134037R1400&quot;}</relation_value>
+                <relation_value>{V,&quot;b92a6bde-e811-4af9-8a2e-7c67bd38eca6&quot;,&quot;7&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;65cbd873-030f-46c7-a4ae-e6c5bddb14c0&quot;,&quot;1SBK154237R1100&quot;}</relation_value>
+                <relation_value>{V,&quot;3f759a6c-28f3-43c2-b2c8-67977f1788c3&quot;,&quot;12&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;65cbd873-030f-46c7-a4ae-e6c5bddb14c0&quot;,&quot;1SBK154237R1100&quot;}</relation_value>
+                <relation_value>{V,&quot;6c42dfd3-8e18-40f0-97d9-cba7fbb95d0a&quot;,&quot;12.5&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;65cbd873-030f-46c7-a4ae-e6c5bddb14c0&quot;,&quot;1SBK154237R1100&quot;}</relation_value>
+                <relation_value>{V,&quot;d28f60d7-b4c2-4b03-84fa-795e031cc5b7&quot;,&quot;9&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;13ebc006-473b-4de4-ba5c-2f65eeb06829&quot;,&quot;1SBK154137R1300&quot;}</relation_value>
+                <relation_value>{V,&quot;3f759a6c-28f3-43c2-b2c8-67977f1788c3&quot;,&quot;12&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;13ebc006-473b-4de4-ba5c-2f65eeb06829&quot;,&quot;1SBK154137R1300&quot;}</relation_value>
+                <relation_value>{V,&quot;6c42dfd3-8e18-40f0-97d9-cba7fbb95d0a&quot;,&quot;12.5&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;13ebc006-473b-4de4-ba5c-2f65eeb06829&quot;,&quot;1SBK154137R1300&quot;}</relation_value>
+                <relation_value>{V,&quot;d28f60d7-b4c2-4b03-84fa-795e031cc5b7&quot;,&quot;9&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;27a4ffaf-7fc9-4b59-8f9d-a8fd590c7dfe&quot;,&quot;1SBK154037R1400&quot;}</relation_value>
+                <relation_value>{V,&quot;3f759a6c-28f3-43c2-b2c8-67977f1788c3&quot;,&quot;12&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;27a4ffaf-7fc9-4b59-8f9d-a8fd590c7dfe&quot;,&quot;1SBK154037R1400&quot;}</relation_value>
+                <relation_value>{V,&quot;6c42dfd3-8e18-40f0-97d9-cba7fbb95d0a&quot;,&quot;12.5&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;27a4ffaf-7fc9-4b59-8f9d-a8fd590c7dfe&quot;,&quot;1SBK154037R1400&quot;}</relation_value>
+                <relation_value>{V,&quot;d28f60d7-b4c2-4b03-84fa-795e031cc5b7&quot;,&quot;9&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;18194a83-41b6-4030-86d7-1dd94c01f858&quot;,&quot;1SBK174237R1100&quot;}</relation_value>
+                <relation_value>{V,&quot;d9cc551c-2fd1-46a3-b692-de1a6d868a65&quot;,&quot;18&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;18194a83-41b6-4030-86d7-1dd94c01f858&quot;,&quot;1SBK174237R1100&quot;}</relation_value>
+                <relation_value>{V,&quot;421c405a-e5ae-4f82-b49b-79bd124e45cf&quot;,&quot;15&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;18194a83-41b6-4030-86d7-1dd94c01f858&quot;,&quot;1SBK174237R1100&quot;}</relation_value>
+                <relation_value>{V,&quot;47356e2b-ddfe-44c4-ba35-35ee7ac2291a&quot;,&quot;10.5&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;f69c41ff-2d93-49b5-a868-b57b85d6e682&quot;,&quot;1SBK174137R1300&quot;}</relation_value>
+                <relation_value>{V,&quot;d9cc551c-2fd1-46a3-b692-de1a6d868a65&quot;,&quot;18&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;f69c41ff-2d93-49b5-a868-b57b85d6e682&quot;,&quot;1SBK174137R1300&quot;}</relation_value>
+                <relation_value>{V,&quot;421c405a-e5ae-4f82-b49b-79bd124e45cf&quot;,&quot;15&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;f69c41ff-2d93-49b5-a868-b57b85d6e682&quot;,&quot;1SBK174137R1300&quot;}</relation_value>
+                <relation_value>{V,&quot;47356e2b-ddfe-44c4-ba35-35ee7ac2291a&quot;,&quot;10.5&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;ba5eef55-b167-4936-af87-fe774c45b053&quot;,&quot;1SBK174037R1400&quot;}</relation_value>
+                <relation_value>{V,&quot;d9cc551c-2fd1-46a3-b692-de1a6d868a65&quot;,&quot;18&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;ba5eef55-b167-4936-af87-fe774c45b053&quot;,&quot;1SBK174037R1400&quot;}</relation_value>
+                <relation_value>{V,&quot;421c405a-e5ae-4f82-b49b-79bd124e45cf&quot;,&quot;15&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;ba5eef55-b167-4936-af87-fe774c45b053&quot;,&quot;1SBK174037R1400&quot;}</relation_value>
+                <relation_value>{V,&quot;47356e2b-ddfe-44c4-ba35-35ee7ac2291a&quot;,&quot;10.5&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>=!</relation_value>
+                <relation_value>{V,&quot;ed77f80a-8096-4c56-8646-1335208d5de7&quot;,&quot;Not applicable&quot;}</relation_value>
+              </relation_row>
+            </relation_values>
+          </relation>
+        </relations>
+        <functions/>
+        <language_translations>
+          <language_translation language="EN">Selector</language_translation>
+        </language_translations>
+        <variable name="Variant" is_private="false" is_enabled="true" type="Variant_Type" uuid="f1bed4b6-9fe2-4cec-86b3-3de82f4550ca" is_read_only="false">
+          <property_values>
+            <property_value name="IsBomItem" property_uuid="88750f50-298c-43b8-82e2-37ff4ecaf9a8">true</property_value>
+            <property_value name="Show" property_uuid="a1541b83-9d64-4b11-865e-e18bebfbae90">false</property_value>
+          </property_values>
+          <language_translations>
+            <language_translation language="EN">Product ID</language_translation>
+          </language_translations>
+        </variable>
+        <variable name="varRatOpePowAC3_Header_DRAF" is_private="false" is_enabled="true" type="custTypevarRatOpePowAC3_Header_DRAF" uuid="ed59268a-df0e-4786-9950-7dd603688558" is_read_only="false">
+          <property_values>
+            <property_value name="IsBomItem" property_uuid="88750f50-298c-43b8-82e2-37ff4ecaf9a8">false</property_value>
+            <property_value name="Show" property_uuid="a1541b83-9d64-4b11-865e-e18bebfbae90">true</property_value>
+          </property_values>
+          <language_translations>
+            <language_translation language="EN">Rated operational voltage</language_translation>
+          </language_translations>
+        </variable>
+        <variable name="varRateOpePowAc3_DRAF" is_private="false" is_enabled="true" type="custTypevarRateOpePowAc3_DRAF" uuid="fa0fc3b4-a1db-4de7-baa9-9b3052416fb7" is_read_only="false">
+          <property_values>
+            <property_value name="IsBomItem" property_uuid="88750f50-298c-43b8-82e2-37ff4ecaf9a8">false</property_value>
+            <property_value name="Show" property_uuid="a1541b83-9d64-4b11-865e-e18bebfbae90">= {P,&quot;ed59268a-df0e-4786-9950-7dd603688558&quot;,varRatOpePowAC3_Header_DRAF} &lt;&gt; {V,-1,&quot;Not applicable&quot;} and {P,&quot;ed59268a-df0e-4786-9950-7dd603688558&quot;,varRatOpePowAC3_Header_DRAF} &lt;&gt; {V,-1,&quot;&quot;}</property_value>
+          </property_values>
+          <language_translations>
+            <language_translation language="EN">Rated operational power </language_translation>
+          </language_translations>
+        </variable>
+        <variable name="varRatOpeCurAc3_DRAF" is_private="false" is_enabled="true" type="custTypevarRatOpeCurAc3_DRAF" uuid="8b9aa0ef-11ab-4644-a32e-4cb156cc55be" is_read_only="false">
+          <property_values>
+            <property_value name="IsBomItem" property_uuid="88750f50-298c-43b8-82e2-37ff4ecaf9a8">false</property_value>
+            <property_value name="Show" property_uuid="a1541b83-9d64-4b11-865e-e18bebfbae90">= {P,&quot;ed59268a-df0e-4786-9950-7dd603688558&quot;,varRatOpePowAC3_Header_DRAF} &lt;&gt; {V,-1,&quot;Not applicable&quot;} and {P,&quot;ed59268a-df0e-4786-9950-7dd603688558&quot;,varRatOpePowAC3_Header_DRAF} &lt;&gt; {V,-1,&quot;&quot;}</property_value>
+          </property_values>
+          <language_translations>
+            <language_translation language="EN">Rated operational current (40°C)</language_translation>
+          </language_translations>
+        </variable>
+        <variable name="varProductMainType_DRAF" is_private="false" is_enabled="true" type="custTypevarProductMainType_DRAF" uuid="0ca27eab-1f77-470f-9a33-24bd27f6bcc3" is_read_only="false">
+          <property_values>
+            <property_value name="IsBomItem" property_uuid="88750f50-298c-43b8-82e2-37ff4ecaf9a8">false</property_value>
+            <property_value name="Show" property_uuid="a1541b83-9d64-4b11-865e-e18bebfbae90">true</property_value>
+          </property_values>
+          <language_translations>
+            <language_translation language="EN">Contactor type</language_translation>
+          </language_translations>
+        </variable>
+        <variable name="varRatConCirVol_AC_DRAF" is_private="false" is_enabled="true" type="custTypevarRatConCirVol_AC_DRAF" uuid="974b4499-37e1-42db-8959-33108f3dbf10" is_read_only="false">
+          <property_values>
+            <property_value name="IsBomItem" property_uuid="88750f50-298c-43b8-82e2-37ff4ecaf9a8">false</property_value>
+            <property_value name="Show" property_uuid="a1541b83-9d64-4b11-865e-e18bebfbae90">true</property_value>
+          </property_values>
+          <language_translations>
+            <language_translation language="EN">AC rated control circuit voltage 50/60 Hz</language_translation>
+          </language_translations>
+        </variable>
+        <variable name="varRatConCirVol_DC_DRAF" is_private="false" is_enabled="true" type="custTypevarRatConCirVol_DC_DRAF" uuid="d12496e8-f7cb-4c86-a522-6ca8059ba838" is_read_only="false">
+          <property_values>
+            <property_value name="IsBomItem" property_uuid="88750f50-298c-43b8-82e2-37ff4ecaf9a8">false</property_value>
+            <property_value name="Show" property_uuid="a1541b83-9d64-4b11-865e-e18bebfbae90">true</property_value>
+          </property_values>
+          <language_translations>
+            <language_translation language="EN">DC rated control circuit voltage</language_translation>
+          </language_translations>
+        </variable>
+        <variable name="varControlSupplyWiring_DRAF" is_private="false" is_enabled="true" type="custTypevarControlSupplyWiring_DRAF" uuid="0c1315d4-c0e9-422c-a44c-6dbf471ca5d0" is_read_only="false">
+          <property_values>
+            <property_value name="IsBomItem" property_uuid="88750f50-298c-43b8-82e2-37ff4ecaf9a8">false</property_value>
+            <property_value name="Show" property_uuid="a1541b83-9d64-4b11-865e-e18bebfbae90">true</property_value>
+          </property_values>
+          <language_translations>
+            <language_translation language="EN">Control supply wiring</language_translation>
+          </language_translations>
+        </variable>
+        <variable name="varTerminalType_DRAF" is_private="false" is_enabled="true" type="custTypevarTerminalType_DRAF" uuid="e1f7bc23-c0b8-4b63-89f3-4b59e9711ee4" is_read_only="false">
+          <property_values>
+            <property_value name="IsBomItem" property_uuid="88750f50-298c-43b8-82e2-37ff4ecaf9a8">false</property_value>
+            <property_value name="Show" property_uuid="a1541b83-9d64-4b11-865e-e18bebfbae90">true</property_value>
+          </property_values>
+          <language_translations>
+            <language_translation language="EN">Terminal type</language_translation>
+          </language_translations>
+        </variable>
+      </group>
+      <group name="GrpThermalOverload" is_private="false" is_enabled="true" uuid="29fa3383-dd0d-4365-95d4-7df073332a8e" is_read_only="false">
+        <property_values>
+          <property_value name="Show" property_uuid="b4fcc9f3-eb11-4265-83c2-dabb09daed4b">= {P,&quot;f1bed4b6-9fe2-4cec-86b3-3de82f4550ca&quot;,Selector.Variant} &lt;&gt; {V,-1,&quot;&quot;}</property_value>
+        </property_values>
+        <rules/>
+        <relations>
+          <relation name="relSettingRange" is_enabled="true" uuid="d4abc197-0116-4521-88cb-bd98a9b6fb98" is_read_only="false">
+            <description>relSettingRange</description>
+            <relation_columns>
+              <relation_column variable_uuid="f1bed4b6-9fe2-4cec-86b3-3de82f4550ca" variable_name="Selector.Variant"/>
+              <relation_column variable_uuid="691ae50f-8097-49af-82ed-d837d3c1f071" variable_name="GrpThermalOverload.varSettingRange_DRAF"/>
+            </relation_columns>
+            <relation_values>
+              <relation_row>
+                <relation_value>={V,&quot;d565e106-2058-4603-af8a-ec24070e8572&quot;,&quot;1SBK134237R1100&quot;},{V,&quot;d27313d9-f9fc-4070-ad98-9ae6ca3561ed&quot;,&quot;1SBK134137R1300&quot;},{V,&quot;8f40e49f-0b34-456f-8b8b-48751b6232b5&quot;,&quot;1SBK134037R1400&quot;},{V,&quot;65cbd873-030f-46c7-a4ae-e6c5bddb14c0&quot;,&quot;1SBK154237R1100&quot;},{V,&quot;13ebc006-473b-4de4-ba5c-2f65eeb06829&quot;,&quot;1SBK154137R1300&quot;},{V,&quot;27a4ffaf-7fc9-4b59-8f9d-a8fd590c7dfe&quot;,&quot;1SBK154037R1400&quot;},{V,&quot;18194a83-41b6-4030-86d7-1dd94c01f858&quot;,&quot;1SBK174237R1100&quot;},{V,&quot;f69c41ff-2d93-49b5-a868-b57b85d6e682&quot;,&quot;1SBK174137R1300&quot;},{V,&quot;ba5eef55-b167-4936-af87-fe774c45b053&quot;,&quot;1SBK174037R1400&quot;}</relation_value>
+                <relation_value>{V,&quot;b172f4a9-94f9-4199-8668-bb2cf279d2aa&quot;,&quot;1SAZ721201R1005&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>={V,&quot;d565e106-2058-4603-af8a-ec24070e8572&quot;,&quot;1SBK134237R1100&quot;},{V,&quot;d27313d9-f9fc-4070-ad98-9ae6ca3561ed&quot;,&quot;1SBK134137R1300&quot;},{V,&quot;8f40e49f-0b34-456f-8b8b-48751b6232b5&quot;,&quot;1SBK134037R1400&quot;},{V,&quot;65cbd873-030f-46c7-a4ae-e6c5bddb14c0&quot;,&quot;1SBK154237R1100&quot;},{V,&quot;13ebc006-473b-4de4-ba5c-2f65eeb06829&quot;,&quot;1SBK154137R1300&quot;},{V,&quot;27a4ffaf-7fc9-4b59-8f9d-a8fd590c7dfe&quot;,&quot;1SBK154037R1400&quot;},{V,&quot;18194a83-41b6-4030-86d7-1dd94c01f858&quot;,&quot;1SBK174237R1100&quot;},{V,&quot;f69c41ff-2d93-49b5-a868-b57b85d6e682&quot;,&quot;1SBK174137R1300&quot;},{V,&quot;ba5eef55-b167-4936-af87-fe774c45b053&quot;,&quot;1SBK174037R1400&quot;}</relation_value>
+                <relation_value>{V,&quot;f9b44c10-ec66-4176-a434-535894dc9f2d&quot;,&quot;1SAZ721201R1008&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>={V,&quot;d565e106-2058-4603-af8a-ec24070e8572&quot;,&quot;1SBK134237R1100&quot;},{V,&quot;d27313d9-f9fc-4070-ad98-9ae6ca3561ed&quot;,&quot;1SBK134137R1300&quot;},{V,&quot;8f40e49f-0b34-456f-8b8b-48751b6232b5&quot;,&quot;1SBK134037R1400&quot;},{V,&quot;65cbd873-030f-46c7-a4ae-e6c5bddb14c0&quot;,&quot;1SBK154237R1100&quot;},{V,&quot;13ebc006-473b-4de4-ba5c-2f65eeb06829&quot;,&quot;1SBK154137R1300&quot;},{V,&quot;27a4ffaf-7fc9-4b59-8f9d-a8fd590c7dfe&quot;,&quot;1SBK154037R1400&quot;},{V,&quot;18194a83-41b6-4030-86d7-1dd94c01f858&quot;,&quot;1SBK174237R1100&quot;},{V,&quot;f69c41ff-2d93-49b5-a868-b57b85d6e682&quot;,&quot;1SBK174137R1300&quot;},{V,&quot;ba5eef55-b167-4936-af87-fe774c45b053&quot;,&quot;1SBK174037R1400&quot;}</relation_value>
+                <relation_value>{V,&quot;f46b6268-4cf0-4108-8e70-65632bf39eb2&quot;,&quot;1SAZ721201R1009&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>={V,&quot;d565e106-2058-4603-af8a-ec24070e8572&quot;,&quot;1SBK134237R1100&quot;},{V,&quot;d27313d9-f9fc-4070-ad98-9ae6ca3561ed&quot;,&quot;1SBK134137R1300&quot;},{V,&quot;8f40e49f-0b34-456f-8b8b-48751b6232b5&quot;,&quot;1SBK134037R1400&quot;},{V,&quot;65cbd873-030f-46c7-a4ae-e6c5bddb14c0&quot;,&quot;1SBK154237R1100&quot;},{V,&quot;13ebc006-473b-4de4-ba5c-2f65eeb06829&quot;,&quot;1SBK154137R1300&quot;},{V,&quot;27a4ffaf-7fc9-4b59-8f9d-a8fd590c7dfe&quot;,&quot;1SBK154037R1400&quot;},{V,&quot;18194a83-41b6-4030-86d7-1dd94c01f858&quot;,&quot;1SBK174237R1100&quot;},{V,&quot;f69c41ff-2d93-49b5-a868-b57b85d6e682&quot;,&quot;1SBK174137R1300&quot;},{V,&quot;ba5eef55-b167-4936-af87-fe774c45b053&quot;,&quot;1SBK174037R1400&quot;}</relation_value>
+                <relation_value>{V,&quot;15c19e59-d0c7-42bc-8444-27413db73c38&quot;,&quot;1SAZ721201R1013&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>={V,&quot;d565e106-2058-4603-af8a-ec24070e8572&quot;,&quot;1SBK134237R1100&quot;},{V,&quot;d27313d9-f9fc-4070-ad98-9ae6ca3561ed&quot;,&quot;1SBK134137R1300&quot;},{V,&quot;8f40e49f-0b34-456f-8b8b-48751b6232b5&quot;,&quot;1SBK134037R1400&quot;},{V,&quot;65cbd873-030f-46c7-a4ae-e6c5bddb14c0&quot;,&quot;1SBK154237R1100&quot;},{V,&quot;13ebc006-473b-4de4-ba5c-2f65eeb06829&quot;,&quot;1SBK154137R1300&quot;},{V,&quot;27a4ffaf-7fc9-4b59-8f9d-a8fd590c7dfe&quot;,&quot;1SBK154037R1400&quot;},{V,&quot;18194a83-41b6-4030-86d7-1dd94c01f858&quot;,&quot;1SBK174237R1100&quot;},{V,&quot;f69c41ff-2d93-49b5-a868-b57b85d6e682&quot;,&quot;1SBK174137R1300&quot;},{V,&quot;ba5eef55-b167-4936-af87-fe774c45b053&quot;,&quot;1SBK174037R1400&quot;}</relation_value>
+                <relation_value>{V,&quot;9c1fd021-35a9-461f-8d92-2ab59603d9c5&quot;,&quot;1SAZ721201R1014&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>={V,&quot;d565e106-2058-4603-af8a-ec24070e8572&quot;,&quot;1SBK134237R1100&quot;},{V,&quot;d27313d9-f9fc-4070-ad98-9ae6ca3561ed&quot;,&quot;1SBK134137R1300&quot;},{V,&quot;8f40e49f-0b34-456f-8b8b-48751b6232b5&quot;,&quot;1SBK134037R1400&quot;},{V,&quot;65cbd873-030f-46c7-a4ae-e6c5bddb14c0&quot;,&quot;1SBK154237R1100&quot;},{V,&quot;13ebc006-473b-4de4-ba5c-2f65eeb06829&quot;,&quot;1SBK154137R1300&quot;},{V,&quot;27a4ffaf-7fc9-4b59-8f9d-a8fd590c7dfe&quot;,&quot;1SBK154037R1400&quot;},{V,&quot;18194a83-41b6-4030-86d7-1dd94c01f858&quot;,&quot;1SBK174237R1100&quot;},{V,&quot;f69c41ff-2d93-49b5-a868-b57b85d6e682&quot;,&quot;1SBK174137R1300&quot;},{V,&quot;ba5eef55-b167-4936-af87-fe774c45b053&quot;,&quot;1SBK174037R1400&quot;}</relation_value>
+                <relation_value>{V,&quot;760df551-318a-45b2-a300-8b92d7c7c785&quot;,&quot;1SAZ721201R1017&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>={V,&quot;d565e106-2058-4603-af8a-ec24070e8572&quot;,&quot;1SBK134237R1100&quot;},{V,&quot;d27313d9-f9fc-4070-ad98-9ae6ca3561ed&quot;,&quot;1SBK134137R1300&quot;},{V,&quot;8f40e49f-0b34-456f-8b8b-48751b6232b5&quot;,&quot;1SBK134037R1400&quot;},{V,&quot;65cbd873-030f-46c7-a4ae-e6c5bddb14c0&quot;,&quot;1SBK154237R1100&quot;},{V,&quot;13ebc006-473b-4de4-ba5c-2f65eeb06829&quot;,&quot;1SBK154137R1300&quot;},{V,&quot;27a4ffaf-7fc9-4b59-8f9d-a8fd590c7dfe&quot;,&quot;1SBK154037R1400&quot;},{V,&quot;18194a83-41b6-4030-86d7-1dd94c01f858&quot;,&quot;1SBK174237R1100&quot;},{V,&quot;f69c41ff-2d93-49b5-a868-b57b85d6e682&quot;,&quot;1SBK174137R1300&quot;},{V,&quot;ba5eef55-b167-4936-af87-fe774c45b053&quot;,&quot;1SBK174037R1400&quot;}</relation_value>
+                <relation_value>{V,&quot;10050e3d-d86a-430f-8911-351b7f4a84ec&quot;,&quot;1SAZ721201R1021&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>={V,&quot;d565e106-2058-4603-af8a-ec24070e8572&quot;,&quot;1SBK134237R1100&quot;},{V,&quot;d27313d9-f9fc-4070-ad98-9ae6ca3561ed&quot;,&quot;1SBK134137R1300&quot;},{V,&quot;8f40e49f-0b34-456f-8b8b-48751b6232b5&quot;,&quot;1SBK134037R1400&quot;},{V,&quot;65cbd873-030f-46c7-a4ae-e6c5bddb14c0&quot;,&quot;1SBK154237R1100&quot;},{V,&quot;13ebc006-473b-4de4-ba5c-2f65eeb06829&quot;,&quot;1SBK154137R1300&quot;},{V,&quot;27a4ffaf-7fc9-4b59-8f9d-a8fd590c7dfe&quot;,&quot;1SBK154037R1400&quot;},{V,&quot;18194a83-41b6-4030-86d7-1dd94c01f858&quot;,&quot;1SBK174237R1100&quot;},{V,&quot;f69c41ff-2d93-49b5-a868-b57b85d6e682&quot;,&quot;1SBK174137R1300&quot;},{V,&quot;ba5eef55-b167-4936-af87-fe774c45b053&quot;,&quot;1SBK174037R1400&quot;}</relation_value>
+                <relation_value>{V,&quot;f946a04f-7c7e-442c-b90e-cad291d484e4&quot;,&quot;1SAZ721201R1023&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>={V,&quot;d565e106-2058-4603-af8a-ec24070e8572&quot;,&quot;1SBK134237R1100&quot;},{V,&quot;d27313d9-f9fc-4070-ad98-9ae6ca3561ed&quot;,&quot;1SBK134137R1300&quot;},{V,&quot;8f40e49f-0b34-456f-8b8b-48751b6232b5&quot;,&quot;1SBK134037R1400&quot;},{V,&quot;65cbd873-030f-46c7-a4ae-e6c5bddb14c0&quot;,&quot;1SBK154237R1100&quot;},{V,&quot;13ebc006-473b-4de4-ba5c-2f65eeb06829&quot;,&quot;1SBK154137R1300&quot;},{V,&quot;27a4ffaf-7fc9-4b59-8f9d-a8fd590c7dfe&quot;,&quot;1SBK154037R1400&quot;},{V,&quot;18194a83-41b6-4030-86d7-1dd94c01f858&quot;,&quot;1SBK174237R1100&quot;},{V,&quot;f69c41ff-2d93-49b5-a868-b57b85d6e682&quot;,&quot;1SBK174137R1300&quot;},{V,&quot;ba5eef55-b167-4936-af87-fe774c45b053&quot;,&quot;1SBK174037R1400&quot;}</relation_value>
+                <relation_value>{V,&quot;ead08b51-17a4-4167-a213-666d504e3853&quot;,&quot;1SAZ721201R1025&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>={V,&quot;d565e106-2058-4603-af8a-ec24070e8572&quot;,&quot;1SBK134237R1100&quot;},{V,&quot;d27313d9-f9fc-4070-ad98-9ae6ca3561ed&quot;,&quot;1SBK134137R1300&quot;},{V,&quot;8f40e49f-0b34-456f-8b8b-48751b6232b5&quot;,&quot;1SBK134037R1400&quot;},{V,&quot;65cbd873-030f-46c7-a4ae-e6c5bddb14c0&quot;,&quot;1SBK154237R1100&quot;},{V,&quot;13ebc006-473b-4de4-ba5c-2f65eeb06829&quot;,&quot;1SBK154137R1300&quot;},{V,&quot;27a4ffaf-7fc9-4b59-8f9d-a8fd590c7dfe&quot;,&quot;1SBK154037R1400&quot;},{V,&quot;18194a83-41b6-4030-86d7-1dd94c01f858&quot;,&quot;1SBK174237R1100&quot;},{V,&quot;f69c41ff-2d93-49b5-a868-b57b85d6e682&quot;,&quot;1SBK174137R1300&quot;},{V,&quot;ba5eef55-b167-4936-af87-fe774c45b053&quot;,&quot;1SBK174037R1400&quot;}</relation_value>
+                <relation_value>{V,&quot;7241a46d-f958-4f57-b206-52575a3657c6&quot;,&quot;1SAZ721201R1028&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>={V,&quot;d565e106-2058-4603-af8a-ec24070e8572&quot;,&quot;1SBK134237R1100&quot;},{V,&quot;d27313d9-f9fc-4070-ad98-9ae6ca3561ed&quot;,&quot;1SBK134137R1300&quot;},{V,&quot;8f40e49f-0b34-456f-8b8b-48751b6232b5&quot;,&quot;1SBK134037R1400&quot;},{V,&quot;65cbd873-030f-46c7-a4ae-e6c5bddb14c0&quot;,&quot;1SBK154237R1100&quot;},{V,&quot;13ebc006-473b-4de4-ba5c-2f65eeb06829&quot;,&quot;1SBK154137R1300&quot;},{V,&quot;27a4ffaf-7fc9-4b59-8f9d-a8fd590c7dfe&quot;,&quot;1SBK154037R1400&quot;},{V,&quot;18194a83-41b6-4030-86d7-1dd94c01f858&quot;,&quot;1SBK174237R1100&quot;},{V,&quot;f69c41ff-2d93-49b5-a868-b57b85d6e682&quot;,&quot;1SBK174137R1300&quot;},{V,&quot;ba5eef55-b167-4936-af87-fe774c45b053&quot;,&quot;1SBK174037R1400&quot;}</relation_value>
+                <relation_value>{V,&quot;2ff823cc-a3aa-49e7-8f3b-8d9ffe221ea4&quot;,&quot;1SAZ721201R1031&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>={V,&quot;d565e106-2058-4603-af8a-ec24070e8572&quot;,&quot;1SBK134237R1100&quot;},{V,&quot;d27313d9-f9fc-4070-ad98-9ae6ca3561ed&quot;,&quot;1SBK134137R1300&quot;},{V,&quot;8f40e49f-0b34-456f-8b8b-48751b6232b5&quot;,&quot;1SBK134037R1400&quot;},{V,&quot;65cbd873-030f-46c7-a4ae-e6c5bddb14c0&quot;,&quot;1SBK154237R1100&quot;},{V,&quot;13ebc006-473b-4de4-ba5c-2f65eeb06829&quot;,&quot;1SBK154137R1300&quot;},{V,&quot;27a4ffaf-7fc9-4b59-8f9d-a8fd590c7dfe&quot;,&quot;1SBK154037R1400&quot;},{V,&quot;18194a83-41b6-4030-86d7-1dd94c01f858&quot;,&quot;1SBK174237R1100&quot;},{V,&quot;f69c41ff-2d93-49b5-a868-b57b85d6e682&quot;,&quot;1SBK174137R1300&quot;},{V,&quot;ba5eef55-b167-4936-af87-fe774c45b053&quot;,&quot;1SBK174037R1400&quot;}</relation_value>
+                <relation_value>{V,&quot;baee08b8-5284-4b29-8e6b-23ef2a3a15c3&quot;,&quot;1SAZ721201R1033&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>={V,&quot;d565e106-2058-4603-af8a-ec24070e8572&quot;,&quot;1SBK134237R1100&quot;},{V,&quot;d27313d9-f9fc-4070-ad98-9ae6ca3561ed&quot;,&quot;1SBK134137R1300&quot;},{V,&quot;8f40e49f-0b34-456f-8b8b-48751b6232b5&quot;,&quot;1SBK134037R1400&quot;},{V,&quot;65cbd873-030f-46c7-a4ae-e6c5bddb14c0&quot;,&quot;1SBK154237R1100&quot;},{V,&quot;13ebc006-473b-4de4-ba5c-2f65eeb06829&quot;,&quot;1SBK154137R1300&quot;},{V,&quot;27a4ffaf-7fc9-4b59-8f9d-a8fd590c7dfe&quot;,&quot;1SBK154037R1400&quot;},{V,&quot;18194a83-41b6-4030-86d7-1dd94c01f858&quot;,&quot;1SBK174237R1100&quot;},{V,&quot;f69c41ff-2d93-49b5-a868-b57b85d6e682&quot;,&quot;1SBK174137R1300&quot;},{V,&quot;ba5eef55-b167-4936-af87-fe774c45b053&quot;,&quot;1SBK174037R1400&quot;}</relation_value>
+                <relation_value>{V,&quot;6273eca3-b393-48a7-b5e5-e17cd879bf33&quot;,&quot;1SAZ721201R1035&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>={V,&quot;d565e106-2058-4603-af8a-ec24070e8572&quot;,&quot;1SBK134237R1100&quot;},{V,&quot;d27313d9-f9fc-4070-ad98-9ae6ca3561ed&quot;,&quot;1SBK134137R1300&quot;},{V,&quot;8f40e49f-0b34-456f-8b8b-48751b6232b5&quot;,&quot;1SBK134037R1400&quot;},{V,&quot;65cbd873-030f-46c7-a4ae-e6c5bddb14c0&quot;,&quot;1SBK154237R1100&quot;},{V,&quot;13ebc006-473b-4de4-ba5c-2f65eeb06829&quot;,&quot;1SBK154137R1300&quot;},{V,&quot;27a4ffaf-7fc9-4b59-8f9d-a8fd590c7dfe&quot;,&quot;1SBK154037R1400&quot;},{V,&quot;18194a83-41b6-4030-86d7-1dd94c01f858&quot;,&quot;1SBK174237R1100&quot;},{V,&quot;f69c41ff-2d93-49b5-a868-b57b85d6e682&quot;,&quot;1SBK174137R1300&quot;},{V,&quot;ba5eef55-b167-4936-af87-fe774c45b053&quot;,&quot;1SBK174037R1400&quot;}</relation_value>
+                <relation_value>{V,&quot;3e4fd1f8-4ecc-4f76-8042-805502764979&quot;,&quot;1SAZ721201R1038&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>={V,&quot;d565e106-2058-4603-af8a-ec24070e8572&quot;,&quot;1SBK134237R1100&quot;},{V,&quot;d27313d9-f9fc-4070-ad98-9ae6ca3561ed&quot;,&quot;1SBK134137R1300&quot;},{V,&quot;8f40e49f-0b34-456f-8b8b-48751b6232b5&quot;,&quot;1SBK134037R1400&quot;},{V,&quot;65cbd873-030f-46c7-a4ae-e6c5bddb14c0&quot;,&quot;1SBK154237R1100&quot;},{V,&quot;13ebc006-473b-4de4-ba5c-2f65eeb06829&quot;,&quot;1SBK154137R1300&quot;},{V,&quot;27a4ffaf-7fc9-4b59-8f9d-a8fd590c7dfe&quot;,&quot;1SBK154037R1400&quot;},{V,&quot;18194a83-41b6-4030-86d7-1dd94c01f858&quot;,&quot;1SBK174237R1100&quot;},{V,&quot;f69c41ff-2d93-49b5-a868-b57b85d6e682&quot;,&quot;1SBK174137R1300&quot;},{V,&quot;ba5eef55-b167-4936-af87-fe774c45b053&quot;,&quot;1SBK174037R1400&quot;}</relation_value>
+                <relation_value>{V,&quot;cf453a11-e499-4b86-a15c-5085d0a0d9f5&quot;,&quot;1SAZ721201R1040&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>={V,&quot;d565e106-2058-4603-af8a-ec24070e8572&quot;,&quot;1SBK134237R1100&quot;},{V,&quot;d27313d9-f9fc-4070-ad98-9ae6ca3561ed&quot;,&quot;1SBK134137R1300&quot;},{V,&quot;8f40e49f-0b34-456f-8b8b-48751b6232b5&quot;,&quot;1SBK134037R1400&quot;},{V,&quot;65cbd873-030f-46c7-a4ae-e6c5bddb14c0&quot;,&quot;1SBK154237R1100&quot;},{V,&quot;13ebc006-473b-4de4-ba5c-2f65eeb06829&quot;,&quot;1SBK154137R1300&quot;},{V,&quot;27a4ffaf-7fc9-4b59-8f9d-a8fd590c7dfe&quot;,&quot;1SBK154037R1400&quot;},{V,&quot;18194a83-41b6-4030-86d7-1dd94c01f858&quot;,&quot;1SBK174237R1100&quot;},{V,&quot;f69c41ff-2d93-49b5-a868-b57b85d6e682&quot;,&quot;1SBK174137R1300&quot;},{V,&quot;ba5eef55-b167-4936-af87-fe774c45b053&quot;,&quot;1SBK174037R1400&quot;}</relation_value>
+                <relation_value>{V,&quot;0a20cf43-262f-4ef7-8ca1-ee11c00d4c81&quot;,&quot;1SAZ721201R1043&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>={V,&quot;65cbd873-030f-46c7-a4ae-e6c5bddb14c0&quot;,&quot;1SBK154237R1100&quot;},{V,&quot;13ebc006-473b-4de4-ba5c-2f65eeb06829&quot;,&quot;1SBK154137R1300&quot;},{V,&quot;27a4ffaf-7fc9-4b59-8f9d-a8fd590c7dfe&quot;,&quot;1SBK154037R1400&quot;},{V,&quot;18194a83-41b6-4030-86d7-1dd94c01f858&quot;,&quot;1SBK174237R1100&quot;},{V,&quot;f69c41ff-2d93-49b5-a868-b57b85d6e682&quot;,&quot;1SBK174137R1300&quot;},{V,&quot;ba5eef55-b167-4936-af87-fe774c45b053&quot;,&quot;1SBK174037R1400&quot;}</relation_value>
+                <relation_value>{V,&quot;e6a6876b-9839-47d5-8044-ddec6043b6e1&quot;,&quot;1SAZ721201R1045&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>={V,&quot;18194a83-41b6-4030-86d7-1dd94c01f858&quot;,&quot;1SBK174237R1100&quot;},{V,&quot;f69c41ff-2d93-49b5-a868-b57b85d6e682&quot;,&quot;1SBK174137R1300&quot;},{V,&quot;ba5eef55-b167-4936-af87-fe774c45b053&quot;,&quot;1SBK174037R1400&quot;}</relation_value>
+                <relation_value>{V,&quot;d6fd7ca2-a341-41fc-b556-ac00d0bb0400&quot;,&quot;1SAZ721201R1047&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>={V,&quot;18194a83-41b6-4030-86d7-1dd94c01f858&quot;,&quot;1SBK174237R1100&quot;},{V,&quot;f69c41ff-2d93-49b5-a868-b57b85d6e682&quot;,&quot;1SBK174137R1300&quot;},{V,&quot;ba5eef55-b167-4936-af87-fe774c45b053&quot;,&quot;1SBK174037R1400&quot;}</relation_value>
+                <relation_value>{V,&quot;4aa5f3e6-3eda-4dcf-9430-9714e6d2bc74&quot;,&quot;1SAZ721201R1049&quot;}</relation_value>
+              </relation_row>
+            </relation_values>
+          </relation>
+        </relations>
+        <functions/>
+        <language_translations>
+          <language_translation language="EN">Thermal overload relay (Trip class 10)</language_translation>
+        </language_translations>
+        <variable name="varSettingRange_DRAF" is_private="false" is_enabled="true" type="custTypeVarSettingRange_DRAF" uuid="691ae50f-8097-49af-82ed-d837d3c1f071" is_read_only="false">
+          <property_values>
+            <property_value name="IsBomItem" property_uuid="88750f50-298c-43b8-82e2-37ff4ecaf9a8">true</property_value>
+            <property_value name="Show" property_uuid="a1541b83-9d64-4b11-865e-e18bebfbae90">true</property_value>
+          </property_values>
+          <language_translations>
+            <language_translation language="EN">Setting range</language_translation>
+          </language_translations>
+        </variable>
+      </group>
+      <rules/>
+      <relations/>
+      <functions/>
+    </product_model_structure>
+    <variable_types>
+      <type name="DisplayForceablesAsType" uuid="3bd32656-48bc-4b7c-a18c-f47822af2d12" is_read_only="false">
+        <description> Type used by DisplayForceablesAs property. </description>
+        <type_values>
+          <type_value name="Hide" uuid="c95a2a68-44e6-483c-82ff-f1e7ec9794a6">
+            <property_values>
+              <property_value name="ImportTimestamp" property_uuid="45adc8c8-2253-4d8e-b501-1debd692c526">Thu Apr 14 17:39:36 2016</property_value>
+              <property_value name="IsImported" property_uuid="517175d4-a131-48d8-9476-1b48ea6849af">true</property_value>
+            </property_values>
+            <language_translations/>
+          </type_value>
+          <type_value name="Interleaved" uuid="98dd1140-70d6-40c6-a67d-b77b185c1ba6">
+            <property_values>
+              <property_value name="ImportTimestamp" property_uuid="45adc8c8-2253-4d8e-b501-1debd692c526">Thu Apr 14 17:39:36 2016</property_value>
+              <property_value name="IsImported" property_uuid="517175d4-a131-48d8-9476-1b48ea6849af">true</property_value>
+            </property_values>
+            <language_translations/>
+          </type_value>
+          <type_value name="Last" uuid="96d4de5f-b2e9-4e29-b682-8397685eb4bb">
+            <property_values>
+              <property_value name="ImportTimestamp" property_uuid="45adc8c8-2253-4d8e-b501-1debd692c526">Thu Apr 14 17:39:36 2016</property_value>
+              <property_value name="IsImported" property_uuid="517175d4-a131-48d8-9476-1b48ea6849af">true</property_value>
+            </property_values>
+            <language_translations/>
+          </type_value>
+        </type_values>
+      </type>
+      <type name="ShowAsType" uuid="6756d9bd-35ec-4cac-bc0d-3a66e9a40a0f" is_read_only="false">
+        <description> Type used by ShowAs property. </description>
+        <type_values>
+          <type_value name="Boolean" uuid="eac74589-331d-4276-bdc7-aec8662a2050">
+            <property_values>
+              <property_value name="ImportTimestamp" property_uuid="45adc8c8-2253-4d8e-b501-1debd692c526">Thu Apr 14 17:39:36 2016</property_value>
+              <property_value name="IsImported" property_uuid="517175d4-a131-48d8-9476-1b48ea6849af">true</property_value>
+            </property_values>
+            <language_translations/>
+          </type_value>
+          <type_value name="Calculated" uuid="de0cd2f2-0bce-4741-864c-cfd3c6b792de">
+            <property_values>
+              <property_value name="ImportTimestamp" property_uuid="45adc8c8-2253-4d8e-b501-1debd692c526">Thu Apr 14 17:39:36 2016</property_value>
+              <property_value name="IsImported" property_uuid="517175d4-a131-48d8-9476-1b48ea6849af">true</property_value>
+            </property_values>
+            <language_translations/>
+          </type_value>
+          <type_value name="Date" uuid="9d45d3fc-fd9f-4642-b2be-d6988764a68b">
+            <property_values>
+              <property_value name="ImportTimestamp" property_uuid="45adc8c8-2253-4d8e-b501-1debd692c526">Thu Apr 14 17:39:36 2016</property_value>
+              <property_value name="IsImported" property_uuid="517175d4-a131-48d8-9476-1b48ea6849af">true</property_value>
+            </property_values>
+            <language_translations/>
+          </type_value>
+          <type_value name="DropDown" uuid="2da51e70-d48d-4240-812a-9257248dbc83">
+            <property_values>
+              <property_value name="ImportTimestamp" property_uuid="45adc8c8-2253-4d8e-b501-1debd692c526">Thu Apr 14 17:39:36 2016</property_value>
+              <property_value name="IsImported" property_uuid="517175d4-a131-48d8-9476-1b48ea6849af">true</property_value>
+            </property_values>
+            <language_translations/>
+          </type_value>
+          <type_value name="InputField" uuid="c1579664-ed39-4d50-85b9-7defebf48239">
+            <property_values>
+              <property_value name="ImportTimestamp" property_uuid="45adc8c8-2253-4d8e-b501-1debd692c526">Thu Apr 14 17:39:36 2016</property_value>
+              <property_value name="IsImported" property_uuid="517175d4-a131-48d8-9476-1b48ea6849af">true</property_value>
+            </property_values>
+            <language_translations/>
+          </type_value>
+          <type_value name="RadioButton" uuid="d40b46a6-45e6-48fa-adcd-9ff8722901fb">
+            <property_values>
+              <property_value name="ImportTimestamp" property_uuid="45adc8c8-2253-4d8e-b501-1debd692c526">Thu Apr 14 17:39:36 2016</property_value>
+              <property_value name="IsImported" property_uuid="517175d4-a131-48d8-9476-1b48ea6849af">true</property_value>
+            </property_values>
+            <language_translations/>
+          </type_value>
+          <type_value name="TextArea" uuid="65c23e22-e4ec-4c64-a5b4-c46ed6dfc729">
+            <property_values>
+              <property_value name="ImportTimestamp" property_uuid="45adc8c8-2253-4d8e-b501-1debd692c526">Thu Apr 14 17:39:36 2016</property_value>
+              <property_value name="IsImported" property_uuid="517175d4-a131-48d8-9476-1b48ea6849af">true</property_value>
+            </property_values>
+            <language_translations/>
+          </type_value>
+        </type_values>
+      </type>
+      <type name="Variant_Type" uuid="1f385475-1b0e-4001-9f11-89a9d1e9b545" is_read_only="false">
+        <type_values>
+          <type_value name="1SBK134037R1400" uuid="8f40e49f-0b34-456f-8b8b-48751b6232b5">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">DRAF09-14P 250-500V50/60HZ</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="1SBK134137R1300" uuid="d27313d9-f9fc-4070-ad98-9ae6ca3561ed">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">DRAF09-13N 100-250V50/60HZ</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="1SBK134237R1100" uuid="d565e106-2058-4603-af8a-ec24070e8572">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">DRAF09-11S 24-60V50/60HZ</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="1SBK154037R1400" uuid="27a4ffaf-7fc9-4b59-8f9d-a8fd590c7dfe">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">DRAF12-14P 250-500V50/60HZ</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="1SBK154137R1300" uuid="13ebc006-473b-4de4-ba5c-2f65eeb06829">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">DRAF12-13N 100-250V50/60HZ</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="1SBK154237R1100" uuid="65cbd873-030f-46c7-a4ae-e6c5bddb14c0">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">DRAF12-11S 24-60V50/60HZ</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="1SBK174037R1400" uuid="ba5eef55-b167-4936-af87-fe774c45b053">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">DRAF16-14P 250-500V50/60HZ</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="1SBK174137R1300" uuid="f69c41ff-2d93-49b5-a868-b57b85d6e682">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">DRAF16-13N 100-250V50/60HZ</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="1SBK174237R1100" uuid="18194a83-41b6-4030-86d7-1dd94c01f858">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">DRAF16-11S 24-60V50/60HZ</language_translation>
+            </language_translations>
+          </type_value>
+        </type_values>
+      </type>
+      <type name="custTypevarRatOpePowAC3_Header_DRAF" uuid="b999759d-d540-4445-a9ea-8bc8531c6025" is_read_only="false">
+        <type_values>
+          <type_value name="220230240V" uuid="3a8df14c-0117-44e1-bc80-a4c36c93603c">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">220 / 230 / 240 V</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="380400V" uuid="bc62ca4d-4132-4cec-b49e-c04e2fc9d8f8">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">380 / 400 V</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="400V" uuid="56537401-9bf9-4c62-b6b8-05c0753c2a04">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">400 V</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="415V" uuid="37cc010f-0f6d-4a18-bc1d-f3c0f9e37966">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">415 V</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="440V" uuid="57394c34-ba27-4631-a3f0-2cfa778e5bbd">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">440 V</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="500V" uuid="5ce71b82-6952-4e58-8aae-aa1ccf9b57b2">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">500 V</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="690V" uuid="9fe863ea-b3c0-4a46-8915-d369105542d1">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">690 V</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="Not applicable" uuid="dc68b80b-c774-44f2-bad6-75e73a94786f">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">Not applicable</language_translation>
+            </language_translations>
+          </type_value>
+        </type_values>
+      </type>
+      <type name="custTypevarRateOpePowAc3_DRAF" uuid="0d54be82-4133-4310-aeac-282ea84c3088" is_read_only="false">
+        <type_values>
+          <type_value name="2.2" uuid="c58c7dee-42fc-4a74-8d80-f2b036b96677">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">2.2 kW</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="3" uuid="aaa73756-d3ea-4d9d-acce-d1dd758f785e">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">3 kW</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="4" uuid="93a2507d-3c34-45a6-901d-860d4a0baebf">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">4 kW</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="5.5" uuid="4411444d-fa67-458c-b806-b199172a0f70">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">5.5 kW</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="7.5" uuid="872adbe4-1943-462b-b227-c9770738f7df">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">7.5 kW</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="9" uuid="4e0e65c9-971d-4919-b099-9cf6c3ab2e0b">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">9 kW</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="Not applicable" uuid="91125446-b2b2-494b-bc61-4b7fd652675c">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">Not applicable</language_translation>
+            </language_translations>
+          </type_value>
+        </type_values>
+      </type>
+      <type name="custTypevarRatOpeCurAc3_DRAF" uuid="534f071c-d418-4729-b2a6-f53856781464" is_read_only="false">
+        <type_values>
+          <type_value name="7" uuid="b92a6bde-e811-4af9-8a2e-7c67bd38eca6">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">7 A</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="9" uuid="d28f60d7-b4c2-4b03-84fa-795e031cc5b7">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">9 A</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="9.5" uuid="fcdf4f87-ed99-4787-aa85-a99eadfdcb27">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">9.5 A</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="10.5" uuid="47356e2b-ddfe-44c4-ba35-35ee7ac2291a">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">10.5 A</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="12" uuid="3f759a6c-28f3-43c2-b2c8-67977f1788c3">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">12 A</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="12.5" uuid="6c42dfd3-8e18-40f0-97d9-cba7fbb95d0a">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">12.5 A</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="15" uuid="421c405a-e5ae-4f82-b49b-79bd124e45cf">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">15 A</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="18" uuid="d9cc551c-2fd1-46a3-b692-de1a6d868a65">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">18 A</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="Not applicable" uuid="ed77f80a-8096-4c56-8646-1335208d5de7">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">Not applicable</language_translation>
+            </language_translations>
+          </type_value>
+        </type_values>
+      </type>
+      <type name="custTypevarProductMainType_DRAF" uuid="78ad498f-ac63-49be-b5b6-e18b28df0a2b" is_read_only="false">
+        <type_values>
+          <type_value name="AF09" uuid="e756c5e3-9d88-48af-b5ad-eae02525d864">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">AF09</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="AF12" uuid="0d1ebe60-7e6d-4434-838e-0c813f7d104b">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">AF12</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="AF16" uuid="6f5f00b0-5f10-4012-986a-268b91269d94">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">AF16</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="Not applicable" uuid="13f0fda4-d4ec-415f-9ce4-123f4b421d4c">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">Not applicable</language_translation>
+            </language_translations>
+          </type_value>
+        </type_values>
+      </type>
+      <type name="custTypevarRatConCirVol_AC_DRAF" uuid="d7d92406-a7e6-4fdb-91af-4e93cced241a" is_read_only="false">
+        <type_values>
+          <type_value name="24...60V" uuid="041cef37-9761-4a7c-b706-685b4d61b40b">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">24 ... 60 V</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="100...250V" uuid="6c087dd9-689c-4379-b36f-0f980a2dfb0d">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">100 ... 250 V</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="250...500V" uuid="4b24dd1f-bc57-407b-9c5b-09b255a1da75">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">250 ... 500 V</language_translation>
+            </language_translations>
+          </type_value>
+        </type_values>
+      </type>
+      <type name="custTypevarRatConCirVol_DC_DRAF" uuid="ccccfe84-b74b-4c77-a36a-041cd007774c" is_read_only="false">
+        <type_values>
+          <type_value name="24...60V" uuid="1a8ff6a2-1027-46f6-ab5e-4e39844cd4fa">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">24 ... 60 V</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="Not applicable" uuid="617f9c05-4194-4bcd-ae89-dd69fdaedd50">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">Not applicable</language_translation>
+            </language_translations>
+          </type_value>
+        </type_values>
+      </type>
+      <type name="custTypevarControlSupplyWiring_DRAF" uuid="c969d5e4-97cd-4bc0-a870-f4457edd57d2" is_read_only="false">
+        <type_values>
+          <type_value name="Phasetoneutral" uuid="f45b9b31-c3d7-4fc2-ab48-01b7ae2445a7">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">Phase-to-neutral</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="Phasetophase" uuid="9ff31139-d519-4eea-8cb1-bce58f4076f6">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">Phase-to-phase</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="Separatesupply" uuid="1f6e5960-438a-4329-940b-517e13ccaffd">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">Separate supply</language_translation>
+            </language_translations>
+          </type_value>
+        </type_values>
+      </type>
+      <type name="custTypevarTerminalType_DRAF" uuid="6615b397-3de3-4730-ad5a-8694a8ef3eef" is_read_only="false">
+        <type_values>
+          <type_value name="Screwterminals" uuid="ccfa6c80-b17d-48ba-b251-203dc28a2b5c">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">Screw terminals</language_translation>
+            </language_translations>
+          </type_value>
+        </type_values>
+      </type>
+      <type name="custTypeVarSettingRange_DRAF" uuid="83a62edb-911b-4e6b-bfc6-9ec66b3a828c" is_read_only="false">
+        <type_values>
+          <type_value name="1SAZ721201R1005" uuid="b172f4a9-94f9-4199-8668-bb2cf279d2aa">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">0.10 ... 0.13 A</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="1SAZ721201R1008" uuid="f9b44c10-ec66-4176-a434-535894dc9f2d">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">0.13 ... 0.17 A</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="1SAZ721201R1009" uuid="f46b6268-4cf0-4108-8e70-65632bf39eb2">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">0.17 ... 0.23 A</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="1SAZ721201R1013" uuid="15c19e59-d0c7-42bc-8444-27413db73c38">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">0.23 ... 0.31 A</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="1SAZ721201R1014" uuid="9c1fd021-35a9-461f-8d92-2ab59603d9c5">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">0.31 ... 0.41 A</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="1SAZ721201R1017" uuid="760df551-318a-45b2-a300-8b92d7c7c785">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">0.41 ... 0.55 A</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="1SAZ721201R1021" uuid="10050e3d-d86a-430f-8911-351b7f4a84ec">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">0.55 ... 0.74 A</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="1SAZ721201R1023" uuid="f946a04f-7c7e-442c-b90e-cad291d484e4">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">0.74 ... 1.00 A</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="1SAZ721201R1025" uuid="ead08b51-17a4-4167-a213-666d504e3853">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">1.00 ... 1.30 A</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="1SAZ721201R1028" uuid="7241a46d-f958-4f57-b206-52575a3657c6">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">1.30 ... 1.70 A</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="1SAZ721201R1031" uuid="2ff823cc-a3aa-49e7-8f3b-8d9ffe221ea4">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">1.70 ... 2.30 A</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="1SAZ721201R1033" uuid="baee08b8-5284-4b29-8e6b-23ef2a3a15c3">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">2.30 ... 3.10 A</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="1SAZ721201R1035" uuid="6273eca3-b393-48a7-b5e5-e17cd879bf33">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">3.10 ... 4.20 A</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="1SAZ721201R1038" uuid="3e4fd1f8-4ecc-4f76-8042-805502764979">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">4.20 ... 5.70 A</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="1SAZ721201R1040" uuid="cf453a11-e499-4b86-a15c-5085d0a0d9f5">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">5.70 ... 7.60 A</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="1SAZ721201R1043" uuid="0a20cf43-262f-4ef7-8ca1-ee11c00d4c81">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">7.60 ... 10.0 A</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="1SAZ721201R1045" uuid="e6a6876b-9839-47d5-8044-ddec6043b6e1">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">10.0 ... 13.0 A</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="1SAZ721201R1047" uuid="d6fd7ca2-a341-41fc-b556-ac00d0bb0400">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">13.0 ... 16.0 A</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="1SAZ721201R1049" uuid="4aa5f3e6-3eda-4dcf-9430-9714e6d2bc74">
+            <property_values/>
+            <language_translations>
+              <language_translation language="EN">16.0 ... 20.0 A</language_translation>
+            </language_translations>
+          </type_value>
+        </type_values>
+      </type>
+    </variable_types>
+    <property_groups>
+      <property_group group="product_model">
+        <properties>
+          <property name="MultiLanguageProperties" type="String" export_property="true" uuid="2d3a75c5-dee9-43b1-8b3f-bff0c6190a5e" is_read_only="false">
+            <description>Define a comma-seperated list of properties that are translatable. The properties are translatable on Groups, Variables and values. The format of the property on each element should be Propertyname_Languagename (E.g. Info_UK).</description>
+          </property>
+          <property name="BOMGroupName" type="String" export_property="true" uuid="dfb2a5e2-0663-4228-94b0-f7428fe68821" is_read_only="false">
+            <description>Define which group in the product model, that contains the Sales BOM</description>
+          </property>
+          <property name="AutoApplyDefaults" type="Boolean" export_property="true" uuid="37e698ad-54dc-491d-8752-77d0e53e7616" is_read_only="false">
+            <description>If set to false, the runtime will not apply default values automatically. If set to true or not specified, the runtime will apply all default values that are fully specified (i.e., are either constant or depend on variables which have an assigned value - either user, system or default).</description>
+          </property>
+        </properties>
+      </property_group>
+      <property_group group="groups">
+        <properties>
+          <property name="Name" type="String" export_property="true" uuid="76016d94-012f-4e15-ab6e-b0e853a2709d" is_read_only="false" builtin="true">
+            <description>The name of the group. Group names must start with a letter or an underscore (_), followed by letters, digits or underscores.</description>
+          </property>
+          <property name="Description" type="String" export_property="true" uuid="e01a3cfe-7abe-484d-894d-5c6d3cdc7ba5" is_read_only="false" builtin="true">
+            <description>Description of group. Used for internal documentation of the model.</description>
+          </property>
+          <property name="FullyQualifiedName" type="String" export_property="true" uuid="1cbc8927-41af-47c8-9404-8aeaf74fb928" is_read_only="false" builtin="true">
+            <description>The Fully Qualified Name of the group.</description>
+          </property>
+          <property name="Private" type="Boolean" export_property="true" uuid="ff9277d7-0dbe-4913-96e2-18a759617440" is_read_only="false" builtin="true">
+            <description>When a group is private, all variables in the group and all sub-groups are private. Thus, the content of a private group is not included in the VT file, but any rules that bind variables inside and outside the group remain in effect.</description>
+          </property>
+          <property name="Show" type="Boolean" export_property="true" uuid="b4fcc9f3-eb11-4265-83c2-dabb09daed4b" is_read_only="false">
+            <description>When the Show property is false, the group and all sub-groups and variables in these groups are hidden in the configurator.</description>
+          </property>
+          <property name="Info" type="String" export_property="true" uuid="33a15105-e4cc-4eba-9472-acb354e9996a" is_read_only="false">
+            <description>This property is used to provide additional textural information about the group.</description>
+          </property>
+          <property name="Image" type="String" export_property="true" uuid="c07a145b-4283-4823-8dc6-3644a99b9ea0" is_read_only="false">
+            <description>This property is used to specify a picture that should be associated with the group.</description>
+          </property>
+        </properties>
+      </property_group>
+      <property_group group="variables">
+        <properties>
+          <property name="Name" type="String" export_property="true" uuid="8aec5e8c-415a-4d66-bea6-bbb05a8cd49f" is_read_only="false" builtin="true">
+            <description>The name of the variable. Variable names must start with a letter or an underscore (_), followed by letters, digits or underscores.</description>
+          </property>
+          <property name="Description" type="String" export_property="true" uuid="c1753651-f6d5-4045-a0ec-b41d6e776e46" is_read_only="false" builtin="true">
+            <description>Description of variable. Used for internal documentation of the model.</description>
+          </property>
+          <property name="FullyQualifiedName" type="String" export_property="true" uuid="fc300f70-6cbf-45ae-9865-098c357e5617" is_read_only="false" builtin="true">
+            <description>The Fully Qualified Name of the variable.</description>
+          </property>
+          <property name="Private" type="Boolean" export_property="true" uuid="026374a8-08a0-4d60-932e-fdd18698c160" is_read_only="false" builtin="true">
+            <description>A private variable is not included in the VT file, but it can still be used in rules. Making the variable private will make the VT file smaller.</description>
+          </property>
+          <property name="Bound" type="Integer" export_property="true" uuid="c09b51e2-c3e1-4b5e-84c6-3809181848af" is_read_only="false" builtin="true">
+            <description>The upper bound for variables of type Range. The value of range variables must be in the interval from 0 to the number given by this property.</description>
+          </property>
+          <property name="Show" type="Boolean" export_property="true" uuid="a1541b83-9d64-4b11-865e-e18bebfbae90" is_read_only="false">
+            <description>When the Show property is false, the variable is hidden in the configurator.</description>
+          </property>
+          <property name="DisplayForceablesAs" type="DisplayForceablesAsType" export_property="true" uuid="4e0164b8-6508-4576-80a7-d23364910f76" is_read_only="false">
+            <description>Controls how Forceable values are shown in the web UI. Interleaved indicates that forceable values are shown between assignable values, where Hide indicates that forceable values are hidden.</description>
+          </property>
+          <property name="ReadOnly" type="Boolean" export_property="true" uuid="c7d9981c-faa9-4521-b714-6f201ee52520" is_read_only="false">
+            <description>Used to make controls for variables readonly runtime web control.</description>
+          </property>
+          <property name="ShowAs" type="ShowAsType" export_property="true" uuid="b25962a2-2b56-4382-87ac-4ce90c316287" is_read_only="false">
+            <description>The property controls how the variable is shown in the configurator. Not all values are applicable for all types of variables. For example, a Boolean value for the property only applies to Boolean variables (which may also be shown as ReadOnly or DropDown).</description>
+          </property>
+          <property name="CalculatedValue" type="Implied" export_property="true" uuid="c106613d-4be1-4086-88d6-ecf49cf3b7b5" is_read_only="false">
+            <description>When the ShowAs property is &apos;Calculated&apos;, this property is used to determine the value that should shown for the variable. This mechanism is used to make it possible to have variables in the model that are calculated/derived, rather than being controlled by rules and relations.</description>
+          </property>
+          <property name="Format" type="String" export_property="true" uuid="7c7068da-50ae-4ffa-8efa-863c26b487ca" is_read_only="false">
+            <description>The property controls how to format the values of the variable. Only useful for float and integer variables.</description>
+          </property>
+          <property name="Unit" type="String" export_property="true" uuid="ea98ba80-14a9-496b-b484-a0b84d2fae3a" is_read_only="false">
+            <description>The unit property can be used to specify a unit for the variable. e.g. cm for a Height variable</description>
+          </property>
+          <property name="DefaultValue" type="Implied" export_property="true" uuid="7c7a3536-ea87-4b9d-bb89-5e23f63531b0" is_read_only="false">
+            <description>The DefaultValue property is used to set a default value for a variable.</description>
+          </property>
+          <property name="Info" type="String" export_property="true" uuid="4971d14d-3bbd-4b89-9c5b-883e1fc68b99" is_read_only="false">
+            <description>This property is used to provide additional textural information about the variable.</description>
+          </property>
+          <property name="Image" type="String" export_property="true" uuid="166dc63f-170b-4aa9-b0d1-f52107210c8c" is_read_only="false">
+            <description>This property is used to specify a picture that should be associated with the variable.</description>
+          </property>
+          <property name="Required" type="Boolean" export_property="true" uuid="8eac0866-03d2-445e-939e-f85d3874b53c" is_read_only="false">
+            <description>If the variable has the Required property set to true, the variable must have a value before the configuration is considered complete and for example a quote can be generated.</description>
+          </property>
+          <property name="ConstValue" type="Implied" export_property="true" uuid="c40c489b-4ab5-4ad3-b4ee-dab741a0c8e5" is_read_only="false">
+            <description>The Product Modeler automatically generates a rule &apos;var = value&apos; if this property is set to value on a given variable.</description>
+          </property>
+          <property name="MinValue" type="Implied" export_property="true" uuid="e2f2c8a7-9751-4ce2-a6e2-d339166ac79a" is_read_only="false">
+            <description>The Product Modeler automatically generates a rule &apos;value &lt;= var&apos; if this property is set to value on a given variable.</description>
+          </property>
+          <property name="MaxValue" type="Implied" export_property="true" uuid="761e6efb-ba47-456e-8ab4-2a7bfad0b60a" is_read_only="false">
+            <description>The Product Modeler automatically generates a rule &apos;var &lt;= value if this property is set to value on a given variable.</description>
+          </property>
+          <property name="Valid" type="Boolean" export_property="true" uuid="3bc3a738-ec77-40c7-8941-42ae53fc6c9f" is_read_only="false">
+            <description>If the Valid property is false, the configuration is invalid. Used to express rules using functions.</description>
+          </property>
+          <property name="ValidMessage" type="String" export_property="true" uuid="86c58350-b003-40d6-9241-ad48b20694f4" is_read_only="false">
+            <description>If the Valid property is false, this property should contain explanain the reason.</description>
+          </property>
+          <property name="Hint" type="String" export_property="true" uuid="6ed87189-44ae-4e10-a1fa-68960ad9f208" is_read_only="false">
+            <description>Gives the possibility to change and overwrite the Hint text, shown in a small box next to textboxes in the Product Configurator</description>
+          </property>
+          <property name="IsBomItem" type="Boolean" export_property="true" uuid="88750f50-298c-43b8-82e2-37ff4ecaf9a8" is_read_only="false" default_value="true">
+            <description>This property is used by Quote and will control adding of the selected items to cart. &#xA;&#xA;Selected Item will be added to the CART ONLY If this property is set to TRUE</description>
+          </property>
+        </properties>
+      </property_group>
+      <property_group group="values">
+        <properties>
+          <property name="Name" type="String" export_property="true" uuid="74984ab8-e68d-4ef5-b1fe-0dac06c0b75b" is_read_only="false" builtin="true">
+            <description>The enum value. Enumeration values can be any string. The only restrictions is that they have to be unique within the type.</description>
+          </property>
+          <property name="Description" type="String" export_property="true" uuid="ef0bf041-3085-4ea2-b7c8-6f35c0a8ae89" is_read_only="false" builtin="true">
+            <description>Description of value. Used for internal documentation of the model.</description>
+          </property>
+          <property name="FullyQualifiedName" type="String" export_property="true" uuid="07da4297-c755-48f8-a824-f59845d591be" is_read_only="false" builtin="true">
+            <description>The Fully Qualified Name of the Value.</description>
+          </property>
+          <property name="IsImported" type="Boolean" export_property="false" uuid="517175d4-a131-48d8-9476-1b48ea6849af" is_read_only="false">
+            <description>Used by the tool &apos;dbimport&apos; to determine whether a value, variable or group is defined by dbimport itself or by a person. If imported by a person (that is, IsImported is false), the dbimport tool will not touch the element</description>
+          </property>
+          <property name="ImportTimestamp" type="String" export_property="false" uuid="45adc8c8-2253-4d8e-b501-1debd692c526" is_read_only="false">
+            <description>Used by the tool &apos;dbimport&apos; to indicate when the value, variable or group was defined by the import process</description>
+          </property>
+          <property name="Info" type="String" export_property="true" uuid="c4b2e8b1-a9e6-48b9-823c-4acee491b788" is_read_only="false">
+            <description>This property is used to provide additional textural information about the value.</description>
+          </property>
+          <property name="Image" type="String" export_property="true" uuid="869189a4-ff0a-48b1-9ca6-80001809cf76" is_read_only="false">
+            <description>This property is used to specify a picture that should be associated with the value.</description>
+          </property>
+          <property name="EffectiveFrom" type="DateTime" export_property="true" uuid="a2570e56-fab3-4ac4-94d7-d74db525757d" is_read_only="false">
+            <description>Specify the time from which the value is in effect</description>
+          </property>
+          <property name="EffectiveTo" type="DateTime" export_property="true" uuid="78a61b39-885e-4c8f-9393-f9ff65891c41" is_read_only="false">
+            <description>Specify the time until which the value is in effect</description>
+          </property>
+        </properties>
+      </property_group>
+      <property_group group="rules">
+        <properties>
+          <property name="EffectiveFrom" type="DateTime" export_property="true" uuid="0f5fbfe5-9599-4436-8a85-e012d2e9f151" is_read_only="false">
+            <description>Specify the time from which the rule is in effect</description>
+          </property>
+          <property name="EffectiveTo" type="DateTime" export_property="true" uuid="478d8b02-229e-492e-8d4e-3294ca5d110b" is_read_only="false">
+            <description>Specify the time until which the rule is in effect</description>
+          </property>
+        </properties>
+      </property_group>
+      <property_group group="relations">
+        <properties>
+          <property name="EffectiveFrom" type="DateTime" export_property="true" uuid="822731ff-d7d0-4908-8d03-bb2741c84901" is_read_only="false">
+            <description>Specify the time from which the relation is in effect</description>
+          </property>
+          <property name="EffectiveTo" type="DateTime" export_property="true" uuid="9b068df7-4bb8-47da-8ebc-d85b9fe5ba97" is_read_only="false">
+            <description>Specify the time until which the relation is in effect</description>
+          </property>
+        </properties>
+      </property_group>
+      <property_group group="functions">
+        <properties/>
+      </property_group>
+    </property_groups>
+    <variable_orders/>
+    <languages>
+      <language name="EN" is_default_language="false">
+        <system_translations>
+          <translation key="New">New..</translation>
+          <translation key="AltNew">Open new vt file</translation>
+          <translation key="Save">Save</translation>
+          <translation key="AltSave">Save Configuration</translation>
+          <translation key="Load">Load..</translation>
+          <translation key="AltLoad">Load a configuration</translation>
+          <translation key="Reset">Reset</translation>
+          <translation key="AltReset">Reset configuration</translation>
+          <translation key="Print">Print</translation>
+          <translation key="AltPrint">Print configuration</translation>
+          <translation key="Complete">Complete</translation>
+          <translation key="Solutions">Solutions</translation>
+          <translation key="Language">Language</translation>
+          <translation key="ChangeLanguage">Change Language</translation>
+          <translation key="SalesBom">Price</translation>
+          <translation key="TotalPrice">Total price</translation>
+          <translation key="SelectHint">Click to select</translation>
+          <translation key="DeselectHint">Click to deselect</translation>
+          <translation key="ForceHint">Click to force select</translation>
+          <translation key="ForceDeselectHint">Click to force deselect</translation>
+          <translation key="CannotSelectHint">Cannot be selected</translation>
+          <translation key="CannotDeselectHint">Cannot be deselected</translation>
+          <translation key="IntStartInterval">[</translation>
+          <translation key="IntEndInterval">]</translation>
+          <translation key="IntIntervalSeparator">;</translation>
+          <translation key="FloatStartInterval">]</translation>
+          <translation key="FloatEndInterval">[</translation>
+          <translation key="FloatIntervalSeparator">;</translation>
+          <translation key="PosInf">Infinity[</translation>
+          <translation key="NegInf">]-Infinity</translation>
+          <translation key="NAN">NaN</translation>
+          <translation key="True">True</translation>
+          <translation key="False">False</translation>
+          <translation key="ConflictForceMsg">If you choose $0 the following choices are invalid&#xA;&#xA;$1&#xA;&#xA;Remove invalid choices?</translation>
+          <translation key="ConflictBlockedMsg">$0 is not a valid choice</translation>
+          <translation key="ConflictOK">Yes</translation>
+          <translation key="ConflictCancel">No</translation>
+          <translation key="ConflictHeader">Conflict</translation>
+          <translation key="InvalidOK">OK</translation>
+          <translation key="InvalidHeader">Configuration status</translation>
+          <translation key="InvalidMsg">The configuration is invalid&#xA;&#xA; $0&#xA;      </translation>
+          <translation key="ValidMsg">The configuration is valid</translation>
+          <translation key="InputFieldError">&apos;$0&apos; is not a valid choice, legal values are $1</translation>
+          <translation key="IntAllValues">any integer value</translation>
+          <translation key="FloatAllValues">any floating point value</translation>
+          <translation key="StringOtherValues">all values</translation>
+          <translation key="StringOtherValuesExcept">all values except</translation>
+          <translation key="LegalValueHint">Legal values are $0</translation>
+          <translation key="ApplyDefaultValues">Apply default values</translation>
+          <translation key="AltApplyDefaultValues">Apply default values</translation>
+          <translation key="ApplyDefaultValue">Apply default value $0 to $1</translation>
+          <translation key="LoadVTFile">Load new VT file</translation>
+        </system_translations>
+        <custom_translations/>
+      </language>
+    </languages>
+  </product_model>
+</workspace>
